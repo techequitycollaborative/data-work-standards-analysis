@@ -1,0 +1,291 @@
+{
+  "framework": [
+    {
+      "parameter": "Wages",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",
+      "keywords": ["wages", "pay", "compensation", "living wage", "minimum wage", "salary", "income", "payroll", "currency", "payment", "fair pay", "piece-rate", "unpaid", "non-payment"]
+    },
+    {
+      "parameter": "Hazard pay",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy includes references to extra pay/bonus for dangerous or high-risk work.",
+      "keywords": ["hazard pay", "danger pay", "risk allowance", "premium pay"]
+    },
+    {
+      "parameter": "Right to set working hours/schedule",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",
+      "keywords": ["work hours", "flexible schedule", "shift choice", "overtime", "working time", "rest period", "work days"]
+    },
+    {
+      "parameter": "Security of tenure",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy mentions protections against arbitrary dismissal or guarantees of continued employment.",
+      "keywords": ["job security", "tenure", "permanent employment", "stability", "termination protections", "duration"]
+    },
+    {
+      "parameter": "Evaluation metrics, productivity standards and quotas",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy recommends acceptable methods for measurement of worker performance, productivity benchmarks, or quotas.",
+      "keywords": ["targets", "quotas", "metrics", "performance evaluation", "benchmarks", "KPIs"]
+    },
+    {
+      "parameter": "Monitoring and surveillance",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy includes references to employer use of technology or systems to observe, track, or monitor workers.",
+      "keywords": ["surveillance", "monitoring", "tracking", "CCTV", "productivity monitoring", "data collection", "surveillance software", "keystroke monitoring", "recording software"]
+    },
+    {
+      "parameter": "Dismissal/deactivation/suspension",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy outlines processes, procedures, or rules for worker removal, deactivation from a platform, or suspension or termination processes.",
+      "keywords": ["dismissal", "firing", "termination", "deactivation", "suspension", "account blocked", "penalties", "punishment", "retaliation", "discipline", "disciplinary", "work rejection", "punitive"]
+    },
+    {
+      "parameter": "Paths for career advancement",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy mentions opportunities for training, promotions, or upskilling.",
+      "keywords": ["career path", "promotion", "upskilling", "training opportunities", "advancement", "professional development"]
+    },
+    {
+      "parameter": "Channels for workers to appeal decisions, raise complaints, seek clarification",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy includes references to grievance procedures or mechanisms for resolving disputes, such as the ability to appeal a work decision, raise complaints or seek clarification.",
+      "keywords": ["grievance", "appeal", "complaint mechanism", "dispute resolution", "ombudsman", "worker hotline", "recourse", "complaint channel", "reporting channel", "whistleblowing", "whistleblower", "anonymous complaint"]
+    },
+    {
+      "parameter": "Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy mentions workers' ability to organize, join unions, or participate in collective decision-making.",
+      "keywords": ["union", "collective bargaining", "freedom of association", "worker representation", "organize", "worker council", "right to organize", "collective action", "unionize", "access to representation", "democratically elected"]
+    },
+    {
+      "parameter": "Health and safety risks",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy includes reference to protections against health and safety risks, mental or physical",
+      "keywords": ["occupational safety", "health risks", "safety standards", "sensitive content", "egregious content", "offensive content", "traumatic content", "limit exposure/exposure limits", "health and safety committee"]
+    },
+    {
+      "parameter": "Right to refuse work",
+      "category": "Worker rights",
+      "subcategory": "Working conditions",
+      "definition": "The policy references workers' right to refuse unsafe, unreasonable, objectionable, or exploitative tasks.",
+      "keywords": ["refuse work", "unsafe work", "right to decline", "unreasonable request"]
+    },
+    {
+      "parameter": "Mental and physical health insurance",
+      "category": "Worker rights",
+      "subcategory": "Benefits",
+      "definition": "The policy mentions health coverage for workers, mental or physical.",
+      "keywords": ["health insurance", "medical coverage", "mental health", "well-being", "therapy", "counseling", "therapist", "trauma-informed", "Employee Assistance Programmes"]
+    },
+    {
+      "parameter": "Paid time off",
+      "category": "Worker rights",
+      "subcategory": "Benefits",
+      "definition": "The policy mentions vacation, annual leave, or other forms of paid leave.",
+      "keywords": ["paid leave", "vacation", "annual leave", "holiday pay", "paid time off/PTO", "breaks", "bereavement"]
+    },
+    {
+      "parameter": "Sick leave",
+      "category": "Worker rights",
+      "subcategory": "Benefits",
+      "definition": "The policy references paid time off for illness",
+      "keywords": ["sick leave", "medical leave", "illness", "paid sick days", "bereavement"]
+    },
+    {
+      "parameter": "Pension benefits",
+      "category": "Worker rights",
+      "subcategory": "Benefits",
+      "definition": "The policy mentions retirement savings or pensions programs for workers",
+      "keywords": ["pension", "retirement fund", "401(k)", "social security"]
+    },
+    {
+      "parameter": "Gender",
+      "category": "Worker rights",
+      "subcategory": "Anti-discrimination policies",
+      "definition": "The policy mentions protections or equity measures based on gender.",
+      "keywords": ["gender equality", "women", "men", "non-binary", "gender identity", "equal pay", "gender discrimination/sex discrimination"]
+    },
+    {
+      "parameter": "Race and ethnicity",
+      "category": "Worker rights",
+      "subcategory": "Anti-discrimination policies",
+      "definition": "The policy mentions protections or equity measures based on race or ethnicity.",
+      "keywords": ["race", "ethnicity", "racial discrimination", "diversity", "minority groups", "caste", "national origin", "immigration status"]
+    },
+    {
+      "parameter": "Sexual orientation",
+      "category": "Worker rights",
+      "subcategory": "Anti-discrimination policies",
+      "definition": "The policy mentions protections or equity measures based on sexual orientation.",
+      "keywords": ["sexual orientation", "LGBTQ", "gay", "lesbian", "bisexual", "queer", "trans", "nonbinary"]
+    },
+    {
+      "parameter": "Disability",
+      "category": "Worker rights",
+      "subcategory": "Anti-discrimination policies",
+      "definition": "The policy mentions protections or equity measures based on disability.",
+      "keywords": ["disability", "accommodation", "accessible", "disabled workers", "reasonable adjustments"]
+    },
+    {
+      "parameter": "Contracts – general",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy outlines requirements for fair contracts and contract terms between workers and employers.",
+      "keywords": ["contract", "contractual", "terms of service", "terms and conditions", "written agreement"]
+    },
+    {
+      "parameter": "Transparent and easy to understand",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy includes recommendations or requirements for contract clarity and readability.",
+      "keywords": ["plain language", "clear contract", "transparent terms", "language access"]
+    },
+    {
+      "parameter": "Non-compete clauses",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy mentions standards regarding restricting workers from working elsewhere/for other companies.",
+      "keywords": ["non-compete", "exclusive employment", "restrictive covenant"]
+    },
+    {
+      "parameter": "Non-disclosure agreements (NDAs)",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy includes recommendations related to confidentiality clauses in contracts or any repercussions for violating confidentiality.",
+      "keywords": ["NDA", "non-disclosure", "confidentiality", "silence"]
+    },
+    {
+      "parameter": "Notice period",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy references a recommended notice before termination or resignation.",
+      "keywords": ["notice period", "advance notice", "termination notice", "warning"]
+    },
+    {
+      "parameter": "Severance pay",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy includes definitions and recommendations for worker compensation in the case of a lay off.",
+      "keywords": ["severance", "redundancy pay", "exit compensation"]
+    },
+    {
+      "parameter": "Unpaid waiting periods",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "This policy relates to unpaid time when workers are waiting for tasks, access to work, new projects or potentially for disciplinary or investigative processes.",
+      "keywords": ["Waiting periods", "benched", "task availability", "job availability"]
+    },
+    {
+      "parameter": "Work related expenses",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy includes mention of required or acceptable compensation for work related expenses, such as internet access, computer, home office equipment, or travel allowance.",
+      "keywords": ["expenses", "reimburse", "internet stipend", "equipment", "travel allowance"]
+    },
+    {
+      "parameter": "Collective bargaining agreement",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy mentions engaging with democratically elected worker representatives and allowing them free access to workers and workplaces.",
+      "keywords": ["CBA", "collective agreement", "union contract", "worker representatives"]
+    },
+    {
+      "parameter": "Training and guidelines for workers and managers",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy provisions or recommends the existence of or specific guidelines for employee training or onboarding",
+      "keywords": ["training", "guidelines", "manuals", "onboarding", "capacity building", "instructions"]
+    },
+    {
+      "parameter": "Information on purpose of work",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy references the need to inform workers about what their work will be used for, contribute to, or impact.",
+      "keywords": ["purpose", "project goals", "clarity", "task context", "task transparency"]
+    },
+    {
+      "parameter": "Identifying risks and harms to workers",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy recommends that employers disclose potential or anticipated risks or harms, material or immaterial, that employees may encounter or expose themselves to on the job.",
+      "keywords": ["risk assessment", "impact assessment", "harms", "worker risk"]
+    },
+    {
+      "parameter": "Human oversight in management",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy mentions, or defines the degree to which human involvement is to be used in decision-making about workers.",
+      "keywords": ["human oversight", "manager review", "not automated", "AI accountability", "human involvement", "human-run"]
+    },
+    {
+      "parameter": "Credentials for skills and experience",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "Workers receive some form of credentials or documentation of their work, skills, expertise and/or achievements.",
+      "keywords": ["Credentials", "micro-credentials", "certifications"]
+    },
+    {
+      "parameter": "Mental health support",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Contracts",
+      "definition": "The policy includes mention of employer responsibilities related to counseling, mental health resources, or stress reduction for workers.",
+      "keywords": []
+    },
+    {
+      "parameter": "Responsibility for upholding/implementing",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Enforceability mechanisms",
+      "definition": "The policy identifies parties responsible for enforcing worker protections.",
+      "keywords": ["employer responsibility", "employer obligation"]
+    },
+    {
+      "parameter": "Accountability in case of harms",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Enforceability mechanisms",
+      "definition": "The policy includes consequences or accountability measures for companies if standards are violated.",
+      "keywords": ["accountability", "liability", "remedies", "sanctions"]
+    },
+    {
+      "parameter": "Third party audits",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Enforceability mechanisms",
+      "definition": "The policy prescribes requirements for external review of companies by a third-party of their compliance against worker protections.",
+      "keywords": ["audit", "third party review", "independent verification", "third party inspections", "neutral party", "auditor"]
+    },
+    {
+      "parameter": "Legal enforceability",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Enforceability mechanisms",
+      "definition": "The policy outlines some measure of legal enforceability, referencing existing applicable legal frameworks.",
+      "keywords": ["legally binding", "statute", "law", "legal enforcement", "arbitration", "binding decision"]
+    },
+    {
+      "parameter": "Enforcing authority",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Enforceability mechanisms",
+      "definition": "The policy identifies the party/institution/agency tasked with enforcement of the policy.",
+      "keywords": ["enforcement agency", "regulator", "authority", "government body", "governance"]
+    },
+    {
+      "parameter": "Timeline for implementation",
+      "category": "Employer and platform/contractor responsibilities",
+      "subcategory": "Enforceability mechanisms",
+      "definition": "The policy mentions deadlines, timelines, or phased rollouts",
+      "keywords": ["timeline", "deadline", "implementation period", "rollout"]
+    }
+  ]
+}
