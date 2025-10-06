@@ -1,9 +1,9 @@
 """
-Title: analysis.py
+Title: text_extraction.py
 Author: @dsherbini
 Date: Oct 6, 2025
 
-Analysis of standards/policies for ethical data work in the AI supply chain.
+Extracting text from PDF files containing data work standards and merging with existing standards dataframe.
 """
 
 import pandas as pd
