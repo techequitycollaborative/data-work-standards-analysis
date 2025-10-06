@@ -1,9 +1,9 @@
 """
-Title: analysis.py
+Title: text_processing.py
 Author: @dsherbini
 Date: Oct 6, 2025
 
-Analysis of data work standards.
+Processing raw text from data work standards for analysis, including text cleaning and generating embeddings.
 """
 
 # basic packages
@@ -32,6 +32,7 @@ print(data.head())
 print(data.columns)
 
 ############################## TEXT PRE-PROCESSING ##############################
+# First, we process the raw text of each policy document to prepare it for analysis
 
 def process_text(raw_text):
     '''
@@ -84,10 +85,24 @@ def process_standards(data):
     data_clean: updated dataframe with new column for clean raw text
     '''
     text_to_clean = list(data['raw_text'])
-    text_clean = [process_text(r) for r in text_to_clean]
+    text_clean = [process_text(r) for r in text_to_clean] # Outputs as list of words
     data_clean = data.copy()
-    data_clean['clean_text'] = text_clean
+    data_clean['clean_text_list'] = text_clean
+    data_clean['clean_text_str'] = data_clean['clean_text_list'].apply(lambda x: ' '.join(x)) # Convert list of words back to string
     return data_clean
 
 # Get processed text
 data_clean = process_standards(data)
+
+# Compare text output
+print(data_clean[['raw_text', 'clean_text_list','clean_text_str']].head())
+
+############################## EMBEDDINGS ##############################
+# Use a pre-trained language model to convert the text into numerical vectors (embeddings) that capture semantic meaning.
+
+# Load sentence transformer model
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
+# Generate embeddings for the clean text strings
+data_clean['embeddings'] = data_clean['clean_text_str'].apply(lambda x: model.encode(x))
+
