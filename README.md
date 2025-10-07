@@ -34,11 +34,13 @@ We categorize the policy documents by document type, organization type, worker f
 We developed a framework through which to analyze the existing policies. This framework was developed by TechEquity researchers and was informed by our knowlegde of existing worker protection frameworks, documented issues and discussions within the realm of ethical data work in the AI data supply chain, and accumulated knowledge and research about this industry.
 
 ### Text processing
-We leverage both manual and programmatic techniques for our analysis. First, we prepare the raw text for analysis by removing punctuation, making the text lowercase, tokenizing the text, removing stop words, and stemming/lemmatizing the text (i.e., breaking down words to their root).
+We leverage common natural language processing techniques to process text and measure similarity against our framework. First, we prepare the raw text for analysis by removing punctuation, making the text lowercase, tokenizing the text, removing stop words, and stemming/lemmatizing the text (i.e., breaking down words to their root).
 
-We then use a pre-trained language model from the Sentence-Transformers library (a.k.a [SBERT](https://sbert.net)) to generate embeddings (numerical vectors that capture semantic meaning) for the processed text. Embeddings are also generated for each parameter in our framework. We then calculate similarity scores between each policy and each parameter in our framework, using cosine similarity as our similarity metric. 
+We then use a pre-trained language model from the Sentence-Transformers library (a.k.a [SBERT](https://sbert.net)) to generate embeddings (numerical vectors that capture semantic meaning) for the processed text. Embeddings are also generated for each parameter in our framework. We then calculate similarity scores between each policy and each parameter in our framework, using cosine similarity as our similarity metric.
 
-We plot the distribution of similarity scores to determine a reasonable similarity score threshold. We choose a threshold of 0.35, which represents roughly the 90th percentile of scores.
+We plot the distribution of similarity scores to determine a reasonable similarity score threshold. We choose a threshold of 0.35, which represents roughly the 90th percentile of scores. If a policy scores greater than or equal to 0.35, it is categorized as satisfying that parameter. If it scores below 0.35, it is categorized as not satisfying that parameter.
+
+**Similarity Scores**
 
 ![Similarity Score Distribution](./plots/similarity_distribution.png)
 
