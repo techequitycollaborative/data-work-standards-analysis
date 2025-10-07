@@ -1,0 +1,1007 @@
+﻿Despite a worldwide pandemic that dramatically widened income inequality, pushed women out of the workplace, and disproportionately harmed low-wage workers, the tech industry and its profits have only grown. Apple, Microsoft, Alphabet, Amazon, Tesla and Facebook added a combined $2.9 trillion to their
+collective market caps in 2021 and each has individually reached $1T or more in market cap in 2021 alone1. From the biggest players in the market to future forecasted unicorns, there are no signs of slowing growth.
+But the widespread perception that tech workers have prospered over the last 18 months isn’t a fully accurate depiction. The reality is that many who work in tech—the temporary, contract, and contingent workers who are classified differently from their directly-employed counterparts despite performing critical roles for the companies—have been locked out of tech’s prosperity.
+The prevalence and scale of contingent employment has grown steadily over the past several years, outpacing direct employment at major companies like Google, which in March 2019 employed 121,000 contract workers and 102,000 direct employees2. In the course of our research, TechEquity found evidence that contract workers are less likely to benefit from the traditional pathways into the tech industry and are more likely to belong to underrepresented racial, ethnic, and gender groups than the direct tech workforce.
+The Contract Worker Disparity Project is a comprehensive look at the conditions that create these inequities. Through a first-of-its-kind survey, first person interviews, and an in-depth literary and data review, we've uncovered several key themes that typified the contract worker experience:
+1. A dual management structure that prevents opportunity for advancement - Contingent workers have a fragmented reporting structure: their day-to-day work is overseen by a manager at the
+parent (tech) company while the operational aspects of their employment—pay, benefits, and legal protections—are the purview of the staffing agency that hired them. These two management structures rarely coordinate. Contractors reported that navigating this structure made it harder to do good work and to advocate for themselves. Although this practice is set up to protect tech companies from liability, it often leads to disempowerment for the worker.
+2. Job precarity - Contracting roles typically start as a three- to six- month engagement and are extended or terminated based on the whims of the parent company. Contract workers lack insight into why their contracts may not be extended, and potential for their extension is tenuous and never guaranteed. At any moment their role can be cut or they can be let go without warning, leaving them without an income or protections.
+3. A lack of voice in the workplace - Because of this precarity, which allows parent companies to not renew contracts at any time for any reason, workers are afraid to speak up against workplace harassment or other injustices. Additionally, they are concerned with being deemed “difficult to work with” as this impedes their potential for contract extension or transition to direct employment.
+4. Unequal pay for equal work - Contract workers are often performing the same job functions as
+their directly-employed peers—but getting paid less for the same work. For example, 75% of software developer contract workers who completed TechEquity’s survey are in the the 25th percentile or lower for average earnings across the industry overall.
+5. An overrepresentation of certain racial and gender groups in job classifications —otherwise known as occupational segregation—with little power and comparatively low pay - In every dataset that TechEquity examined, one fact was glaringly obvious—contract work in tech is disproportionately done by people from under-represented racial, ethnic, and gender groups. Coupled with the lack of representation in the direct tech workforce, the practice of contracting out sets the conditions for occupational segregation.
+Ultimately, these themes show heightened power differentials between contract and direct workers; contract workers and staffing agencies; and contract workers and tech companies.
+This report is a comprehensive account of TechEquity’s findings—issued throughout 2021 in four papers on the working conditions, career mobility, business model, and worker demographics of the contract work phenomena. Synthesizing public datasets, independent research, legal and regulatory landscapes, intel from
+industry insiders, and hundreds of firsthand worker accounts, the findings make the case that while workers value the opportunity to work in a desirable industry, corporate and policy changes are necessary to ensure that the workers powering tech profits benefit from the industry’s growth.
+
+
+
+
+
+
+
+
+
+
+
+
+Understanding the Practice of “Contracting Out”
+
+
+
+
+
+
+
+
+
+
+Why do tech companies use contracting agencies?
+
+
+The use of contracting agencies to fill staffing needs has become increasingly popular across all industries as part of a larger trend to cut costs and
+increase shareholder value. But this practice has been particularly appealing to Silicon Valley companies who have an imperative (driven by the demands of venture capital investors) to gain massive market share and valuation as quickly as possible.
+________________
+In this dynamic, growing employee headcounts are seen as a drag on value. LinkedIn Founder and
+prominent Silicon Valley investor Reid Hoffman, in his influential book Blitzscaling, refers to employees as “growth limiters” and encourages companies “to find ways to outsource work to contractors or suppliers.”3
+
+
+
+
+These growth and speed imperatives get built into day-to-day business practices. Today, different companies— and even departments or teams within each company—provide different reasons for using contracting agencies to bring on workers. Here is how they articulate their reliance on contracting:
+
+
+1. Streamlined hiring processes
+At most large companies, adding full-time, direct employees requires multiple levels of sign-off, budgetary allocations, and often numerous reviews and approvals. For many teams, it is much simpler to use their
+discretionary or general budget to engage a contracting agency to increase the number of workers on a project or team quickly.
+2. Flexible capacity for temporary needs Companies might choose to use a contracting agency to cover for direct employees who are on leave, or for temporary projects, or ones that do not have long-term funding.
+________________
+3. Securing services that aren’t core to the business
+Companies often hire out services—like catering, facilities operations, or similar—that are ancillary to the business and that other firms have greater expertise to provide.
+4. “Fee-for-service” labor backfill
+Companies contract with large agencies and consulting companies (who often subcontract to regional or off-shore companies) for services that are performed on an hourly and volumetric basis such as content moderation and social media policy adherence.
+
+
+A brief history of contract work in the U.S.
+Contracting agencies have become deeply embedded in the American economy over the last several decades. The practice of shifting portions of the labor force from direct employment to the payrolls of contracting agencies began after World War II. The staffing industry billed itself as being able to fulfill flexible, temporary roles with “ideal” employees—without the long-term commitment to an individual worker of a family-sustaining income or other benefits. According to the American Staffing Association, the practice of “contracting out” has been growing steadily—the industry closed out 2020 with a 175% revenue increase over its 2003 total.
+Contracting agencies (and what is often called temporary work) took off during the mid-twentieth
+century with the concept of a “Kelly Girl5,” a housewife with “extra time on her hands” who was looking for a foothold in the labor market at a time when direct employment was reserved for white men.
+Job seekers likely to face discrimination in the workforce found a modicum of stability in substandard employment arrangements, and the modern contract work model and its embedded inequity was born. (Kelly Services remains a leader in today’s contract work/temporary work industry.)
+
+
+There are three main ways these agencies function inside of tech
+* Staffing - A tech firm contracts with a staffing agency to supply the tech company with a specific set of workers for a project, a division, or a type of work that the tech company is not going to hire directly. Often these firms fill a range of roles including analysts, reception, operations, content moderation, call centers, and so on.
+* Payroll - A tech firm contracts with a payroll agency for the sole purpose of paying tech company contractors and serving as the employer of record. The payroll agency will handle all tax forms, direct deposit, legal compliance, and so on for the employee but does not provide recruiting, management, or regular oversight.
+* Service - A tech firm contracts with a service agency to provide a specific service and will also hire, manage, and be responsible for all of the employees that provide that service. Service agencies are also commonly referred to as vendors. Often vendors are janitorial companies, landscaping services, cafeteria workers, etc. While vendor employees are not excluded from TechEquity’s research, our findings are primarily based on the experiences of workers hired through staffing or payroll agencies.
+
+
+
+
+
+
+
+
+
+
+Disparities start in the procurement process
+Understanding how departments budget for labor reveals that there are also systemic factors causing contractor instability. Generally, department leaders and hiring managers often have two ways to increase staffing: hiring direct employees (personnel budget) or hiring contract workers (general operating budget or discretionary budget). Because speed and agility are highly valued in tech companies, many team leads and contracting managers have an incentive to bring in workers faster and under non-committal terms.
+General operating funds are not steady year over year, which accounts for one reason that contract roles aren’t steady either.
+________________
+A number of the conditions that contract workers will experience are set from the start by the procurement process. TechEquity spoke to tech managers who explained that they hire contract workers by writing a staffing proposal that’s then executed by the company procurement teams. That team is responsible for selecting the contracting agencies and the terms of their service.
+Those processes award funding to the “most competitive” bid—a practice that typically rewards proposals that offer to deliver a qualified labor pool for the least amount of money, resulting in a race to
+the bottom on cost rather than equitable outcomes for the workers. While the total amount can look sufficient enough to give workers family-supporting incomes, the cut that contracting agencies take out to cover their own costs and profits brings workers’ earnings down. Often, the amount the contracting agencies take from the contracts is obscured from the tech companies. Tech company managers reported being surprised with the reality of low contract worker wages based on the high cost of their agreements with contracting agencies.
+A TechEquity review of tech contracting Requests for Proposals (“RFPs”) found solicitations that emphasize selecting for cost-competitiveness and agencies that can provide high-caliber employees willing to go above and beyond to provide a great service. Those RFPs did not also ask contracting agencies to submit their wage standards, overtime rates and process, benefits packages, turnover rates, management evaluation and training process, or other details that would indicate a contracting agency's ability to hire,
+________________
+cultivate, and retain a first-class workforce. The final agreements successfully shield companies from the personnel decisions made by contracting agencies: agencies make sure the workers arrive when requested, and the companies assume they’re taking care of the rest.
+The tech company saves on the cost of benefits by using an agency, but more so than cost savings the real motivation for the company appears to be flexibility. During a time in which economic
+uncertainty continues to flourish across industries, a February 2021 study from the Bureau of Labor Statistics6 (“BLS”) found that labor trends in temporary help services7, under which contract
+workers fall per BLS definitions, predict employment trends in the larger economy. When departmental budgets look uncertain or suddenly shrink, there is a class of workers, never fully integrated into the larger office culture, who can easily be let go tomorrow.
+Increased demand for contracting agencies; falling wages for workers
+
+
+The simple narrative that contract work saves money—rather than shifts who pays the costs— downplays the profit that contracting agencies generate from the model. The initial pitch in the post- war workforce trumpeted cost savings—by offering lower wages than those of direct workers and foregoing benefits, onboarding, and recruiting costs, the company can improve its bottom line. Research on today’s contract work environment indicates
+that tech companies often pay contracting
+________________
+agencies enough for the agencies to o"er family- supporting wages. To ensure their profit margin, however, the agency takes a major cut of its workers’ earnings.
+TechEquity has confirmed that contracting agencies often take upward of 30% of the money they receive from the tech company in recruiting and contracting fees.  
+Across the contracting industry, mark ups can be as high as 100%8 of a contract worker’s wages.
+Conversations with contract workers, contracting agency staff, and direct tech employees indicate that the agencies pocket between 20—50% of the total contract amounts, but the vast number of agencies and roles suggests there is even more variation in how much the agencies profit.
+________________
+BLS data on temporary help services, or supplemental workforce, suggests that demand for contract work in skilled industries is increasing, and becoming more profitable for the contracting agencies. Increasing revenue for contracting agencies, however, does not translate to higher contract worker incomes.
+The latest numbers from the American Staffing Association10 show that, even despite a small dip due to the COVID-19 pandemic, the contracting agency industry ended 2020 having increased revenues 175% over the past two decades. There is a similar dip and rebound around the 2008 recession; despite market uncertainty, demand for contracting agencies has consistently increased.
+Lack of transparent and accessible data leads to  an ever-invisible workforce
+
+
+While we know that the contract workforce is increasing, sussing out the true disparities in worker wages and the company profit margins is challenging. Drawing similarities for pay parity is reliant on patchwork, imprecise, and non- parallel job categorization. This means there is no comprehensive view of contract worker
+wages in tech as an industry. Staffing and temp agencies report the job categories (e.g. office and
+________________
+administrative support, construction, etc.) of the employees they place, not the industries in which they are placed.
+Of the hundreds of workers who submitted information in first person interviews and our survey, over 30% who responded about their job category provided a job type outside of our thirteen-category list. Within that group, few listed the same jobs, pointing to the sprawling and sometimes disparate
+job categories across the contract workforce. Because BLS tracks what contract workers (listed under the BLS “temporary help services
+classification”) do— not necessarily the employer or industry for which they do it—people who work on contract in operations, marketing, administrative services, etc. within tech do not show up in the data.
+________________
+Even those in typical tech roles, such as software development, could be working in government, nonprofit, for academic institutions. The data does not give an industry-wide picture, consequently concealing the significance of tech’s reliance on contingent workers.
+Firewalls between companies and workers paradoxically increases liability
+
+
+When it comes to making data-driven decisions, tech companies are in the dark, too. They mandate the number of people the agency must hire and the total contract amount, but most don’t set a wage rate within the contract—either for the contract workers or the contracting agency workers whose earnings also come out of the same funding.
+Such corporate practice here can once again be explained, in part, by the delicate legal balance tech companies must strike to employ contract workers. When two or more businesses co-determine or share control over a worker’s terms of employment (such as pay, schedules, and job duties), then both businesses may be considered to be employers of that worker, or “joint employers.” Joint employers are responsible, both individually and jointly, to employees for compliance with worker protection laws11.
+Tech companies avoid, at all costs, being considered joint employers for contract workers. The contracting agencies are sole employers who ostensibly direct all elements of the contract worker’s employment. To avoid triggering a joint employer finding, corporate policies keep contract workers structurally isolated—without a clear manager,
+________________
+without a clear pathway into direct employment, without direct access to necessary resources and tools for their work— in order to limit company liability.
+To keep it that way, companies create arm’s-length policies for those workers; they also change their personnel practices altogether. If the responsibilities and daily tasks of contract workers are largely indistinguishable from directly-employed workers, that can also trigger a joint employment finding. To avoid that, some companies have phased out integrated teams—a mix of full-time employees and contract workers, which used to be common practice. Now certain core business functions are fulfilled entirely by contract worker teams, while others are done by direct employees.
+For the tech companies, the proliferation of second- rate employment, without regular reporting from the contracting agencies, presents risks —low worker morale is bad for business. In recent years, contract workers have sued12, walked out13, and organized14 over their treatment, pulling companies into the spotlight and questioning their reputations
+as great places to work.
+Beyond public relations considerations, current contract worker practices are a drain on productivity, and ultimately tech’s bottom line. Report after
+report finds that happy workers are better workers, with some research finding them to be 31% more productive15 and 19% more accurate on task completion.
+Tech companies have a natural incentive to advocate for and enforce better contract worker practices.
+________________
+The risks are many: litigation16 (joint-employment standard and co-employment generally arises from mistreated workers, inequitable pay and benefits, and substandard working conditions), fiduciary responsibility to mitigate the profit loss17 that results from misclassifying workers, the reputational risk18, product harm19 from employing a homogenous workforce, not to mention that attracting and retaining talent is one of the core drivers and predictors of business success.
+
+
+
+
+Moreover, the demographic differences between contract workers and direct employees, as well as the pay and demographic disparities between payroll agency contract workers and staffing agency contract workers, could invite disparate impact claims and other legal scrutiny. The disparate impact20 legal standard holds that employers are responsible for practices that create different outcomes for groups based on their race, color, religion, sex, or national origin even if those practices are applied neutrally, or irrespective of those
+characteristics. There could be issues of employment discrimination if hiring practices result in discriminatory outcomes, including workers with protected class status21 disproportionately assigned to lower paid roles.
+
+
+Connecting with workers + our major findings
+To understand the worker experience, TechEquity interviewed over 30 current and former contract workers, and ran a survey with 34 questions, with both qualitative and quantitative responses (more information in the methodology section of this paper).
+Across sources and surveys, certain findings are consistent:
+* Contract workers of color are more likely to be paid hourly than annually, and to receive lower pay than white workers: 39% of contractors of color are paid annually, compared to 45% of white contractors with the majority of contractors of color earning in the $50-85K range, compared to the majority of white contractors earning in the $85-120K range.
+* Contract workers of color are less likely to be converted to direct employment than white contract workers: 41% of respondents who were people of color said they never converted to direct employment compared to 31% of white respondents.
+* Contract workers receive fewer benefits than direct tech workers: 33% of survey respondents received no benefits, compared to just 23% of private-industry workers22 who do not have paid vacation or sick leave.
+* People of color are overrepresented in contract roles compared to the overall tech workforce: 44% of contractors are people of color vs. 31% in the direct workforce.
+Different outreach methodologies produced different results—on the pay, backgrounds, and experiences of contract workers. The variations in responses points to the difficulty in sampling vulnerable and underrepresented workers in a vast, homogenous industry. It also underscores the need for public, vetted, and consistent datasets on this population.
+Data throughout this report is from TechEquity’s 2021 papers, synthesizing worker expertise, independent research, and survey results
+Who Becomes a Contract Worker?
+
+
+
+
+
+
+
+
+
+
+Contract workers are not your average tech worker
+
+
+Many people have a very specific idea in mind when they think of the usual tech worker: most likely a young, white man, with a degree from a certain institution and connected to the industry through a vast network of personal and academic connections who lit the path to his $146,000/year23 desk job.
+This common perception—while maybe a useful control variable for understanding some of
+________________
+the industry’s inequities—overgeneralizes the characteristics of tech’s emergent workforce. Responses to a survey conducted as part of the Contract Worker Disparity Project—the most comprehensive survey of tech’s shadow workforce— reveal that contract workers, like the prototypical tech worker, disproportionately hold four-year and advanced degrees, but most other commonalities end there.
+
+
+
+
+Contract workforce is significantly more diverse than tech’s full-time workforce
+Data and analysis from Project Include24 and TechEquity’s contract worker survey indicates that the demographic trends of the contingent workforce at tech companies—those who are hired through and employed by third-party entities, often on tenuous contracts—differ substantially from the directly employed workforce.
+Contract and temp workers are more likely to be Black, Indigenous, Latinx, Asian, women, and nonbinary people than those hired in the direct workforce.
+For every single racialized category, the rate of employment in contract work was greater than the rate of employment of those same racialized groups in directly employed roles at the tech company. In short, contract workers are the closest thing tech has to a diverse and representative workforce.
+
+
+
+
+These disparities also exist across gender. According to our in-house survey, 60% of survey respondents were women and 5.8% nonbinary, genderqueer, or gender fluid; 32% were men.
+Reliable data on the number and rates of gender-expansive people in America are still emerging, with one recent study26 finding there to be 1.2 million nonbinary people, or 0.004% of the total U.S. population, while other data indicate that 5% of startup workers are nonbinary27—though this doesn’t incorporate the employees who chose not to answer to protect their privacy.
+Direct employment opportunities are not the only area where workers of color, women, and nonbinary people experience disparate treatment. Preliminary data and contract workers’ descriptions of their job functions support assertions that they perform similar work as direct employees—for a fraction of the pay.
+
+
+Of the software developer respondents who disclosed salary information, just 25% reported earning $86,000 a year or more, putting 75% of those contract workers in the lowest-paid 25th percentile28 of software developers according to 2019 analysis by U.S. News and World Report.
+To the extent that tech has diversified since 2014, it has done so by keeping its direct employee statistics in stasis while disproportionately hiring people of color, women, and nonbinary workers into lower-paying, more precarious contract roles that offer much less opportunity for career advancement.
+The Contract Worker Experience
+
+
+
+
+
+
+
+
+
+
+Landing a contract role is a crooked path to tech  employment
+
+
+Landing a job at a tech company promises high wages, stability, innumerable benefits and upward mobility.
+However, finding and getting an offer for these roles is notoriously competitive. For many job-seekers who aspire to work in tech, getting a foot in the door by way of contract work can seem like an accessible onramp to a competitive field, especially for those from underrepresented groups who often face steeper barriers to entry.
+________________
+Often, tech contract workers are proactively recruited by contracting agencies. Someone who wasn’t necessarily looking for a new job gets a LinkedIn message (or is stopped by a recruiter on their college campus, or sees an ad on social media) offering employment in an aspirational industry.
+From there, the contract worker typically goes through a round of interviews with a combination of contracting agency and tech company staff before being brought on for a contract—often set at six months or less.
+
+
+
+
+Contracting agency business model keeps wages low
+
+
+The contracting agency model can reinforce disparate earnings even when the tech company intervenes.
+One worker who spoke to TechEquity reported that their tech company offered them a $10-an-hour raise. Soon after, the worker’s contracting agency let them know there was an issue implementing the
+raise because doing so would mean the money would come out of the earnings of staff at the contracting agency. It took several weeks for the tech company manager and contracting agency to iron it out; when they did, it didn’t include back pay for the delay period.
+________________
+The contract workers who have spoken to TechEquity
+consistently report low-quality relationships with their contracting agencies. Some struggled to remember the names of their agencies, having to consult their pay stubs to jog their memories.
+Others shared that they didn’t hear from the agency for the duration of their contracts after they signed. The colleagues that share daily experiences and struggles work in teams alongside each other, but may be employed by different agencies and receive different levels of employer support, making it hard for workers to band together to advocate for themselves.
+Dual management structure leads to confusing expectations
+Contract workers have two official management relationships: with their contracting agency and with their company supervisors. The contracting agency frequently covers performance feedback (provided from the tech company to the contracting agency, then to the contract worker), time off requests, payroll, and HR functions. The tech manager, most often a direct employee of the tech company, oversees their day-to-day work and determines whether their contracts are extended.
+The dual management structure is designed to minimize the tech company’s liability; the more direct
+________________
+the relationship is between a contract worker and a tech company, the more at risk the company is of
+being legally indistinguishable from a direct employer. This practice stems from a lawsuit brought by temps at Microsoft 29who argued they should receive the same benefits as full-time employees since they were essentially doing the same jobs. The courts agreed.
+Instead of encouraging tech companies to treat more of these roles as full-time positions, the companies have increased their reliance on the practice while at the same time instituting the Kafka-esque reporting structure that protects them from legal exposure but disempowers the workers.
+
+
+
+
+
+
+
+
+
+
+In practice, reporting to two entities leaves workers without the support they need to perform their roles. Myriad actors working together from separate offices requires timely and coordinated communication, as well as regular training for tech managers to understand how to supervise hybrid teams of direct and contract workers. Many of the workers we interviewed detailed that they reported to a series of tech managers during their contracts, with many stepping into the role with seemingly minimal knowledge of the unique legal and company rules that applied to their direct reports. This results in inconsistency in how well the tech managers and the hiring a
+It becomes the contract workers’ obligation to piece together expectations from the tech company and contracting agency when they fail to collaborate.
+One worker shared that early during the COVID-19 pandemic, they and their fellow contract workers hadn’t received information on how their benefits, including their right to sick leave, had changed with new federal and state laws. They tracked down the appropriate legal information and shared it with their fellow contract workers. When their managers found out, they were scolded.
+They were told that the information needed to come from each workers’ contracting agency directly,
+________________
+even though weeks had already gone by without employers disclosing the news of their legal rights to the contract workers. Critical information gets lost in a dual reporting structure, leaving workers to use valuable time tracking down the appropriate authority—and to be reprimanded for not obeying
+the often invisible lines of who is responsible for what.
+According to our interviews and in-house survey data, there are three common expectations tech workers have when deciding to take a contract role: 1. getting hired as a direct employee, 2. leveraging the industry’s reputation, and 3. earning experience they can apply elsewhere.
+
+
+
+
+
+
+Louisa's Story
+Louisa* (name changed for anonymity) accepted a position working on public policy at a major tech company. She learned quickly, however, that the duties her contracting agency hired her to fulfill actually conflicted with the tech company’s internal rules precluding her from certain
+activities critical to her job, such as speaking on behalf of the company and managing relationships with external partners. Despite numerous requests to her tech manager to clarify how she should navigate the company’s internal rules and still fulfill her role, Louisa received no guidance. She
+was assigned ad hoc tasks, but was never given a clear metric for how she could meet or exceed expectations. She sensed that her first manager didn’t understand how to apply the company’s contractor policies well enough to revise Louisa’s job scope.
+Adding to her difficulties, that manager was later replaced with someone who had even less information on Louisa’s role. Louisa then had to rebuild the relationship with the person who could extend her contracts and help her convert to direct employment—without a clear sense of what management needed from her in the first place.
+Ambiguous jobs aren’t uncommon even for direct employees. For Louisa, however, this haziness threatened her livelihood; contracts are often extended just a few months at a time and can end immediately without notice. By workers’ own characterizations, their experiences and satisfaction as contract workers are determined by the daily precarity of their jobs.
+Conversion from contract to full-time is rare, but it's why workers take contract positions
+Nearly unanimously in our interviews and in-house survey data, contract workers cited their intention to convert to direct employment as the key reason for accepting precarious jobs. Even if a temporary or contract role wouldn’t provide access to robust compensation and benefits packages, workers held out hope that taking a precarious contract role could crack the door open to direct employment in the future. However, more than 77% of contract workers we spoke to did not convert to direct employment.
+Converting from contract to direct employment is uncommon, and most contract workers we
+interviewed were not explicitly told that conversion to a full-time position was highly unlikely when they took the position. Contract workers enter their roles aspiring to get hired on permanently, or to
+________________
+benefit from being a part of a company with name recognition where they can learn new skills that provide a foothold into new fields. For many, those hopes are quickly dashed.
+One of the few workers we spoke to who successfully became a direct employee attributed their success to the happenstance of attending the same meeting as a powerful company executive early in their contract; seated next to each other, they eventually found out that the two did similar work early in their careers. When the contract worker directly asked about open positions, the executive asked for their resume. The worker sent it to the executive; though it was still over a year later, as the worker’s contract was expiring, they eventually secured a direct employment position.
+
+
+In the absence of company conversion policies, pathways into stable employment hinge
+on interpersonal relationships rather than standardized and transparent processes. This informality creates the same dynamics that cause the tech workforce as a whole to be so homogeneous:
+________________
+white people and men are more likely to thrive in the dominant tech culture and parlay their contract role into direct employment. Employers can set realistic expectations from the outset and curb hiring bias
+by creating formal, written conversion policies for contract workers.
+Contract work limits job mobility across the career ladder
+Beyond mobility limitations from contract to direct employee, contract workers face strict policies and procedures that limit their future job searches. The majority of workers who spoke to TechEquity told us that they were not supposed to list or reference the tech company on their resumes or job applications. Instead, they were instructed to say, for example, “Recruiting Manager for Pro Unlimited [contracting company] at Uber [tech company].”
+One worker shared that their contract experience actually put them at a disadvantage for direct employment opportunities. During the interview process for a full-time tech role at a different company, a hiring panel saw contract employment on their resume and pivoted to discussing other contract work opportunities, instead of the full-time position for which
+they had applied.
+Told to downplay their connection to the tech companies, contract workers either comply and suffer the hiring disadvantages, or go against corporate instructions to gain some benefit from their work experiences. Many contract workers reported doing the latter. It’s a gamble with consequences: recruiters confirmed to TechEquity that those who decide to list the tech companies as their employers are passed over or disadvantaged for other contract work openings.
+Workers leverage their experience—despite barriers
+
+
+Despite receiving little to no explicit or intentional on-the-job training, the immense responsibilities
+workers fulfill on the periphery of the tech workforce leave them with skills they can apply elsewhere.
+Even with the many barriers to mobility, virtually all workers who spoke to TechEquity directly said
+they would recommend contract work to a friend— with disclaimers. Many wish they had understood that these are dead-end roles when they signed up. Others thought it was critical that contract workers understand how undervalued and separated they would be from their directly-employed colleagues.
+Yet even that is hard-earned. Contract workers are often unable to present their work product, access necessary tools and documents, or demonstrate their abilities to company decision-makers.
+At large companies, contract workers reported that they had to ask a direct employee (any direct employee, not necessarily their tech supervisor) for entry to company intranet systems that housed work files. The policy that keeps contract workers from certain internal company meetings also leaves them unable to personally present their work to
+certain audiences. In this scenario direct employees are responsible for sharing their colleagues’ work with other teams, denying contract workers the opportunity to demonstrate their value and gain the visibility required for future conversion or career opportunities.
+________________
+In the end, those who have moved on from contracting are often in roles that they enjoy more and earn more than before they worked in tech; it’s a stepping stone to better employment—with some company, if not the one that initially hired them.
+Without evident and universal conversion protocols, the de facto pathways into direct employment
+favor those who already have connections and commonalities with the existing tech workforce. Formalized conversion processes that look at work performance would help contract workers understand their likelihood of converting before accepting the roles and would make it more likely
+that diverse employees advance in the tech industry.
+The precarity and lack of mobility that characterizes contract work is a particular problem as it serves to reinforce and exacerbate the racial wealth gap.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As a [direct worker] you have full access to all documents, all the systems. As a [contract worker], even though you’re doing the work and expected to do the work…we have to request special access
+for [contract workers] to actually do the work we’re required to do, because we’re treated different in terms of security for access to different technical systems.”
+Anonymous contract worker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disparate Experiences Lead to Disparate Impacts
+
+
+Across companies and roles, the Contract Worker Disparity Project found several key themes that typified the contract worker experience:
+* A dual management structure that impedes work performance
+* Heightened power differentials between contract worker and direct workers, contract workers and contracting agencies, and contract workers and tech companies
+* Job precarity
+* A lack of a voice in the workplace
+* Unequal pay for equal work
+* An overrepresentation of certain racial and gender groups in a job classification with little power and comparatively low pay
+
+
+
+
+Exacerbating disparities leads to occupational segregation
+
+
+The concentration of certain demographic groups in job classifications with less power and lower wages looks a lot like occupational segregation30.
+Occupational segregation creates a structure where it becomes even easier to construct gender and racial pay gaps. When certain demographic groups (Black, Latinx, Indigenous, Asian, women, and nonbinary) hold an outsized number of certain types of jobs (tech contract roles), there is a structure
+to pay workers differently while attributing it to different skill or responsibility levels than if all worker groups were equally represented in each field and classification.
+Data shows that this is the case even when performing the same functions. That’s why 75% of software developer contract workers who completed TechEquity’s survey are in the the 25th percentile or lower for average earnings. One’s status as a contract worker is used to justify unequal pay for equal work, leaving underrepresented tech workers concentrated in the worker groups with the least power.  
+________________
+TechEquity has shown elsewhere in the Contract Worker Disparity Project31 series that contract workers receive a fraction of the benefits of direct employees. In addition to health care and paid time off, the typical tech benefits package includes stock options. The latest numbers32 from the Bureau of Labor Statistics show that private-sector employers spend about 29.4% of total compensation costs
+on an employee’s benefits. Put another way, direct employees earn about 30% more than their base pay in various benefits. The total value of higher wages and better benefits make the pay disparities between direct tech employees and contract workers even more severe.
+
+
+
+
+
+
+
+
+  
+
+Unpredictable employment creates precarity and silences  contract worker voice
+With all of the disparities a contract worker faces, it can be easy to wonder why they don’t speak out against these harms. Contract workers reported to
+TechEquity that they don’t feel empowered to speak out because their tenure can often be precarious and unpredictable. They sign an initial contract, frequently for a six-month term, and then have their jobs extended in repeated, shorter increments. Contract extension is never guaranteed. Employers tout the flexibility that this affords the workers, as they are
+not beholden to the company for more than a few months at a time.
+________________
+However, this flexibility more often benefits the employer than the worker. Tech managers are empowered to end contracts at any time, for any reason, whether it be disappointing performance or personal bias. Though the contracts cover a specific time period, employers (and workers) have the ability to end the contracts without advanced notice or explanation. The contract workers we spoke to reported receiving little to no information about why their contracts end early. This heightens the existing power differential between workers and supervisors by compelling contract workers’ acceptance of
+poor working conditions and treatment in order to preserve the income supporting their families.
+
+
+
+
+Dat's Story
+Dat* (name changed for anonymity) was excited to make a career pivot into working for a tech start-up, having always wanted to be a part of a small team of ambitious but down-to-earth colleagues. What they found, however, was a new version of the old boys club.
+“It was always so uncomfortable. I always felt like there was such a divide. I thought that, ‘oh well eventually they’re going to hire me on permanently, or eventually the team is going to warm up to me.’ But no, I always felt like an outsider.”
+The final straw came when Dat was prevented from attending the company’s remote retreat— which Dat had planned. Not only did they miss out on the four-figure bonus that everyone else received, they missed out on a formative bonding experience with their colleagues. “At that point I was just like, ‘oh, I will never be a part of this team. Like ever.’” Dat’s company ended their contract less than a year later. A former colleague later shared with Dat that their contract was ended because the team didn’t feel like they “clicked.”
+In some cases, workers report being told after the fact that their contracts were extended, depriving them of the chance to discuss wage increases or better benefits. Because their supervisors retain all power to extend or cancel contracts with no stated rationale, speaking up about workplace issues can mean risking one’s economic security and opportunities for future employment.
+When one worker confided in a directly-employed colleague who shared their experience of discrimination in the workplace, the colleague told the worker to not bother taking it to HR—
+________________
+a familiar sentiment for those whose identities have not always been respected in the office culture HR is perceived to protect.
+Workers confirmed that when workplace issues arise, they wouldn’t go through the established reporting structures because they had seen that very few concerns were meaningfully addressed that way.
+Instead they felt that utilizing that process was more likely to anger their supervisor who might fire them or fail to renew their contract with no warning or recourse.
+
+
+Contract workers and direct employees are separate and unequal
+
+
+In the summer of 2020 when workers across the country started having conversations about structural inequality and white supremacy in the workplace, contract workers were largely
+prohibited from participating. Their contract status frequently bars them from participating in All Hands meetings, or other team building and office culture opportunities.
+The practices that companies use to keep contract workers legally distinct (and shield themselves from the legal responsibilities of direct employment) promote the two-tiered worker hierarchy often referred to as tech’s caste system33. The separation of workers affects everything from cafeteria access, shuttle service, and company-wide meeting privileges to contract workers’ access to internal intranet systems and even certain team meetings.
+________________
+One worker experiencing intense discrimination
+and hostility from his managers received no support from his contracting agency when he reached
+out. Later, when he escalated the matter up the organizational hierarchy, he was told that there are recourse procedures for how to deal with such issues in the tech company’s personnel policies—but those documents were kept in an intranet system that contract workers weren’t allowed to access.
+In addition to creating business inefficiencies, segregating necessary job resources encourages a cultural hierarchy amongst colleagues. Many workers reported that power differentials between workers caused friction that ultimately impeded their ability to complete their work.  
+The impact of tech labor practices reach far beyond the industry
+
+
+Increasingly, the rank-and-file behind tech’s most profitable companies are pushed down the
+continuum of job quality; workers are downgraded from well-paying, full-time jobs with benefits and protections, to underpaid and unprotected roles, outsourced either into vulnerable classifications or communities that lack worker protections. Today’s covetable six-figure tech job with equity options could be tomorrow’s substandard employment arrangement.
+Non-U.S.-based workers who spoke to TechEquity revealed that after having their agency contracts suddenly cut short, they were approached
+with an opportunity to work for the same U.S.
+________________
+company, doing the same work—but this time as an independent contractor without minimum
+wage protections, and paying an additional fee to a platform like Upwork that the tech company used to assign work.
+The shift from direct employment to third-party contract work, and then to more typical independent contracting or gig work, has a downward effect on worker wages broadly. In Beaten Down, Worked
+Up, Steven Greenhouse’s book on the history of America’s labor movement, he details how converting what were once full-time, direct employment roles to freelancing affects those still in direct employment, too34.
+
+
+
+
+
+
+Eroding labor practices in tech create a downward pressure on worker wages, leaving an increasing number of the workers in a booming industry to earn less than national and global averages.
+A recent analysis by HR&A Advisors35 found that tech was responsible for widening the racial income gap by almost $50 billion. Researchers looked at the gap between Black and Latinx workers and their representation in the industry, as well as the misalignment between worker skill and worker classification to arrive at
+these figures.
+
+
+Notably, this study is based on disparities based on race between direct employees, with the total income gap presumably widening when accounting for earnings differences between contract workers and direct employees, especially contract workers with identities at the intersections of multiple forms of oppression.
+Everyone loses when labor practices amplify instability. Research on the effects of income inequality points to its role in slowing economic growth37, accelerating segregation38, and destabilizing democracy39 across the globe. Its most direct, material effect is, of course, economic oppression that lessens quality of life for everyone. America’s largest corporations and industries of concentrated wealth play an outsized role in
+contributing to economic destabilization—and in fixing it. Contract work is one facet of the degradation of job classifications that includes gig and piecework. In light of the 1999 lawsuit against Microsoft for its illegal use of “permatemps” to avoid paying stock options, health insurance, and retirement benefits40, and more recent news about the prevalence of the contingent workforce powering tech profits, it becomes clear that while temp practices did not originate in the sector, they are being applied in tech to incredibly harmful ends in ways that are likely to affect other industries.
+If we take the proliferation of gig work after the Great Recession as a signal of what’s to come, tech’s contract workforce could be on the precipice of considerable growth as we enter a period of economic recovery. As we enter an era characterized by increasing inequality, we need to ensure that workers re-entering the workforce through temp work are not being exploited and that these roles can lead to safe, stable, secure careers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Way Forward
+
+
+
+
+
+
+
+
+
+
+As many in the technology sector will tell you: speed, efficiency, and innovation matter. Often, this is
+how the move to expand the contract workforce is justified. These arrangements allow a company to quickly scale up a specific type of expertise or fill an immediate need. In practice, however, these
+arrangements are often wide-reaching, long-lasting, and inherently exploitative if they are not
+managed well.
+________________
+The move to a large contract workforce allows companies to absolve themselves of legal responsibility to the workers they rely on to make their companies run—both in terms of ongoing employment, wage rates, and benefits, but also in terms of protecting them from sexual harassment, racial discrimination, and ensuring healthy overall working conditions.
+In order for contracting to be done ethically and with the best interests of the workers as the primary aim, we need to focus on change in three key areas:
+1. Creating and enforcing responsible contracting standards and practices
+2. Adopting and implementing public policy that sets a baseline for protections
+3. Ensuring contract workers themselves are leading the process to define solutions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Closing the Gap: Responsible Contracting Standards
+
+
+
+
+
+
+
+
+
+
+Our research has shown that in order for contract workers and temps to have stable, good jobs we need to set a more comprehensive standard for employers to follow. Our Responsible Contracting Standard lays out the processes and practices that our research shows will create the conditions for contract
+________________
+workers to have safe, healthy and family-sustaining employment opportunities in the tech industry and beyond. Where possible, we’ve included specific policy language and reference to laws that undergird many of these recommendations.
+
+
+
+
+1. Require family-sustaining pay and benefits
+When it comes to ensuring quality pay and benefits for contract workers, tech companies have more power than they realize. The staffing and temp agencies that compete for a lucrative contract with a tech company are usually only required to specify their bill rate in their Requests for Proposal—leaving critical wage and benefits decisions up to the agency. This means wage rates, titles, benefit offerings, paid time off, career supports, and more are left unseen and unscrutinized by tech companies, giving room to agencies to grow their profits at the expense of contract workers.
+This gives tech companies the opportunity to require higher standards for worker treatment in their vendor selection process, and raise the bar for working conditions at their company and across the industry.
+What tech companies can do
+   * Require vendors to provide at minimum a living wage41 for the area in which a contract worker lives or works.
+   * Ensure that employees are offered medical, vision, and dental benefits that reflect the minimum value and affordability threshold42 that is offered to direct employees.
+   * Demonstrate a commitment to employee wellness by ensuring adequate paid time off (PTO) and parental leave programs43. For workers with part-time or contract time limits, use a formula to calculate pro-rated PTO that would be equivalent to directly-employed workforce PTO benefit.
+   * Provide transparency about the terms and conditions of assignments with written notice from the staffing agency that includes: the length of the assignment, safety requirements, certifications, or personal protective equipment needed for a work assignment, the specific criteria for transitioning to permanent employment, and the “spread” between the temp worker’s hourly wage and the hourly charge to the tech (or parent/client) company for their labor. (From Temps in Tech NELP and TWJ Report44)
+   * Ensure that agencies use clear contract timelines that include written details of when a contract will be evaluated for renewal, evaluation criteria for renewal, and provide any details on what employees must do to initiate the renewal process.
+   * Prohibit contract terms that limit temp workers’ opportunities to obtain permanent employment at a tech (or parent/client) company—or accept employment with a competitor company. (From Temps in Tech NELP and TWJ Report)
+   * Implement best practices for predictable scheduling45 and apply components of fair workweek laws46 and current California law for scheduling47 across the contract workforce.
+
+
+
+
+2. Compensate workers with equal pay for equal work
+Contract workers are integral to the success of tech companies. They are moderating content,
+conducting research, launching marketing campaigns, planning events, and so much more—often
+side-by-side with full-time employees. However, these workers—disproportionately Black, Indigenous, brown, women, and nonbinary48—are often paid lower wages and benefits than their directly-employed counterparts. Tech companies must ensure that all of their workers are being valued and paid for the work they do, not just the ones on direct payroll.
+What tech companies can do
+   * Require reports from staffing agencies that include pay rate by job type; tech companies are already required to report this information49 to state agencies and should be evaluating their contract workforce against their directly-employed workforce to ensure that they are not enacting unequal pay for equal work.
+   * Create a clear and transparent process—that is provided in writing to contract workers—to request, approve, and process raises for contract workers.
+   * During the Request for Proposal bid process—and routinely as an audit practice—tech companies should ensure that staffing agencies provide equivalent plans for employer-sponsored healthcare to all contract workers.
+   * Implement equitable hiring practices50 for direct and contract employees including publishing pay rates in all job descriptions51 and prohibiting the request for salary history52 in the application, interview, or offer stages for a candidate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Develop protocols to report workplace safety violations and protect contract worker voices
+Contract workers are routinely faced with a painful choice between speaking up about abuse and keeping their jobs. Because contract workers rely on contract renewals to maintain economic security, they often feel unable to report workplace harassment and toxic environments.
+Without protection against retaliation, contract workers have no avenue to improve their conditions and tech companies have no idea what really goes on in their workplaces. Tech companies must use their power to provide safe, non-retaliatory means for contract workers to raise concerns and create accountability for all responsible parties.
+What tech companies can do
+   * Develop an independent complaint process, led by contract workers and/or worker organizations, that allows contract workers to confidentially file complaints that are investigated—ideally by a third party— and if complaints are found to be valid, take responsibility to ensure that workers are made whole as a result.
+   * Publish and report the abuses of staffing agencies53 to the relevant regulatory body to ensure that the staffing agency is held accountable for wrongdoing.
+   * Outline in writing to vendors that the company supports workers' right to organize, to utilize protected concerted activity54, and encourages the voluntary recognition of unionization efforts.
+   * Allow contract workers to attend All-Hands meetings and be included in other all-staff communication channels where employees are able to receive and respond to company news and important health and safety updates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Implement equitable procurement practices
+As the contracting structure currently stands, it’s remarkably easy for staffing agencies to take an enormous cut of their agreements with tech companies for their own profit. During procurement and in subsequent invoices, staffing agencies often only provide a flat bill rate to the tech company; this enables the agency to charge undisclosed amounts for their agency fee and overhead, while paying the worker less than what the tech company may have intended for the worker to receive.
+This lack of transparency hurts the workers and the tech company alike. The contract workers are getting paid a mere fraction of what the company is paying for them, creating a situation of exploitation for the workers, and an opaque financial investment for the company. Tech companies have significant leverage with staffing agencies and can utilize that power to improve the wages, benefits, and working conditions of contract workers—not to mention, improve their return on investment and make wiser long-term financial decisions.
+What tech companies can do
+   * Require an itemized breakdown within RFPs of agency fees for service (sometimes referred to as “markups”), wage rates, benefits options and employee co-pays, recruiting methods, mentorship opportunities, retention rates, HR protocols, complaint procedures, etc.
+   * Require that all vendors and staffing agencies provide detailed assignments to all workers that include pay rate, benefit options and employee contribution, paid time off, HR protocols, complaint procedures, location of assignment, hourly schedule, and agency fees or “markups” for service.
+   * Change internal policy to allow for procurement officers to take other factors into account besides cost and competence when making contracting decisions
+   * Align RFP review processes to align with best practices for fair chance hiring55 to ensure a more inclusive talent pool; do not work with agencies that implement non-compete practices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Outline and publish clear pathways to direct employment
+Even though contract workers contribute to the success of their tech company, they’re often barred from reaping the benefits of that work. Most tech companies create a firewall between contract roles and full-time opportunities, leaving contract workers on the outside. Given that contract workers are disproportionately from racial and gender groups that are under-represented in tech, this practice creates harm, furthering the racial wealth gap.
+By creating real pathways to direct employment, tech companies are not only giving their contract workers a chance at opportunity and security, they’re also opening themselves up to a diverse and experienced talent pool.
+What tech companies can do
+   * End the gag order on contract workers56 and allow them to list their experience working at the tech company on their resume; stop the practice of penalizing workers (in the form of not extending or renewing their contracts) who do so.
+   * Systematize hiring practices that allow contract workers to access internal job boards and acknowledge their previous work and contribution to the company, similar to how internal candidates would be considered with condensed application requirements and shorter review windows.
+   * End policies that disincentivize contract worker mobility (non-competes, high fees for conversion) and adopt the incentives provided to direct workers, including hiring bonuses for those who successfully recruit contract workers. Existing policies demonstrate that tech companies understand the rationale behind internal referral systems, offering several-thousand dollar bonuses for successful referral hires57. These policies, replicated for teams or managers who successfully hire former contract workers, would also improve the mobility and stability of tech’s entire workforce.
+   * Offer training and professional development opportunities to contract workers. If there are minimum standards for tuition reimbursement provided, do a regular audit of the staffing agencies to ensure those benefits are being distributed and applied correctly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Improve transparency for workers, companies, shareholders, and the public
+Tech companies hold significant influence in the global economy. Their actions—whether in product development, company acquisition, privacy, or labor rights—have ripple effects throughout our society.
+By being transparent about their actions, tech companies can ensure that their actions are in-line with their values and their commitments to shareholders, workers, and the public. Sharing the outcomes of these policies helps ensure that tech company’s written policies and stated commitments are correctly applied by the staffing agencies they employ. Tech companies have an opportunity to set an example, to demonstrate what it means to be a responsible actor within the industry and the broader economy. Through establishing transparency and accountability, tech companies can be leaders in ensuring fair treatment for all workers.
+What tech companies can do
+   * Publish standards for vendors and staffing agencies that includes high-road practices and accountability mechanisms for the vendors and the tech company itself.
+   * Publish a list of the vendors and agencies with which they work, as well as aggregate data on workers hired through third parties including racial, gender, and pay demographics in addition to years with the company and classification.
+   * Include contract data in annual DEI reports—disaggregating pay, race, gender, and other important equity factors from contractor to direct employee; as well as listing which vendors they are employing.
+   * Make reports to the Bureau of Labor Statistics and other relevant state agencies public and easily accessible to workers, shareholders, and the public.
+   * Conduct an annual audit of staffing agencies and vendors to ensure that stated commitments and written policies of the tech company are being implemented and applied to the contract workers themselves. When staffing agencies do not comply, ensure that there is a clear policy for those violations that includes dropped contracts, fines, and any other mechanisms that are appropriate to internal policy violation repercussions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Closing the Gap:
+Public Policy
+
+
+Improving working conditions and ending wage disparities will require policy and regulatory reform. Throughout the Contract Worker Disparity Project, workers have been consistent about what needs to change: equal pay for equal work, greater stability, and better working conditions.
+
+
+
+
+Compensate workers with equal pay for equal work
+Workers fulfilling reasonably similar job responsibilities for the same company should earn the same wages, regardless of classification. The federal Equal Pay Act requires that people of different genders, race, and other characteristics must earn equal pay for equal work. The 1963 legislation, as well as many of the efforts to strengthen it at the state level, has adopted new provisions to extend protections to those doing substantially
+similar work instead of equal work, yet few have amended the same establishment or same workplace language in a way that would protect contract workers. Amending the federal and state Equal Pay Acts is one way to reign in the significantly different wages that certain workers earn—compared to others working for the same parent company—solely because of who holds their employment agreements.
+Ensure safe and secure employment
+The fact that many existing labor laws do not acknowledge the unique facets of contract work or adequately protect contract workers is part of the reason the practice is burgeoning, and that working conditions are often so poor. Contract workers must have written information about their job assignments, clear personnel policies and protections, clear contract terms, formal contract extension and cancellation processes, written and accessible pathways to conversion to direct employment, the ability to speak plainly and openly about their work histories, and more.
+Federal bills including the Restoring Worker Power Act58 from 2020 outline what a worker-centered temporary worker bill of rights could contain. From receiving little to no written information about their job assignments, contract terms that are frequently in flux and subject to abrupt cancellation, and scant benefits to no meaningful ability to speak up on the job,
+contract workers need dedicated and clear worker protections.
+Bring transparency to the contract workforce
+Measures that create public data and give workers the ability to combat pay disparities are critical. Right now, the relationships between tech companies and contracting agencies are a black box. Even the tech companies don’t know exactly how much some contract workers earn or the specifics of their employment agreements. Traditional workforce reporting processes, including the federal EEO-159 and BLS60 reports, let contracting agencies hide the scale of the problem, by decoupling the workers from their parent companies in ways that prevent contract-worker-to-direct-worker comparisons. To understand the scope and inherent
+disparities of limited duration contracts, public agencies must collect granular information on worker earnings, demographics, and company placements disaggregated by worker classification. Requiring that the data come from the parent companies via the contracting agencies would also disrupt the practice that shields companies from the personnel decisions made by contracting agencies and lets corporations deny responsibility for wage and demographic disparities.
+Here, the Restoring Worker Power Act again offers one model for how contracting and parent company reporting could look. Locally, recent legislative proposals including California’s 2021 Worker Metrics61 bill also seek to reveal the contours of the contingent workforce.
+Across the country, workers are organizing for more transparency and protections in the contingent workforce. TechEquity Collaborative is working with workers, advocates, labor, researchers, and others to advance policy solutions for contract worker justice in California.
+Closing the Gap: Worker-Led Solutions
+
+
+The research and analysis in the Contract Worker Disparity Project are a product of workers’ generosity with their insights and experiences. Current and former contract workers are the experts on this issue, and will be the best shepherds of reform.
+
+
+
+
+Contract workers—and directly-employed tech workers—have already taken the helm on a variety of models for improving the industry and these practices from compiling Know Your Rights resources via Temp Worker Justice to the Tech Worker Handbook issued by Ifeoma Ozoma and organizations forming like Alphabet Workers Union and the Temporary Workers of America, to pioneering digital models focused on worker- centered campaigns at Coworker.Org.
+No matter the model it will be up to the workers themselves to decide what pathways they want to take. We hope that our research, recommendations for responsible contracting and public policy solutions, and our education of tech workers can provide another set of tools for contract workers and tech companies who want to end these harmful practices and ensure that everyone working in tech experiences a sustainable, healthy, equitable workplace.

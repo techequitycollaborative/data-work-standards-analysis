@@ -1,0 +1,102 @@
+﻿Principle 1: Fair Pay
+1.1 - Workers are paid on time and for all completed work (one point)
+Workers must have full confidence that they will be paid for the work they do. Workers can sometimes face the risk of a client not paying for work that has been completed. To achieve this point platforms must guarantee that this is not possible. Where a client considers that work is not completed satisfactorily, there must be a clear and reasonable process for rejection decisions. Additionally, timeliness and regularity of payment are crucial to evidencing fair pay.
+The platform must satisfy all of the following:
+* Non-payment is not an option for clients and there are mechanisms to ensure workers are paid.[1]
+* Payments are made within an agreed timeframe.
+* Workers can choose to be paid in a recognised national currency.
+* Workers can request funds from their account on a regular basis with reasonable withdrawal thresholds.
+1.2 - Workers are paid at least the local minimum wage (one additional point)
+The rate of pay after costs (like platform fees) must meet the minimum legal threshold in the place where the worker works, regardless of whether the worker earns an hourly wage, or engages in piece-rate work.
+The platform must satisfy either 1) or 2) depending on their payment model:
+1. For hourly-paid work, workers earn at least their local minimum wage after costs.
+2. For piece-rate work:
+   * The vast majority of workers earn at least their local minimum wage after costs, [2] and
+   * A reasonable estimate of the time it takes to complete each task is provided to each worker before they accept the work.
+ 
+  
+
+Principle 2: Fair Conditions
+2.1 - Precarity and overwork are mitigated (one point)
+Workers may spend a significant amount of their working day applying for jobs, especially if they are competing with a lot of other workers. This can include sending credentials to prospective clients, or developing pitches. This constitutes working time, but it is time that the worker is not being paid for. In order to reduce this unpaid working time, platforms should ensure that jobs are available to workers on the platform, and there is not an unmitigated oversupply of labour.
+The platform must satisfy the following: 
+* The allocation of work and/or supply of new workers is managed to promote job availability, and reduce unpaid work and overwork.[3]
+2.2 - Healthy and safety risks are mitigated (one additional point)
+Health and safety risks to workers can include amongst other things exposure to psychologically harmful material, financial scams, and breaches of data privacy and security. To achieve this point the platform must demonstrate policies and processes that minimise risks to workers.
+The platform must satisfy all of the following: 
+* There are policies to protect workers from risks that arise from the processes of work.
+* There are processes for job-related health and safety risks (including psychological risks) to be identified and addressed.
+* Risks related to a specific job are flagged to workers before they accept the job (such as indicating that they might be exposed to violent content).
+* There are clear reporting channels and documented penalties for clients who jeopardise workers’ health and safety.
+* There are adequate and ethical data privacy and security measures applicable to workers, laid out in a documented policy.[4]
+  
+
+Principle 3: Fair Contracts
+3.1 - Clear terms and conditions are available (one point)
+The terms and conditions governing platform work are not always clear and accessible to workers. To achieve this point the platform must demonstrate that workers are able to understand, agree to, and access the conditions of their work, and that they have legal recourse if the platform breaches those conditions.
+The platform must satisfy all of the following: 
+* The contract is written in clear and comprehensible language that the worker could be expected to understand.
+* The contract is available for workers to access at all times.
+* Workers are notified of proposed changes in a reasonable timeframe before changes come into effect.
+* Changes should not reverse existing accrued benefits and reasonable expectations on which workers have relied.
+* The contract does not require workers to waive rights to reasonable legal recourse against the platform.
+3.2 - Contracts are consistent with the workers’ terms of engagement on the platform (one additional point)
+Platforms mediate the contact and the transaction between workers and clients. Therefore they have a responsibility for oversight of the relationship between workers and clients, and to protect workers’ interests. This also includes a duty of care in ensuring that direct contracts (such as NDAs) raised between clients and workers do not unfairly disadvantage the worker or reduce the worker’s labour market prospects. Additionally, where workers are self-employed, contracts should allow for freedom to choose their own working schedules, and the jobs they accept or refuse on the platform.
+The platform must satisfy ALL of the following:
+* Clients are encouraged to inform workers about how their work will be used.
+* The worker is not subject to non-compete clauses.
+Except in cases where the worker is in a standard employment relationship the platform makes clear to workers and clients that:
+* Working schedules cannot be imposed upon workers.[5]
+* The worker retains the freedom to choose which tasks to accept or refuse.
+* When workers choose not to accept tasks, this does not punitively impact their rating or reputation.[6]
+Principle 4: Fair Management
+4.1 - There is due process for decisions affecting workers (one point)
+Platform workers can experience deactivation; being barred from accessing the platform, sometimes without due process, and losing their income. Workers may be subject to other penalties or disciplinary decisions without the ability to contact the platform to challenge or appeal them if they believe they are unfair. To achieve this point, platforms must demonstrate an ability for workers to meaningfully appeal disciplinary actions.
+The platform must satisfy all of the following: 
+* There is a channel for workers to communicate with a human representative of the platform. This channel is documented in policies that are easily accessible to workers, and communications are responded to within a reasonable timeframe.
+* There is documentation of things the worker isn’t allowed to do, and workers receive an explanation for all punitive actions, including reductions in their rating/platform standing, non-payment, work rejections, penalties, account blocks, deactivation and any other disciplinary actions.
+* Explanations for punitive actions and work rejections include information on how they can be appealed.
+* The process for workers to appeal punitive actions and work rejections is non-arduous, documented in the contract, and available to workers who no longer have access to the platform.
+4.2 - There is equity in the management process (one additional point)
+The majority of platforms do not actively discriminate against particular groups of workers. However, they may inadvertently exacerbate already existing inequalities through their design and management. To achieve this point, platforms must show that they have policies against discrimination that can occur between different user groups, and that workers are assured that they will not be disadvantaged through management processes.
+The platform must satisfy all of the following: 
+* There is a policy which guarantees that the platform will not discriminate against persons on the grounds of racial, ethnic, social or minority background, caste, religion or belief, political or any other opinion, language, gender, gender identity, sex, sexual orientation, disability, age, geographical location, or any other status.
+* There are mechanisms to reduce the risk of clients discriminating against workers on any basis listed above.
+* The platform specifies the methods used to manage and allocate work (including when algorithms are used). Substantive changes to methods of managing and allocating work are preceded by a worker consultation.
+Principle 5: Fair Representation
+5.1 - Workers have access to representation, and freedom of association (one point)
+To observe workers’ right to fair representation, platforms must ensure that workers have information about their options for representation in a dispute, as well as ensuring they have access to an independent advocate. Platforms must also guarantee that workers have freedom of association, as enshrined in the constitution of the International Labour Organisation and the Universal Declaration of Human Rights.
+The platform must satisfy all of the following: 
+* The platform commits to a dispute resolution process in which workers can access an independent representative freely chosen by them or an unbiased, independent, and accessible dispute resolution system. [7][8]
+* Freedom of association is not inhibited and groups of workers are not disadvantaged in any way for communicating their concerns, demands and wishes to management.
+5.2 - There is collective governance or bargaining (one additional point)
+The ability for workers to organise and collectively express their voice is an important prerequisite for fair working conditions. Workers must be able to assert their demands through a representational body which is free from any influence by platform management. Where such a body does not exist, it is incumbent on platforms to ensure workers’ voices can be represented by encouraging its formation.
+The platform must satisfy either 1), 2) or 3):
+1. It is democratically governed by workers.
+2. It formally engages with an independent collective body of workers, an elected works council or trade union, and has not refused to engage with collective bodies who seek representation and/or bargaining. New workers are advised of the existence of these bodies.
+3. If such a body does not exist, or such bodies have not requested recognition by the platform, the platform has engaged in a formal process of dialogue with local and/or international representative bodies of workers to discuss what structures and processes of representation could look like for platform workers.
+1. PLATFORM: Here, the term ‘platform’ is used to refer to a ‘cloudwork platform’ (Woodcock and Graham 2020). Cloudwork platforms are one of two broad types of ‘digital labour platforms’. There are two points of note here. First, a ‘digital labour platform’ is a company that uses digital resources to mediate value-creating interactions between consumers and individual service-providing workers, i.e. that digitally mediates transactions of labour. Digital platforms like Airbnb or eBay—where goods are exchanged—are not included within this definition. Second, among digital labour platforms, there are two broad types. In the first—’geographically-tethered’ or ‘location-based’ platforms—the work is required to be done in a particular location (e.g. delivering food from a restaurant to an apartment or driving a person from one part of town to another). In contrast, in the second—’cloudwork’ platforms—the work can, in theory, be performed from anywhere via the internet (e.g. data categorisation or online freelancing). In these principles, the term ‘platform’ refers only to the second category of cloudwork platforms.
+2. WORKER: People who find work through platforms, regardless of their employment status (e.g. employees or independent contractors).
+3. CONTRACTS: All written agreements between parties about the terms of the work including terms and conditions. These may be signed in-person or electronically.
+Footnotes
+1. As a guideline for ensuring non-payment is not an option, see  criteria developed by Harmon and Silberman in their 2018 ‘Rating working conditions on digital labour platforms’, as follows:
+In cases where rejection mechanisms exist for delivered work:
+* Workers should be able to contest rejection decisions.
+* Workers receive a clear and reasonable explanation for any rejections
+* Workers may attempt to redo rejected work at least once
+* If the worker contests the rejection decision, the case is reviewed (a second time) by a neutral third party, who makes a binding decision; the platform agrees not to punish the worker in any way if the third party decides in favor of the worker
+* If the work is rejected it is not able to be used by the client. 
+2. This can be evidenced either through a policy, or by provision of aggregated earnings data. The ‘vast majority’ of workers is understood as 85% or more of all workers engaged on the platform. This is in recognition of the fact that all the time between when a worker starts and submits a task may not necessarily be working time.We compare worker’s piece-work earnings against minimum wages based on UK government guidelines. The calculation is as follows:Number of tasks of a given kind completed by workers on average per hour = A
+* This number is divided by 1.2 to calculate A*, an estimated average number of tasks completed per hour that accounts for the disadvantage that relatively inexperienced workers face.
+* Therefore, A* = 0.83A
+Local minimum hourly wage = M,
+* This figure varies across jurisdictions.
+* Where a jurisdiction’s laws do not specify a minimum wage, a reasonable alternative can be used.
+Fair piece rate corresponding to the minimum wage = F = (M ÷ 0.83A).
+This calculation must be repeated across task types. To receive this point, platforms operating on a piece-work model must demonstrate that 85% or more of workers on their platform earn more than F per hour in each task type.
+3. This could include regular guaranteed hours, managed supply and demand, or minimum and maximum hours.
+4. To fulfil this criterion, platforms must have clear policies about what kind of data is collected from workers, when it is collected, how long it is kept, and how it is processed. They must take responsibility of data handling, storing and management processes, and ensure that personal data is kept safe and secure and is not sold or shared with third parties, without workers’ specific consent.
+5. The platform shall encourage clients to adopt working time arrangements that are consistent with the contractual terms of the worker-client relationship. While workers may be required to meet project deadlines or to attend meetings, in the absence of an employment relationship, the platform shall discourage clients from unreasonably interfering with a worker’s ability to choose their own working time schedule.
+6. When a worker drops out from an ongoing job, this does not punitively impact their rating or reputation if it is for a reasonable cause, or if the worker leaves the job before it started and if the requester has been given sufficient notice.  Platforms might choose to categorise, filter and order inactive profiles without directly changing their reputation score or rating on the platform.
+7. The platform publicly commits to support any effort by its workers to collectively organise or form a trade union. This could be done by, for instance, adding the following text in their contracts: “[company] will support any effort by its workers to collectively organise or form a trade union. Collective bargaining through trade unions can often bring about more favourable working conditions”. Platforms are also required to provide a directory of international labour unions and confederations and advocates to workers on request.
+8. An example is the German Trade Union IG Metall’s Ombuds Office, which arbitrates disputes between workers and platforms that have signed up to the Crowdsourcing Code of Conduct

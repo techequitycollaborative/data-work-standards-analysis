@@ -1,0 +1,303 @@
+﻿Introduction
+On a sunny afternoon in Nairobi, Kenya, a data worker receives
+footage from a Roomba vacuum. The worker labels the objects
+that the Roomba encounters, such as table legs and floor lamps,
+in order to teach it to avoid obstacles, and identifies a carpet
+so that the vacuum learns when it should apply greater suction.
+Another data worker is given a one-minute pornographic video.
+The worker types a list of 40 hashtags that describe the video
+based on the characteristics of the actors–the color of their hair
+or skin, the size and features of their bodies–so that the video
+can be categorized for search results. A third data worker is
+provided images of a murder victim at a crime scene. The worker
+zooms into an image to trace the outline of a bullet wound and
+a smashed skull, and labels them as such, to train AI to perform
+post-mortem analyses. A final worker monitors reels on TikTok,
+flagging user-generated content for infractions of the platform’s
+terms, such as violent threats or graphic footage.
+The seamless functionality of artificial intelligence and the
+relative safety of online spaces are made possible by a vast,
+often hidden, global workforce. Data labelers and content
+moderators form the essential human infrastructure for the
+world’s largest technology firms, performing critical tasks that
+machines have not mastered. Labelers meticulously annotate
+images, text, and videos–training the algorithms that power
+everything from facial recognition and self-driving cars to
+chatbots and recommendation engines. Content moderators
+serve as the frontline guardians of online platforms–”digital
+first responders”–reviewing vast quantities of user-generated
+content to identify and remove harmful material, including hate
+speech, misinformation, and graphic imagery. These workers
+are fundamental to building trustworthy AI and maintaining
+the integrity of the virtual world, yet their contributions are
+undervalued and obscured from public view.
+Introduction
+This report focuses on data workers in a growing technology
+hub: Nairobi, Kenya. Fueled by a young, educated, tech-savvy
+population, a workforce with cultural and linguistic proficiency,
+an economy with globally competitive labor costs, and
+significant government efforts to lure tech-related investment,
+Kenya has emerged as a center for digital labor. Thousands
+of Kenyans are employed by business process outsourcing
+companies (BPOs) or work for online labor platforms,
+undertaking data annotation and content moderation on behalf
+of major global corporations. A defining characteristic of the
+digital economy, in Kenya and elsewhere, is the complex web of
+outsourcing relationships. Major tech companies rarely employ
+labelers or moderators directly. Instead, they contract the work
+to large multinational BPOs or specialized platforms that, in
+turn, often subcontract parts of the work to smaller, local BPOs
+or use labor brokers to enlist workers from local labor markets.
+The layers of subcontracting in digital supply chains create
+opacity: workers at the end of the chain have no visibility into
+the end client whose products they are building or safeguarding.
+Outsourcing has profound impacts on working conditions, as
+layers of intermediaries skim margins and make it difficult for
+workers to hold lead firms accountable for labor violations or
+poor treatment. This report sheds light on the experiences of
+Kenyan data workers at the far reaches of digital supply chains
+and offers recommendations based on workers’ desires for
+improved working conditions.
+Methodology and Sample
+During July 2025, the Data Labellers Association administered
+an in-person survey to digital supply chain workers in Kenya
+to better understand their working conditions and the impacts
+of this work on their wellbeing, yielding 226 valid surveys.
+All survey responses are anonymous. The sample includes data
+labellers (87%), content moderators (8%), and other digital
+workers such as transcribers (5%). Of these respondents,
+54% worked for online platforms and 46% were employed by
+BPOs. Among the respondents who worked for BPOs, 19 firms
+were represented.
+In terms of educational attainment, 39% of respondents have
+earned a bachelor’s degree, 39% have completed some university
+studies, 22% have a high school diploma, and 1% have a master’s
+degree. The top areas of study were computer science (22%),
+engineering (11%), and business administration (10%).
+More than one-quarter (28%) of respondents are age 20 to 25,
+more than half (54%) are 26 to 31 years old, 17% are 32 to 37 years
+old, and 2% are 38 years old or older (Figure 1).
+Fifty-eight percent of respondents were men and 42%
+were women.
+All respondents were born in Kenya.
+Outsourced Work in Digital Supply Chains
+Leading global corporations, including technology firms, major
+retailers, and online platforms, outsource essential data tasks
+like content moderation and AI training to BPOs and digital
+labor platforms. These BPOs and platforms manage global
+workforces of data workers who perform tasks according to the
+end clients’ specifications, while workers have little insight into
+who their work benefits and how it will be used.
+While most data workers opt to work for either a BPO or a
+platform, 23% of workers surveyed are working for both a BPO
+and a platform, an indication of workers’ attempts to diversify
+income sources and increase their take-home pay.
+Workers hired by BPOs are likely to have an employment
+contract with their employer (82%). Yet one quarter of those
+workers say they do not understand everything in their
+contract. Nearly all (93%) of BPO workers are asked to sign a
+non-disclosure agreement as a condition of employment, which
+can have consequences for speaking out about substandard
+conditions or other workplace challenges.
+Platform workers are far less likely than those employed by
+BPOs to have a contract with the platform they use most
+frequently (26%), and of those, two-thirds (67%) do not
+understand everything in their contract. Contract documents
+can be lengthy and use legal language unfamiliar to workers.
+Thirty-four percent of platform workers report being asked to
+sign a non-disclosure agreement.
+Non-payment of work is a common issue: more than half
+of platform workers (53%) report that, in the past year, they
+have done platform work and not been paid for the tasks they
+completed. Workers report tasks being rejected, often with no
+explanation, account deactivation without notice or recourse,
+and waiting long periods between task completion and payment.
+Lack of payment and delayed payment can have substantial
+impacts on workers’ financial insecurity, a topic we turn to next.
+Data Workers Face Mounting Financial Hardships
+Despite playing a critical role in the digital economy, many data
+workers face persistent financial hardships. With inadequate
+job security and compensation well below a living wage, they
+struggle to meet basic needs, including paying for housing,
+healthcare, and education and childcare, even as their labor fuels
+the development of cutting-edge technologies. This disconnect
+between the value of their contributions and their economic
+personal realities underscores the growing inequality in digital
+supply-chain labor markets.
+2 In the last two months, were you able to
+comfortably afford housing?
+When asked whether in the
+past two months they were
+able to comfortably cover
+their housing costs, the vast
+majority of respondents–69%
+–indicated that they are not
+able to do so (Figure 2).
+Nearly three in four
+respondents (73%) reported
+that in the past two months,
+they were not able to
+comfortably cover childcare
+or school fees (Figure 3).
+3 In the last two months, were you able to
+comfortably afford childcare/school fees?Data Workers Face Mounting Financial Hardships
+4 In the last two months, were you able to
+comfortably afford medical expenses?
+5 In the last two months, were you able to
+comfortably afford food?
+When asked whether in the
+past two months they were
+able to comfortably cover the
+costs of their medications
+and medical fees, 59% of
+respondents indicated that
+they are not able to do so
+(Figure 4).
+Nearly half of respondents
+(47%) reported that over the
+past two months, they were not
+able to comfortably afford the
+cost of food (Figure 5).
+Because of the challenges data
+workers face in covering the
+costs of basic necessities, many
+also face difficulties paying for
+work-related expenses. Nearly
+half (47%) indicated that in the
+past two months, they were
+not able to comfortably cover
+the costs of internet service
+(Figure 6), and 55% were not
+able to comfortably cover their
+transportation costs (Figure 7).
+6 In the last two months, were you able to
+comfortably afford internet service?
+figure 7 In the last two months, were you able to
+comfortably afford transportation?
+Health Risks for Data Workers
+Impacts of Working as a Data Worker
+on Physical Health
+Data work poses significant physical and mental health risks
+to workers. Many data annotators and content moderators
+experience isolation, inadequate support from their employer,
+and burnout. Physically, both roles involve prolonged
+sedentary periods staring at screens, which can lead to eye
+strain, headaches, repetitive injuries such as carpal tunnel
+syndrome, and musculoskeletal disorders resulting from poor
+ergonomics. While 54% of survey respondents report that
+working as a data worker has had no impact on their physical
+health, 36% report a negative impact, and just 9% report a
+positive impact (Figure 8). By far, the leading negative impact
+is degraded eyesight and eye strain as a result of prolonged
+screen time, followed by back pain that comes from sitting for
+extended periods.
+Mentally, the impacts of
+data work can be severe,
+particularly for content
+moderators who are regularly
+exposed to graphic, violent,
+or disturbing material. Data
+annotators, depending on the
+project, also face psychological
+risks, while even mundane
+annotation tasks can lead to
+fatigue and low morale due
+to repetition and pressure to
+intensify the pace of work.
+The survey finds that 48% of
+data annotators report that
+working as a data worker has
+had no impact on their mental
+health, 27% report a negative
+impact, and 25% report a
+positive impact (Figure 9).10 Health Risks for Data Workers
+figure 9 Impacts of Working as a Data Worker on
+Mental Health
+The most commonly reported
+negative impacts are
+insomnia, anxiety, stress, and
+depression. Underreporting is
+common with mental health
+issues, given the continued
+stigma surrounding
+psychological challenges, so
+these are likely conservative
+estimates. The sample size of
+content moderators is too
+small to allow for separate
+analysis, but we believe the
+prevalence of negative mental
+health impacts is considerably
+higher among content
+moderators.
+Eighteen percent of data workers report having to repeatedly
+view content that was violent or disturbing, and the vast
+majority (80%) report that viewing disturbing content caused
+them to experience negative feelings. Many workers keep
+these feelings to themselves, lacking a person with whom they
+feel comfortable sharing such difficult experiences. Workers
+report that some employers (41%) offer what they call “wellness
+coaches” to support workers, but many workers say they fear
+that the information they share will be used against them.
+Others lack confidence that talking with a wellness coach
+would be helpful.11 Data Worker Demands
+Data workers are essential to the functioning of today’s
+digital economy, yet many continue to face low pay, insecure
+employment, and health challenges related to their work.
+In response, data workers are developing an employer code
+of conduct that affirms workers’ right to fair treatment
+and dignified labor. This includes improvements in pay that
+reflect the value of their contributions, reasonable working
+hours and predictable scheduling, transparent and secure
+contracts, and access to essential benefits such as mental health
+and medical care. These standards are not only a matter of
+fairness—they are foundational to building a more ethical and
+sustainable digital economy.
+Survey respondents identified four key components of more
+fair and equitable employment. The first concerns pay: the most
+commonly cited desire is changes in pay standards, principally
+the need to raise pay rates. As the survey data showing
+widespread financial hardships makes clear, data workers in
+Kenya routinely struggle to cover their basic living expenses.
+Employment insecurity is a reality for many, if not most, data
+workers in Kenya. Because of this, a second key demand is the
+adoption of longer-tenure, legally binding contracts written
+in language workers understand. Many data workers operate
+as independent contractors or through layers of subcontracting,
+which strips them of job security, benefits, and avenues
+for recourse against substandard working conditions. This
+precariousness contributes to a constant sense of instability
+and pressure to accept any available work, regardless of its
+impact on workers’ well-being.12 Data Worker Demands
+Relatedly, respondents called for revisions to company
+policies governing work hours. This includes calls to reduce
+the required number of work hours, allowances for greater
+working time flexibility, and the easing of deadlines that require
+overly long workdays. Data annotators often face sporadic
+work schedules, ambiguous task instructions, and constant
+performance monitoring. Mistakes can lead to immediate
+loss of income or access to future assignments. Data workers
+are employed in high-pressure environments, often under
+conditions that are physically, psychologically, and emotionally
+taxing. Underlying the demand to alter scheduling practices is
+the need to alleviate some of the work stresses that have been so
+debilitating for the workforce.
+In recognition of the physical and mental hardships faced by
+data workers, a fourth demand concerns the need for companies
+to provide better mental health counseling as well as medical
+insurance. Data workers involved in content moderation
+are frequently exposed to graphic and disturbing material—
+such as violence, hate speech, and sexual abuse—at a rapid pace,
+sometimes reviewing hundreds of items per day. This has led
+to widespread reports of trauma, depression, and substance
+abuse among workers, especially in outsourced operations.
+Companies in the digital economy bear some responsibility for
+the harmful exposures to which workers are subjected, and they
+must do more to safeguard their well-being. Harms could be at
+least partially mitigated by (a) contracts that provide greater
+transparency about work tasks and ensure workers’ informed
+consent to undertake these tasks, (b) a more robust support
+infrastructure that helps workers cope with the emotional toll
+of these tasks, and (c) more worker-friendly scheduling that
+eases the burdens associated with intense periods of exposure
+to harmful material.

@@ -1,0 +1,566 @@
+﻿Stage 01
+The first stage serves as a checklist and roadmap for addressing documented precarities surrounding data workers.
+The standards make recommendations on how data workers’ contracts are arranged, workers’ freedom to pursue aid
+and redressal as per regulations, their ability to earn, the design of their working environments, required safety
+measures, and termination processes. Compliance with local regulations and this first stage of standards will create
+basic safety and stability for workers involved in data generation and enrichment.
+Decent contracts
+Contracts’ designs can create risks and strain for workers. These problems arise from contractual practices like short
+contract durations, excessive non-disclosure measures, and inadequate information on topics like workflows, the
+downstream use of datasets, and the potential hazards for workers. Companies can design and administer contracts
+that inform workers about their roles, avoid potentially harmful constraints, and provide paid work for substantial
+periods of time.
+Easy to understand
+Contract contents should be written in a way that most people can understand and should be available in languages
+workers are proficient in.
+Minimum contract duration
+Companies' worker contracts cannot have engagement periods of less than three months.
+Clear information in the contract
+Workers' contracts should include key information about key topics like compensation calculation, the role’s
+requirements and processes, the metrics and information collected about them, the hazards and risks involved, and
+all policies related to termination, promotion, and social support and benefits.
+Auxiliary standard: Companies managing data workers need to minimize vagueness and open-endedness
+surrounding worker’s roles, the workflows, and company expectations. As workers are introduced to new work and
+roles, they should be provided clear, updated contracts that explain the changes being made to their work.
+Guaranteed freedoms
+Governments provide requirements, entitlements and guidance that help define acceptable working conditions and
+labor well-being. Data workers can face resistance when they attempt to raise organizational issues or collectivise.
+Workers should not face impediments, intimidation or retaliation for availing any redressal or rights available to them.
+Wherever possible, companies should follow local regulations and respect workers’ rights.
+Non-interference in rights and regulations
+Workers' contracts should not ask or require workers to waive any of their labor rights, contract terms, or any other
+provisions and remedies available to them under local laws and regulations.
+Freedom to raise issues
+Companies should not, through contracts, business confidentiality measures, or any other means, stop and silence
+workers from raising issues and sharing information on any challenges or risks they face in their work.
+For example, workers cannot be prevented from discussing their distress or problems freely with their families,
+doctors, lawyers, or mental health practitioners.
+No penalisation for raising issues
+No worker should be penalized, removed from work, or refused a contract renewal for raising issues with the
+company, management, or among one's fellow workers.
+No retaliation for seeking recourse from outside the firm
+No workers should be removed from work, refused a contract renewal, stopped, intimidated, coerced, prohibited, or
+penalized for pursuing legal remedies of any form, for associating with any worker-related collectivization or groups,
+or for attempting to initiate or engaging in collectivizing or unionizing activities.
+Trustworthy payroll
+In the gig-based roles like data work, the way earnings are calculated, managed, and delivered is critical to labor
+well-being. Issues like delays in payments, unpredictable availability of paid work, and low rates of remuneration
+make earning through data work a challenge. Companies need to ensure that data workers can earn substantially
+and on time, and that the systems governing pay are fair, predictable and transparent to workers.
+Living and minimum wages
+Companies should make arrangements to ensure that workers' take-home earnings exceed the minimum wage
+stipulated by local laws and regulations. In the regions where living wage figures are available, companies have to
+abide by living wages instead of minimum wages.
+Payments for work-related labor beyond client tasks
+Companies should remunerate the workers for the labor they complete in addition to their handling of data tasks. For
+example, a considerable amount of unpaid labor gets done in completing tests and eligibility related tasks.
+Payments in local national currency
+By default, workers' remuneration should be paid in official national currency. Companies cannot force workers to
+receive their earnings in alternative forms, such as cryptocurrency, gift cards, or digital currency.
+This standard applies to any and all forms of money that is due to workers, including, but not limited to, salaries,
+per-task pay, overtime pay, and bonuses and incentives.
+Fixed schedule of payments
+Regardless of whether they earn on a salary or per-task basis, all workers are to receive their pay as per the
+schedule set by the organization. Changes to the schedule should be made after notifying all workers about the
+impending change.
+Auxiliary standards:
+Workers who earn on a per-task basis or on platforms should receive their accrued earnings periodically,
+based on a fixed schedule. For example, data workers’ earnings should be transferred to them at least once
+a week without fail.
+Workers earning on a per-task basis or on platforms should be able to request the transfer of their accrued
+earnings before the scheduled payday. This provision should be available for use, at the very least, twice a
+month.
+Unconditional transfer of wages
+Under no circumstances can a company delay or refuse to transfer a worker’s pay for completed work. Sending
+people their earnings cannot be made conditional on things like surpassing metrics or adopting behaviours as
+dictated by company management.
+This standard applies to any and all payments due to data workers, be it “base pay” or “bonus pay.”
+Access to payment records
+All workers should be provided with accurate, up-to-date, downloadable, and printable records that describe the work
+they have completed, the earnings due to them, and the status of past and pending payments. Workers receiving
+electronic records only should also have an option to opt-in for receiving printed records.
+A tentative and non-exhaustive list of information that the design of payment records can consider including is
+provided below.
+The data worker’s identification, featuring information like their full name, their designation, and
+company-issued ID numbers.
+The bill’s date of issue, the company’s method of payment.
+The number and type of tasks completed, the project being serviced, and the worker’s supervisor.
+The per-task rate, and the earnings due.
+Any deductions made from dues on the grounds of tax requirements, worker penalties, or company charges.
+Auxiliary standard: Companies should design workers' receipt documents in ways that make them usable with the
+local tax authorities. The breakdown between any taxes deducted (including the rate of taxes), any commission
+collected by the company or third parties, and the amount left for the data worker should be clearly depicted.
+Share information about calculations
+Companies should make the task pay calculation formulae, metrics, and processes transparent to the workers.
+Changes to such systems should be indicated in the information provided to workers.
+Payment monitoring and grievance redressal systems
+Companies need dedicated personnel and resources to monitor remuneration processes and ensure timely and
+correct payments. Workers should be provided with a dependable way to reach these assistance services for help
+and to make inquiries.
+Supportive workflows
+Issues like inadequate specifications from clients, and insufficient training for completing tasks can make data
+workers’ operations harder. Companies need to provide data workers with relevant capacity-building, sufficient
+information on what they need to do, and reliable communication channels for support. Furthermore, workers should
+be able to expect a reasonable level of transparency on the purpose of their work and the clients they service, and
+their choices to accept or reject tasks should be respected.
+Human involvement in communications
+Companies should establish human-run communication channels where workers can directly interact with company
+management to raise concerns and seek solutions. Workers should be notified of the availability of such
+communication channels repeatedly, and they should be consulted to identify the format of communication mostappropriate for them. This standard does not necessarily require workers and company personnel to be physically
+present in the same space.
+Language choice in communications
+All communications directed at a worker should, at the very least, be provided in their native language, or one that
+they have indicated. Companies should take the necessary steps to accommodate workers who have disabilities or
+difficulties.
+This standard applies to the companies data workers work for, the clients they treat data for, and any supervisors,
+managers, or data-quality personnel overseeing workers.
+Training for workers
+Companies should provide adequate training to ensure workers have the required knowledge and skills to complete
+tasks efficiently. This training should be comprehensive enough to include information on topics like how the tasks
+need to be done, what kind of guidelines should be followed, and how to operate the tools (software and so on)
+involved in completing the work.
+Dedicated and responsive support with tools, software, and platforms
+Companies need to have a dedicated team for resolving issues and doubts data workers face with the digital tools
+and software needed to fulfill various aspects of their roles, such as team communications, treating and enriching
+data, submitting work, or anything else.
+Auxiliary Standards: For any hardware or software tools companies require workers to install on their device,
+companies need to disclose to workers the functioning and usage of these tools, including any recording or tracking
+functions.
+Preparing instructions for workers
+Companies should work with the clients to develop clear instruction sets for workers' use. This involves companies
+directly working with clients to draft instructions and consulting workers to ensure such information's adequacy.
+Clarity on clients and datasets’ purpose(s)
+Workers should be provided enough information for them to be able to know what kind of work they are involved in,
+and for them to make informed decisions about their engagement with the role. To this end, companies should at
+least share information with workers about the purpose of the data work they do, who the client is, and what the data
+might be used for.
+Auxiliary standard: Whenever a worker is assigned to a new project or client, they should be briefed on the nature of
+the data and content they will handle, and any harms they could be exposed to in the process.
+Setting reasonable quotas and targets, and allowing breaks
+Companies’ project management and distribution of tasks must not put workers at risk of adverse effects like mental
+health problems, health distress, and burnout.
+The quotas for completing tasks need to be set such that workers should be able to meet their targets while being
+able to take breaks that allow a sufficient amount of mental and physical recovery. Companies should develop
+role-specific targets after consulting data workers involved in different kinds of tasks.Further guidance on setting quotas and targets can be found in Standard 3 in “Lasting Collaboration" under Stage 03.
+Reasonable time periods for task completion
+Companies should provide workers with an adequate time frame within which they need to complete the tasks
+assigned to them before management diverts the tasks elsewhere. Companies should build systems that alert
+workers about deadlines and impending redirection of tasks.
+Regularizing working hours
+Companies should follow national regulation on working hours, and in the absence of such regulations, have working
+days that are no longer than 6 hours.
+Auxiliary standards for all models involving the handling of disturbing content: All workers who handle data that
+contains disturbing content, should be given periodic breaks to recover from the potential toll of the work. Taking
+these breaks should not affect the workers’ performance evaluation or pay calculation in any way.
+Companies should also conduct some form of check-ins that ask workers about their well-being, and offer options for
+support, breaks from the work, and, if available, long-term or temporary transfers to other projects or work
+assignments.
+Auxiliary standard : All workers that work on a purely task basis, without fixed hours or fixed shifts, can stop and
+resume working as they see fit. Businesses cannot penalize workers for being flexible with their working hours and
+engagement with the platform.
+Explanations for rejected tasks
+All workers should receive communication on why their submitted task was rejected or flagged as "incorrect."
+Furthermore, they should be provided assistance and guidance on meeting clients’ and validators’ requirements.
+Opportunity to correct rejected tasks and earn
+Workers who earn on a per-task basis should receive a chance to retry rejected tasks at least once. Companies
+should pay full amount to the workers on correctly completing the task in the second attempt.
+Abstaining from tasks and projects
+Workers can refuse to work on a particular project or for a client on the grounds of the content of the data they will
+handle. Companies should not penalize workers for such decisions.
+Critical protections
+Workers need assurances and protections that allow them to derive a decent living from their work. It is possible for
+data workers to run into adverse circumstances, like contracting a serious illness, or to suffer work-related injuries or
+trauma. Such events can have severe impacts, such as diminishing people’s savings or hindering their ability to work
+and earn. Unpredictability in the availability of paid work can disrupt earnings and their ability to care for themselves
+and their household. Thus, companies need to arrange measures that act as safety nets, worker care for hazardous
+work, and as guarantees on earnings.
+Identify workers’ risks and harms
+Companies need to assess the kinds of risks and harms data workers shoulder. Such assessments should be driven
+by extensive interactions with workers across the different data work roles across the company. This informationshould feed the development of policies and care measures (discussed in Standard 2 and 3 in “Comprehensive Care”
+under Stage 02) that provide assistance and support to workers in forms like hazard pay, insurance policies, and
+access to wellness services like counselling.
+Companies that lack policies and measures of worker care must, at the very least, observe strict redlines that prohibit
+the organization’s involvement in projects requiring data workers to handle disturbing content.
+Further guidance on care measures for data workers can be found in Standards 2, 3, and 4 in “Comprehensive Care”
+under Stage 02.
+
+
+Providing care measures for at-risk workers
+Companies must provide data workers immediate and unconditional access to care measures should their role
+involve disturbing content. These measures must be adequately equipped to aid workers, and responsive to risks and
+distress.
+Auxiliary standard: Data workers needing mental health care should be able to opt for external services rather than
+have to engage with company-affiliated practitioners and programmes. There should be no restrictions on data
+workers’ ability to discuss things with the mental health service provider.
+Further guidance on care measures for data workers can be found in Standard 3 in “Comprehensive Care” under
+Stage 02.
+Workers’ choice to work longer hours
+No worker can be forcibly signed on to work for more than 8 hours a day, including breaks without overtime pay. A
+worker can refuse overtime, and should not be penalized for their decision.
+This standard’s recommendation of 8 hours as the maximum length of the working day is tentative. Companies
+should engage workers, unions, and relevant labor institutions to understand good practices, and set their policies
+accordingly.
+Periodic breaks for active workers
+All workers that work on a shift basis, or are monitored on metrics like time spent working, should be entitled to 1 hour
+long lunch break and 15 minutes of break for every 2 hours of work.
+This standard’s recommendation of providing breaktime relative to the hours of work done is tentative. Companies
+should engage workers, unions, and relevant labor institutions to understand good practices, and set their policies
+accordingly.
+This standard’s recommendation of providing breaktime relative to the hours of work done is tentative. Companies
+should engage workers, unions, and relevant labor institutions to understand good practices, and set their policies
+accordingly.
+Workers’ leaves
+All workers that work on a shift basis, or are monitored as they work, are entitled to paid time off, and to sick leaves,
+commensurate with the local regulations.
+Minimum earning opportunities for workers
+In situations where workers do not earn fixed salaries, and/or they are required to meet periodic company-mandated
+quotas, they should have a minimum workload available to them every week. This minimum workload represents the
+minimum amount of earnings accessible to workers, and is, at the very least, equivalent to 1 week's worth of the local
+minimum wage. If living wage rates exist for the area, then they must be applied instead of minimum wage numbers.
+Auxiliary standard: Companies should introduce and maintain channels that provide workers with information about
+projects and opportunities within the organization. The onus to locate and apply for earnings opportunities should not
+be solely on workers.
+Ensuring substantial periods of work
+Companies need to ensure that they assign people work on as constant a basis as possible.
+For example, workers should not be benched for weeks or months at a time, only to receive a tiny amount of work for
+a few days, before they are left without paid work again.
+Limiting unpaid time for workers and offering basic support
+Workers should not be benched for more than three weeks at a time. Should benching exceed 21 days, then workers
+should get paid the minimum workload amount's worth to them for every additional week they spend benched.
+This standard’s recommendation of 21 days as the maximum unpaid benching time is tentative. Companies should
+engage workers, unions, and relevant labor institutions to understand good practices, and set their policies
+accordingly.
+Advance warning of unpaid waiting periods
+Companies should strive to notify workers no less than 14 days in advance of getting benched. This notice should
+also indicate the estimated duration for the benching. Companies must inform workers whenever they are about to
+have their benching extended.
+This standard’s recommendation of 14 days as the minimum notice period for unpaid benching time is tentative.
+Companies should engage workers, unions, and relevant labor institutions to understand good practices, and set their
+policies accordingly.
+Minimizing workers’ involvement in production costs
+Companies should not require workers to absorb the material costs of accessing data work and completing tasks.
+Companies should take ownership of workers' operating costs and work-related expenses in one of two possible
+ways.
+First, companies develop a reimbursement or financial assistance system based on discussions with workers and
+observing the expenditure they incur to complete tasks.
+For example, through discussions with workers, companies could pilot an internet access allowance, providing active
+workers with a money transfer sufficient to pay for a net pack for downloading and submitting work.
+Second, companies interact with workers to identify key points of operational spending for them, and then find some
+way to provide these services or assets to workers.For example, workers who complete data work using their personal SIMs may be losing substantial amounts of their income to purchasing data packs. Companies can equip ground-level staff with internet hotspot devices that they can
+visit workers with, reducing the operational burden on workers.
+Some areas of coverage to consider on include, but are not limited to the following:
+Damages and subsequent repairs for work-related equipment like phones and computers.
+Internet connectivity packages needed to fulfill work requirements.
+Travel services for the workers who must travel to a designated company workplace and cover long
+distances.
+Travel services for night shift workers.
+Procurement of assistive devices like microphones and headphones for workers handling audio and speech
+data related tasks.
+Contestable termination
+Opaque termination causes data workers to lose their source of income without a chance to adjust to clients and
+companies’ needs, to defend themselves, or to appeal such decisions. Termination has been discussed as a format
+for intimidation and retaliation against workers attempting to raise issues or take action. Termination practices need to
+be transparent, justifiable,and should allow appeals and redressal for workers. Companies also need to ensure that
+exiting workers are paid and their exit entitlements are fulfilled.
+Termination policy governing removal of workers
+Companies should provide a termination policy to workers that outlines the possible grounds for termination and the
+notice period. No worker can be removed from the company for reasons outside the termination policy's contents.
+Informing workers of impending termination
+All workers should be given written notice about reasons and decisions related to their termination or non-renewal of
+contracts in advance. This advance period should, at the very least, exceed 14 days. In addition to writing, such
+notices should be communicated in additional formats that help the worker be informed about decisions regarding
+their continued engagement with the company.
+This standard’s recommendation of 14 days as the minimum notice period for termination is tentative. Companies
+should engage workers, unions, and relevant labor institutions to understand good practices, and set their policies
+accordingly.
+Discussing termination and non-renewal with workers
+Every worker should be able to have an interaction about decisions and reasons regarding possible termination or
+non-renewal of contracts with human members of management. Such interactions can be in-person, or via some
+technological means that is amenable to the worker.
+Clearing payment dues with workers
+Workers who have been asked to leave should be promptly paid any outstanding dues, including any form of
+incentives or bonuses, for the work they have done till that point. Non-payment should carry some form of penalty,
+such as companies having to pay 5% interest on the amount due for every day overdue. Workers should receive
+updates and clear records of these processes.
+This standard’s recommendation of 5% as the penalty for delays and non-payment of exiting workers’ dues is
+tentative. Companies should engage workers, unions, and relevant labor institutions to understand good practices,
+and set their policies accordingly.Auxiliary Standards: Companies with exit-related measures, such as severance or gratuity or any other
+contribution-based measures, must ensure that such dues are also paid in a timely manner.
+Human-mediation in termination processes
+No workers can be terminated, or be rejected from contract renewal, at the sole discretion of algorithmic, automated
+systems. A human being should oversee all decisions pertaining to workers' termination and/or non-renewal of their
+contracts, and appeals processes.
+Appeals process for termination decisions
+All workers who are facing termination or non-renewal are entitled to an appeals process. Such appeals should
+involve the worker meeting company personnel who make termination and non-renewal decisions. Workers are
+entitled to having assistive figures present, like labor representatives, legal counsel, and any other form of aid local
+laws and regulations allow.
+Stage 02
+The standards in the second stage focus on co-creating workflow design and worker-facing systems with the data
+workers. Companies need to integrate measures into their business models and workflows to ensure worker safety,
+provide social security, offer fair wages that reflect actual effort, support upskilling and grant credentials. Together, the
+first two stages aim to manage precarities and develop fair processes across the data work companies’ workflows
+and governance structures.
+Comprehensive care
+Data workers can engage in tasks and workflows that can harm them, such as in content moderation or the handling
+of disturbing images for AI training. Over time, companies need to design, introduce, and manage “care measures”
+that meaningfully help adversely affected workers, and provide compensation that reflects the risks and harms
+workers bear.
+
+
+Hazard pay for dangerous forms of work
+Companies need to have a "hazard pay" system in place for work that can harm the workers handling the
+data/content. At the very least, hazard pay rates should comply with local laws and regulations.
+Auxiliary standard: Hazard pay should be arranged based on consultations with workers, worker representatives and
+collective organizations like unions that represent data workers. The Hazard pay rate should be revised periodically
+(such as when new kinds of tasks are introduced within the company's workforce), and the recalculation process
+needs to be participatory and transparent to workers.
+
+
+Connecting workers to health and safety measures
+Data workers must be provided protections and assistance that assist them through forms of distress like sickness,
+the inability to work, or potential adverse effects of work. Companies can utilize existing protections and institutions,
+but must ensure that workers have aid and support that matches the level of risk and harm their roles entail.
+Enrollment in existing measures: Should there be government-driven systems of support in place, for things
+like insurance and healthcare, companies can direct workers towards these services. If data workers require
+assistance or face access barriers, then companies should assist them with joining and using these
+programmes.Introducing relevant measures: In cases where government-run programmes are absent in the area, or not
+extended to data workers, companies are responsible for providing such services. These services need to
+deliver adequate levels of aid that are easy and quick to avail.
+Auxiliary standard: Companies need to be permissive in giving data workers time to seek treatment and assistance.
+Workers should not be penalized, have their pay reduced, or have their performance evaluations downrated, for time
+spent in seeking aid. If they have depleted the sick leaves they are entitled to, workers should regardless be given
+penalty-free opportunities to use care measures.
+
+
+Defining and upholding a duty of care policy
+Companies need to have a “duty of care policy” (DoC) guaranteeing support and assistance that is aligned to risks
+and problems identified by data workers. As discussed in Standard 2 and 3 in “Critical Protections” under Stage 01,
+companies that have not developed and implemented a DoC policy and care mechanisms must adopt and adhere to
+institutional redlines. These redlines must prohibit companies from accepting projects that put workers in roles
+featuring disturbing content.
+Auxiliary standard: Information on a company’s duty of care policy must be easily available for workers’ perusal.
+Informing workers should not be restricted to mailing them policies, but need to consider methods like having people
+on the ground who can answer questions, and conducting orientations on DoC policies and changes.
+
+
+Accountable management of care mechanisms
+Enrollment and membership processes for company-run care mechanisms need to prioritize workers’ ability to
+access and use services. Ideally, care mechanisms need to be universally provided. Should companies use some
+form of eligibility criteria, they should be clearly communicated to the workers and the companies should strive to
+make these requirements reasonable and contestable.
+Contestability: Workers should be able to check and contest any data that is collected for eligibility purposes.
+For example, if attendance tracking is used to decide insurance eligibility, then workers should be able to
+check these records, and access grievance redressal if they have problems in the attendance logged.
+Reasonableness: For workers not handling disturbing materials, eligibility conditions for care mechanisms
+should be minimalistic and, as far as possible, have short “qualifying periods” for being able to use services.
+As mentioned in Standard 3 in “Critical Protections” under Stage 02, data workers with hazardous roles must
+have access to care mechanisms upon starting such projects.
+For example, workers should not have to wait six months to be eligible for protections like insurance.
+Something like having completed a thirty-day period of completing tasks should be enough to qualify them
+for company-run care mechanisms.
+Auxiliary standard: When government-run services lack the provisions necessary to provide care that aligns with the
+risks and harms of the work, companies should make appropriate arrangements. These arrangements should be
+substantial enough to cover the cost of seeking the treatments or assistance for the harms their roles can cause.
+For example, if a data worker’s treatment, recovery, or prevention involves medication as well as therapy, the
+company-provided care mechanisms need to cover the entire cost involved.
+Co-designed operationsThere can be a disconnect between how policies are designed by companies and the conditions data workers
+experience on the ground. There are tasks that require repeated attempts and considerable effort to satisfy data
+requirements, but pay out small sums. Discussions between labor and workers on matters like performance
+evaluation, or how task rates consider workers’ time and effort, can help build fairer processes for reviewing and
+compensating data workers.
+
+
+Collaborate with workers to develop task rates
+Companies should work with the workers to understand and consider the ground realities which plays a role in
+determining the actual time and effort that goes into fulfilling the tasks. Based on this data, companies should work
+with the workers to set the task rates.
+This standard is further expanded upon in Standard 2 in “Lasting Collaboration” under Stage 3.
+
+
+Worker consultation for performance metrics
+In arrangements where workers are required to fulfill metrics set by the management, periodic consultations between
+companies and its workers must be held. In these consultations, workers can raise issues on any adverse effects and
+strain caused by existing metrics , and can recommend alteration in order to maintain workers' health and ability to
+work.
+Visible workers
+Data workers commit substantial amounts of effort to learn different tools and meet eligibility requirements for various
+task formats. Data workers lack ways to record and present their work experience and skill development, something
+which is crucial for career progression and seeking new earning opportunities. Companies need to recognise data
+workers as assets and contributors, and provide opportunities and testimonials to them. Initiatives like providing
+work-experience records and skilling programs can help data workers manage their careers and navigate uncertain
+job markets.
+
+
+Furnish workers with credentials
+Companies need to implement a system for providing workers with formal records and certification, which they can
+use to apply elsewhere and build a body of work experience.
+For example, companies can develop “skill passports” that leave data workers with attested records of their
+experience and competencies.
+Auxiliary Standard: Companies should work to provide records that can be recognized by businesses within and
+beyond the data work sector. Workers need to have sufficient proof of their engagement with data work companies,
+some way to carry forward data regarding their reputation and performance, and reasonably descriptive accounts of
+their work experience and proficiencies.
+
+
+Enable upskilling among workers
+Companies need to arrange or build skilling programs that help workers to either transition to better-paying data work
+roles, or to pursue opportunities in other professions and organizations.
+
+
+Transparency in worker evaluation
+Companies need to administer data workers’ pay increases, promotions, and evaluations in a transparent manner.
+Companies need to provide workers with clear, up-to-date and accurate information on how career progression andindividual evaluation works within the organization, covering topics like promotions, pay adjustment, feedback,
+penalties, and applying for new roles.
+
+
+Stage 03
+The level of policy engagement with data work and its problems is unevenly distributed across the world. Companies
+can look to international guidance on topics like labour welfare, responsible business practices, and human rights to
+think about how to build better workplaces. Beyond looking outwards for guidance, companies should engage with
+external initiatives to assess conditions and practice, discuss labor issues, and design improvements.
+Receptive governance
+The level of policy engagement with data work and its problems is unevenly distributed across the world. Companies
+can look to international guidance on topics like labour welfare, responsible business practices, and human rights to
+think about how to build better workplaces. Beyond looking outwards for guidance, companies should engage with
+external initiatives to assess conditions and practice, discuss labor issues, and design improvements.
+
+
+Integrate rights frameworks and charters into company governance
+Companies need to adopt frameworks and take steps to uphold human rights in the workplaces they manage. They
+should conduct human rights impact assessments and release publicly available reports.
+
+
+Openness to third-party inspections
+In addition to publishing publicly accessible reports discussing their labour practices, companies should develop the
+practice of hosting external assessments of working conditions and socioeconomic trends of data work. It should be
+possible for external parties representing labour, civil society, or the state, to attempt research and assessments
+focusing on data workers without interference or hindrance from businesses.
+Auxiliary standard: When companies open their doors to external parties for reasons like research or assessment,
+they need to enable the visiting party to choose how they conduct their work and interact with people. Companies
+need to refrain from attempting to control or influence the information or testimonies external parties can access.
+Lasting collaboration
+A growing number of voices are talking about the risks and problems data workers face. Data work has been
+associated with issues like low pay, unpaid labor, uncertainty in getting paid work, precariously short contracts,
+intense work pressure, and adverse effects on health and mental well-being. Directly engaging workers and unions is
+key to understanding problems within and beyond the workflow. Such engagement can help address labor conditions
+in ways that are useful to workers and improve the workflows driving the business.
+
+
+Work with labor stakeholders
+Formally acknowledge collective organizations and engage in negotiation efforts with them. Companies need to be
+ready to form and implement agreements with stakeholders like unions. Workers must be safe from company-side
+penalties or retaliation for participating in or initiating collective action.
+
+
+Co-design a pay system for remunerating effort, not tasks
+Companies should co-develop a process with the workers for remunerating the basic effort involved in tasks, with
+tasks’ “correctness” no longer being the defining criteria. Through this protocol, the workers must be given a chanceto negotiate the wages as per the amount of effort needed and skills committed in completing the tasks in question.
+This standard applies to the entirety of the compensation possible for a worker, including, but not limited to, base pay,
+bonus and incentive pay, and hazard pay. Companies need to conduct this co-development process with workers at
+least once a year.
+They should also open up discussions whenever they introduce new kinds of tasks and roles to the workforce.
+For example, if a data work company starts taking content moderation contracts, they should initiate discussions on
+how earnings will be calculated, regardless of whether one such meeting has already been held that year.
+
+
+Sustainable work targets
+Companies need to have a well-defined process for how they set the “quotas” or “targets” workers need to meet
+within a particular time period (in an hour, in a day, by the end of the week, and so on). Workers and businesses need
+to work together to set targets such that workers are not at risk of suffering from adverse effects like burnout,
+worsening worse stress, and health conditions.
+Co-designed targets can be seen as the “optimal workload” that lies between ensuring that everyone can earn
+substantial amounts of pay, and that company quotas are not causing worker distress or putting their well-being at
+risk.
+
+
+Transitions into full employment
+For long-serving workers, companies need to create and provide the option for them to transition from a contractor
+position to full employment. Workers should also be able to seek letters of service from the company that attest to
+their work experience and possibly offer commendation.
+
+
+Routinely consult workers about changes and issues
+Establish consultation mechanisms where companies discuss key issues, like pay, and co-design solutions and
+changes. Workers must not be penalized, disciplined, or called out for attempting to raise issues, discussing changes,
+and calling for action.
+Appendix
+This section discusses our thinking on guiding values and considering business models types when developing the
+standards for data work. Please get in touch with us with any questions or ideas you have!
+I. Glossary
+Data workers
+Working people who handle data materials as per the specifications of their companies and paying clients, for
+purposes like the training of artificial intelligence (AI) or the moderation of user-generated content in online spaces.
+Data workers fulfill numerous roles, ranging from labelling images to responding to tickets regarding disturbing
+content on social media to helping evaluate large language models (LLMs). Data work can be conducted through
+different business models, like business process outsourcing (BPO) and digital labour platforms (DLPs). It is
+important to note that data work is not a fixed category of roles. It refers to a wide variety of roles, with the possibility
+of new roles emerging that exhibit the characteristics of data work.
+Workflow
+The processes, policies, infrastructure, and people that manage the working environment in which data workers
+operate.
+Disturbing Materials and Content/ Riskier Work
+Tasks and data that feature content that can cause physical and mental health harms, or put people at risk of adverse
+effects, either through short-term or sustained exposure. Some examples of disturbing materials include hate speech,
+footage and imagery of graphic violence, content featuring sexual abuse, and online posts displaying the abuse of
+children.
+At-Risk Workers
+The workers who routinely handle disturbing materials, be it for content moderation roles or otherwise, are classified
+as at-risk workers. This term is not being used with intent to reduce the experiences of other categories of data
+workers, but to highlight that some people have to face not only precarious work engagements but also handle large
+volumes of content that people should not have to endure under any circumstances.
+Care Mechanism
+The various services and measures companies design, adopt, and manage to provide aid and support to data
+workers. Care mechanisms can range from providing insurance to reducing or covering operating costs involved in
+data work.
+II. Core Values
+Based on our research and understanding of the precarities faced by data workers in the ecosystem, we developed a
+set of values that act as the fundamental criteria for creating a safe working environment and promoting workers’
+well-being. These values form the core basis on which the standards are formulated. Standards are different
+pathways to make these values actionable. Hence, every standard is associated with one or more of these core
+values.
+Freedom
+Workers should be able to exercise their rights and seek external recourse, remedy, and counsel without interference,
+coercion, or intimidation from workplaces. Restrictions on workers’ discussing their work and experiences with
+external parties should be applied only when it is absolutely necessary for the sake of the client or sensitivities
+surrounding the data.
+Recognition
+The companies running workplaces should have a full grasp of the realities of data work and the production
+processes. Businesses must be cognizant of the time, effort, skill, risks, and even danger that data work can require,
+and provide their workforces with adequate levels of compensation, support, and aid.
+TransparencyData work relationships need to be transparent in ways that empower and equip workers with key information about
+their roles, their engagement with companies, and the production processes they enable. Businesses need to work to
+provide workers with a variety of information, ranging from clear explanations of their relationship with the companies
+and how they are managed to how wages are calculated and how worker performance is measured, recognized, and
+penalized.
+Stability
+Data work roles should be designed and managed in ways that provide a meaningful level of stability to people
+fulfilling companies data requirements. Stability itself would arise from companies achieving adequacy in critical
+labour areas, such as compensation, managing the time workers spend “benched,” social security and hazard-related
+measures, and worker assistance.
+Support
+Workplaces need to offer data workers tools, processes, and assistance that help them fulfill their roles safely and
+with minimal barriers. Companies need to build and maintain measures that protect workers’ safety, address
+emerging safety issues and hazards, and ensure that workers have the means and information necessary to
+complete work and earn.
+Collaboration
+The process of arranging projects and delivering AI-related services should be governed such that there is plenty of
+space for discussions and co-designing the workflow. Companies should engage workers as more than a source of
+feedback, and work with labour stakeholders to shape production pipelines and workers’ arrangements. Furthermore,
+companies themselves should move to open themselves to external initiatives geared towards impact assessments
+and understanding working conditions.
+III. Model cognizance in developing standards
+The data enrichment industry consists of a range of business models. Data work’s challenges as well as the
+pathways for pursuing ethical treatment of labor, can differ based on companies' business models. There are a
+number of “model-specific standards” that are meant for following two broad type of business models:
+Business Process Outsourcing/ BPO: Set-ups where workers produce data under company supervision,
+possibly in a designated location rather than an online environment. BPO models may run offices outfitted
+with various assets and infrastructures that allow workers to function in their roles. One prominent example
+of the BPO model is the French firm, Teleperformance.
+Digital Labor Platforms/ DLP: Arrangements that utilize the internet and various software to link different
+players and processes of data production together, allowing people otherwise separated to collaborate and
+exchange money, goods, and services. DLP models treat workers as independent entities who may need to
+arrange things like computers, phones, and internet needed for work through their own resourcefulness and
+funds. Amazon Mechanical Turk and Remotasks are examples of DLPs offering data work solutions.
+These model-specific standards are marked by a tag that reads as “BPO” for Business Process Outsourcing, and
+“DLP” for Digital Labor Platforms.
