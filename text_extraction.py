@@ -8,6 +8,7 @@ Extract text from .txt files containing data work standards and merge with exist
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
+import numpy as np
 
 PATH = '/Users/danyasherbini/Documents/GitHub/data-work-standards-analysis/data/docs'
 standards = pd.read_csv('/Users/danyasherbini/Documents/GitHub/data-work-standards-analysis/data/standards.csv')
@@ -72,3 +73,43 @@ plt.savefig('./plots/word_count_by_policy.png')
 
 # Export updated standards df with extracted text to csv
 standards_merged.to_csv('/Users/danyasherbini/Documents/GitHub/data-work-standards-analysis/data/standards_with_text.csv', index=False)
+
+####################################################################
+# Additional analysis of document metadata
+
+# Plot distribution of document type, org type, worker focus, and geography
+columns_to_plot = ['doc_type','org_type','worker_focus','geography']
+
+# Loop through each column and create a table
+for column in columns_to_plot:
+    
+    # Get count of documents by column
+    column_counts = standards_merged.groupby(column)['title'].count()
+    
+    # Create plots
+    fig, ax = plt.subplots(figsize=(8, 4))
+    ax.axis('tight')
+    ax.axis('off')
+    
+    # Prepare data for table
+    table_data = [[count] for count in column_counts.values]
+    
+    # Colors for row headers
+    colors = plt.cm.Pastel1(np.linspace(0, 1, len(column_counts)))
+    
+    # Create table
+    column_table = ax.table(cellText=table_data,
+                           rowLabels=column_counts.index,
+                           rowColours=colors,
+                           colLabels=['Count'],
+                           cellLoc='center',
+                           loc='center')
+    
+    column_table.auto_set_font_size(False)
+    column_table.set_fontsize(10)
+    column_table.scale(1, 2)
+    
+    plt.title(f'Policies by {column}', fontsize=14, fontweight='bold', pad=20)
+    plt.tight_layout()
+    plt.show()
+    plt.savefig(f'./plots/policies_by_{column}.png')    
