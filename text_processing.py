@@ -20,7 +20,7 @@ from nltk.corpus import wordnet
 import re # regular expressions
 from nltk.corpus import stopwords # stop words
 from nltk.tokenize import word_tokenize # for word tokenization
-nltk.download('punkt') # download punkt tokenizer
+#nltk.download('punkt') # download punkt tokenizer, only run this once
 from nltk.tokenize import sent_tokenize # for sentence tokenization
 from nltk.stem import WordNetLemmatizer # for stemming words
 from sklearn.feature_extraction.text import CountVectorizer # for word counts
@@ -31,7 +31,7 @@ from sentence_transformers import SentenceTransformer # for semantic embeddings
 from sentence_transformers import util # for semantic search
 
 # Load standards data
-data = pd.read_csv('/Users/danyasherbini/Documents/GitHub/data-work-standards-analysis/data/standards_with_text.csv')
+data = pd.read_csv('./data/standards_with_text.csv')
 print(data.head())
 print(data.columns)
 
@@ -111,10 +111,10 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 data_clean['embeddings'] = data_clean['clean_text_str'].apply(lambda x: model.encode(x))
 
 # Export updated df with clean text and embeddings to csv
-data_clean.to_csv('/Users/danyasherbini/Documents/GitHub/data-work-standards-analysis/data/standards_clean.csv', index=False)
+data_clean.to_csv('./data/standards_clean.csv', index=False)
 
 # Generate embeddings for the framework text
-with open('/Users/danyasherbini/Documents/GitHub/data-work-standards-analysis/data/framework.json', 'r') as f:
+with open('./data/framework.json', 'r') as f:
     framework = json.load(f)
 
 framework_embeddings = {}
@@ -149,9 +149,9 @@ framework_embeddings_array = np.array([param_data['embedding'] for param_data in
 similarities = model.similarity(policy_embeddings, framework_embeddings_array)
 
 # Review similarities
-similarities[0, 0]
-similarities[0, 1]
-similarities[0, 2]
+similarities[1, 0]
+similarities[1, 5]
+similarities[1, 20]
 
 # Create dataframe with policy titles, framework parameters, and similarity scores
 framework_parameter_names = list(framework_embeddings.keys()) # Get the framework parameter names in the same order as the embeddings array
@@ -163,6 +163,9 @@ similarity_df = pd.DataFrame(
     index=data_clean['title']
 )
 print(similarity_df.head())
+
+# Save similarity dataframe to CSV
+similarity_df.to_csv('./data/similarity_scores.csv')
 
 # Visualize similarity scores in order to determine optimal threshold
 all_scores = similarities_array.flatten() # Flatten all similarity scores
@@ -179,16 +182,15 @@ plt.axvline(x=0.4, color='orange', linestyle='--', label='Threshold=0.4')
 plt.axvline(x=0.5, color='green', linestyle='--', label='Threshold=0.5')
 plt.legend()
 
-
 plt.subplot(1, 2, 2)
 plt.boxplot(all_scores)
 plt.ylabel('Similarity Score')
 plt.title('Box Plot of Similarity Scores')
 plt.tight_layout()
-plt.savefig('similarity_distribution.png')
+plt.savefig('./plots/similarity_distribution.png')
 plt.show()
 
-# Print statistics
+# Print summary statistics
 print("=== Similarity Score Statistics ===")
 print(f"Mean: {np.mean(all_scores):.3f}")
 print(f"Median: {np.median(all_scores):.3f}")
@@ -199,9 +201,22 @@ print(f"\nPercentiles:")
 for p in [25, 50, 75, 90, 95]:
     print(f"  {p}th percentile: {np.percentile(all_scores, p):.3f}")
 
-# Use a threshold of 0.3 to determine matches
+# Use a threshold of 0.35 to determine matches, which represents approximately the top 10% of similarity scores based on the distribution
+
+# Refactor similarity score table according to threshold
+threshold = 0.35
+similarity_df_threshold = similarity_df[similarity_df >= threshold]
+print(similarity_df_threshold.head())
+
+# Convert scores above/below threshold to binary Yes/No
+similarity_df_binary = similarity_df.copy()
+similarity_df_binary.iloc[:, 1:] = np.where(similarity_df.iloc[:, 1:] >= threshold, 1, 0)
+print(similarity_df_binary.head())
+similarity_df_binary.to_csv('./data/similarity_scores_binary.csv')
+
 
 ############################## SEMANTIC SEARCH QUERY ##############################
+# NEED TO REVIEW/REDO THIS SECTION!!!! MAYBE DON'T USE CHUNKING, JUST PULL TOP MATCHES FROM FULL TEXT EMBEDDINGS
 # Some documents are very long. To improve matching, we break them into smaller chunks and analyze those individually.
 # For each policy, we search each of its smaller chunks against the framework (each parameter in the framework is a query) and extract the top 3 most relevant chunks of text for each parameter in our framework.
 # We use a similarity score threshold of .3, which we deem reasonable based on the plots/summary statistics from above.
@@ -360,10 +375,7 @@ results_df = pd.DataFrame(all_results)
 results_df_filtered = results_df[results_df['similarity_score'] >= 0.3]  # Apply threshold
 
 # Save results to CSV
-results_df.to_csv(
-    '/Users/danyasherbini/Documents/GitHub/data-work-standards-analysis/data/semantic_search_results.csv',
-    index=False
-)
+results_df.to_csv('./data/semantic_search_results.csv', index=False)
 
 # Quick summary of results
 print(f"\n{'='*80}")
