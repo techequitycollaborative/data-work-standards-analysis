@@ -111,5 +111,5 @@ for column in columns_to_plot:
     
     plt.title(f'Policies by {column}', fontsize=14, fontweight='bold', pad=20)
     plt.tight_layout()
-    plt.show()
     plt.savefig(f'./plots/policies_by_{column}.png')    
+    plt.show()
