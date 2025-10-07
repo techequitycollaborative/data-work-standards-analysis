@@ -68,8 +68,8 @@ plt.grid(axis='x', alpha=0.3)
 for i, (filename, count) in enumerate(zip(standards_merged_sorted['title'], standards_merged_sorted['word_count'])):
     plt.text(count, i, f' {count}', va='center', fontsize=9)
 plt.tight_layout()
-plt.show()
 plt.savefig('./plots/word_count_by_policy.png')
+plt.show()
 
 # Export updated standards df with extracted text to csv
 standards_merged.to_csv('/Users/danyasherbini/Documents/GitHub/data-work-standards-analysis/data/standards_with_text.csv', index=False)
