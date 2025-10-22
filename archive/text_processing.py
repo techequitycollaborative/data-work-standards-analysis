@@ -3,7 +3,11 @@ Title: text_processing.py
 Author: @dsherbini
 Date: Oct 6, 2025
 
-Processing raw text from data work standards for analysis, including text cleaning and generating embeddings.
+In this script, we generate embeddings for full policy documents and for framework parameters, using a pre-trained model.
+We then compute cosine similarities between each policy document and each framework parameter to build a codebook mapping policies to framework parameters.
+While this method yields the same average similarity score, we find that splitting policy documents into sentences yields results that we can better validate with manual review.
+Thus, we will not be using this script moving forward, but it is included here for reference.
+
 """
 
 # basic packages
@@ -210,10 +214,7 @@ print(similarity_df_threshold.head())
 
 # Convert scores above/below threshold to binary Yes/No
 similarity_df_binary = similarity_df.copy()
-similarity_df_binary.iloc[:, 1:] = np.where(similarity_df.iloc[:, 1:] >= threshold, 1, 0)
+similarity_df_binary.iloc[:, 0:] = np.where(similarity_df.iloc[:, 0:] >= threshold, 1, 0)
 print(similarity_df_binary.head())
 similarity_df_binary.to_csv('./data/similarity_scores_binary.csv')
 
-
-############################## SEMANTIC SEARCH QUERY ##############################
-# Perform semantic search to identify relevant pieces of text in the policy document that correspond to each parameter in the framework

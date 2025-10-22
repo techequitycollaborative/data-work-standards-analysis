@@ -3,7 +3,7 @@ Title: text_extraction.py
 Author: @dsherbini
 Date: Oct 6, 2025
 
-Extract text from .txt files containing data work standards and merge with existing standards dataframe.
+Extract text from .txt files containing data work standards and merge with existing standards dataframe containing metadata.
 """
 import pandas as pd
 import os
