@@ -33,16 +33,14 @@ We categorize the policy documents by document type, organization type, worker f
 ### Framework development
 We developed a framework through which to analyze the existing policies. This framework was developed by TechEquity researchers and was informed by our knowlegde of existing worker protection frameworks, documented issues and discussions within the realm of ethical data work in the AI data supply chain, and accumulated knowledge and research about this industry.
 
-### Text processing an semantic search
+### Text processing and semantic search
 We leverage natural language processing techniques to process text and measure adherence to our framework. We use a pre-trained language model from the Sentence-Transformers library (a.k.a [SBERT](https://sbert.net)) to generate embeddings (numerical vectors that capture semantic meaning) for the policy document texts and the parameters in our framework. 
 
-We use semantic search to query each policy document text, extract relevant sentences, and measure adherence to the framework.
-
-In this process, each policy document is split into its individual sentences. These sentences represent the corpus to be searched/queried.
+We use semantic search to query each policy document text, extract relevant sentences, and measure adherence to the framework. In this process, each policy document is split into its individual sentences. These sentences represent the corpus to be searched/queried.
 
 To define our query parameters, we test two strategies: 
-    1. Each query is the paramater defintion
-    2. Each query is the parameter defintion + a set of keywords related to the parameter
+- 1. Each query is the paramater defintion
+- 2. Each query is the parameter defintion + a set of keywords related to the parameter
 
 We find that strategy 1, using definitions only, yields a higher average similarity score across the top 5 most relevant sentences per parameter (0.3575 versus 0.33314). 
 
