@@ -92,5 +92,3 @@ for i in range(1, len(table_df) + 1):
 plt.tight_layout()
 plt.savefig('../plots/framework.png', dpi=300, bbox_inches='tight')
 plt.show()
-
-print(f"\nTable saved with {len(table_df)} parameters")
