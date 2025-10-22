@@ -64,6 +64,52 @@ print(data.columns)
 with open('./data/framework.json', 'r') as f:
     framework = json.load(f)
 
+# Generate a table of framework parameters for readme
+framework_params = pd.DataFrame(framework['framework'])
+table_df = framework_params[['category', 'subcategory', 'parameter', 'definition']].copy() # Select relevant columns for the table
+
+# Create plot
+fig, ax = plt.subplots(figsize=(16, len(table_df) * 0.4 + 1))
+ax.axis('tight')
+ax.axis('off')
+
+# Prepare data for table
+table_data = table_df.values.tolist()
+
+# Create table
+param_table = ax.table(
+    cellText=table_data,
+    colLabels=['Category', 'Subcategory', 'Parameter', 'Definition'],
+    cellLoc='left',
+    loc='center',
+    colWidths=[0.15, 0.15, 0.15, 0.55]  # Adjust column widths
+)
+
+# Style the table
+param_table.auto_set_font_size(False)
+param_table.set_fontsize(9)
+param_table.scale(1, 1.5)
+
+# Style header row
+for i in range(4):
+    cell = param_table[(0, i)]
+    cell.set_facecolor('#4472C4')
+    cell.set_text_props(weight='bold', color='white')
+
+# Alternate row colors
+colors = ['#D9E1F2', '#FFFFFF']
+for i in range(1, len(table_df) + 1):
+    for j in range(4):
+        cell = param_table[(i, j)]
+        cell.set_facecolor(colors[i % 2])
+        cell.set_edgecolor('gray')
+
+plt.title('Data Work Policy Analysis Framework Parameters', 
+          fontsize=16, fontweight='bold', pad=20)
+plt.tight_layout()
+plt.savefig('./plots/framework.png', dpi=300, bbox_inches='tight')
+plt.show()
+
 ############################## SEMANTIC SEARCH ##############################
 
 # Load sentence transformer model

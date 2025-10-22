@@ -33,6 +33,10 @@ We categorize the policy documents by document type, organization type, worker f
 ### Framework development
 We developed a framework through which to analyze the existing policies. This framework was developed by TechEquity researchers and was informed by our knowlegde of existing worker protection frameworks, documented issues and discussions within the realm of ethical data work in the AI data supply chain, and accumulated knowledge and research about this industry.
 
+**Framework**
+
+![Framework](./plots/framework.png)
+
 ### Text processing and semantic search
 We leverage natural language processing techniques to process text and measure adherence to our framework. We use a pre-trained language model from the Sentence-Transformers library (a.k.a [SBERT](https://sbert.net)) to generate embeddings (numerical vectors that capture semantic meaning) for the policy document texts and the parameters in our framework. 
 
