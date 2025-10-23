@@ -54,6 +54,9 @@ We find that strategy 1, using definitions only, yields a higher average similar
 
 This average similarity score becomes our threshold for measuring adherence against each framework parameter. We extract the top 5 matching sentences for all queries for each policy document. If any of the matching sentences contains a similarity score greater than or equal to 0.3575, the policy is categorized as satisfying that parameter (1). Otherwise, it is categorized as not satisfying that parameter (0).
 
+**Manual Review**
+For any parameter with scores above the threshold, we conducted a manual review to ensure the extracted sentences were indeed relevant to the parameter. 
+
 ## Analysis
 
 
