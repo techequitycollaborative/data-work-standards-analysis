@@ -262,7 +262,7 @@ plt.savefig('./plots/similarity_scores_distribution.png')
 plt.show()
 
 # Results: Definition only strategy yields higher average scores across all documents, so we will use that going forward.
-# We get an average similarity score of 0.3575, which we will use as our similarity threshold for determining framework adherence below.
+# We get an average similarity score of 0.3610, which we will use as our similarity threshold for determining framework adherence below.
 
 # Save semantic search results, using definitions only as queries
 def semantic_search_extraction(policy, framework, model, top_k=5, verbose=True):
@@ -338,7 +338,7 @@ def semantic_search_extraction(policy, framework, model, top_k=5, verbose=True):
         
         # Store query and its results
         query_result = {
-            'query_id': i,
+            'query_id': i, # id number of the query parameter
             'query': query,
             'parameter': framework['framework'][i]['parameter'],
             'category': framework['framework'][i]['category'],
@@ -382,8 +382,8 @@ for i, row in data.iterrows():
         for sentence_info in query_result['relevant_sentences']:
             all_extraction_results.append({
                 'policy_title': extraction_result['policy_title'],
-                'corpus_size': extraction_result['corpus_size'],
-                'query_id': query_result['query_id'],
+                'corpus_size': extraction_result['corpus_size'], # number of sentences in the document
+                'query_id': query_result['query_id'], # id number of the query parameter
                 'parameter': query_result['parameter'],
                 'category': query_result['category'],
                 'query': query_result['query'],
@@ -398,7 +398,7 @@ extraction_df = pd.DataFrame(all_extraction_results)
 extraction_df.to_csv('./data/semantic_search_extractions.csv', index=False)
 
 # Determine framework adherence based on similarity score threshold
-threshold = 0.3575
+threshold = 0.3610
 adherence_results = []
 
 for i, row in data.iterrows():

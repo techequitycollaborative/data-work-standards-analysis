@@ -46,13 +46,13 @@ To define our query parameters, we test two strategies:
 - 1. Each query is the paramater defintion
 - 2. Each query is the parameter defintion + a set of keywords related to the parameter
 
-We find that strategy 1, using definitions only, yields a higher average similarity score across the top 5 most relevant sentences per parameter (0.3575 versus 0.33314). 
+We find that strategy 1, using definitions only, yields a higher average similarity score across the top 5 most relevant sentences per parameter (0.3610 versus 0.3356). 
 
 **Similarity Scores**
 
 ![Similarity Score Distribution](./plots/similarity_scores_distribution.png)
 
-This average similarity score becomes our threshold for measuring adherence against each framework parameter. We extract the top 5 matching sentences for all queries for each policy document. If any of the matching sentences contains a similarity score greater than or equal to 0.3575, the policy is categorized as satisfying that parameter (1). Otherwise, it is categorized as not satisfying that parameter (0).
+This average similarity score becomes our threshold for measuring adherence against each framework parameter. We extract the top 5 matching sentences for all queries for each policy document. If any of the matching sentences contains a similarity score greater than or equal to 0.3610, the policy is categorized as satisfying that parameter (1). Otherwise, it is categorized as not satisfying that parameter (0).
 
 **Manual Review**
 For any parameter with scores above the threshold, we conducted a manual review to ensure the extracted sentences were indeed relevant to the parameter. 

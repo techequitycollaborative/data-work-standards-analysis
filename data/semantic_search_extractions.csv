@@ -5976,3 +5976,499 @@ In-house data annotation best practice principles developed by MTI,46,40,Timelin
 In-house data annotation best practice principles developed by MTI,46,40,Timeline for implementation,Employer and platform/contractor responsibilities,"The policy mentions deadlines, timelines, or phased rollouts",4,0.28962862491607666,"Frameworks and tools to assess and respond to labour abuses
 Our discussion moved on to focus on what could be done to address these problematic issues – either when choosing which LLMs to work with, or when conducting data annotation in-house.",22
 In-house data annotation best practice principles developed by MTI,46,40,Timeline for implementation,Employer and platform/contractor responsibilities,"The policy mentions deadlines, timelines, or phased rollouts",5,0.27674561738967896,"Not only should this enormous responsibility be reflected in the status (and therefore pay) of data annotators, including at a smaller scale, but processes should also be put in place to prepare and support them to shoulder this burden on an ongoing basis.",21
+Guidelines for Ethical Data Work in Research,165,0,Wages,Worker rights,"The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",1,0.5369556546211243,"5.3.2 Appropriate Payment
+Most data workers are subject to low wages or unpaid work.",110
+Guidelines for Ethical Data Work in Research,165,0,Wages,Worker rights,"The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",2,0.5171038508415222,"Even when they do, the papers often fail to report how the workers were
+compensated.",36
+Guidelines for Ethical Data Work in Research,165,0,Wages,Worker rights,"The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",3,0.5163937211036682,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,0,Wages,Worker rights,"The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",4,0.49325206875801086,"If living wages are not in place, adhere
+to the standards of the country in which the requesting institution is located.",120
+Guidelines for Ethical Data Work in Research,165,0,Wages,Worker rights,"The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",5,0.47107475996017456,"In a report by the International Labour Organization (ILO), Berg and colleagues (2018) outlined
+18 criteria for fair data work, including but not limited to the recognition of workers’ employ-
+ment status, establishment of legal processes to communicate their needs and demands, the
+application of minimum wage to microtask workers, and transparency in payment and fees.",72
+Guidelines for Ethical Data Work in Research,165,1,Hazard pay,Worker rights,The policy includes references to extra pay/bonus for dangerous or high-risk work.,1,0.49087420105934143,"ӿ Pay for extra work, such as identifying errors or improving the task.",124
+Guidelines for Ethical Data Work in Research,165,1,Hazard pay,Worker rights,The policy includes references to extra pay/bonus for dangerous or high-risk work.,2,0.4526205360889435,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,1,Hazard pay,Worker rights,The policy includes references to extra pay/bonus for dangerous or high-risk work.,3,0.4487774074077606,"Underpayment can be exacerbated
+by workers’ geographical location and the terms and conditions of platforms and BPOs.",111
+Guidelines for Ethical Data Work in Research,165,1,Hazard pay,Worker rights,The policy includes references to extra pay/bonus for dangerous or high-risk work.,4,0.40378907322883606,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,1,Hazard pay,Worker rights,The policy includes references to extra pay/bonus for dangerous or high-risk work.,5,0.39219003915786743,"This principle could be extended to data workers, supporting
+the argument that their contributions to research projects should be adequately compensated.",60
+Guidelines for Ethical Data Work in Research,165,2,Right to set working hours/schedule,Worker rights,"The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",1,0.4389309883117676,"ӿ Respect work practices and avoid micromanagement and unnecessary complications,
+such as excessive time controls.",106
+Guidelines for Ethical Data Work in Research,165,2,Right to set working hours/schedule,Worker rights,"The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",2,0.4365321695804596,"This also means
+refraining from conducting projects in which the well-being of data workers cannot be ensured.",98
+Guidelines for Ethical Data Work in Research,165,2,Right to set working hours/schedule,Worker rights,"The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",3,0.41442960500717163,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,2,Right to set working hours/schedule,Worker rights,"The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",4,0.3813461661338806,"This perspective is reflected in the payment, working conditions, and communica-
+tion with data workers (see below).",102
+Guidelines for Ethical Data Work in Research,165,2,Right to set working hours/schedule,Worker rights,"The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",5,0.3775491714477539,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,3,Security of tenure,Worker rights,The policy mentions protections against arbitrary dismissal or guarantees of continued employment.,1,0.4214426577091217,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,3,Security of tenure,Worker rights,The policy mentions protections against arbitrary dismissal or guarantees of continued employment.,2,0.40529200434684753,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,3,Security of tenure,Worker rights,The policy mentions protections against arbitrary dismissal or guarantees of continued employment.,3,0.3918260335922241,"ӿ Avoid unpaid work due to potential rejection, errors, or unclear tasks.",122
+Guidelines for Ethical Data Work in Research,165,3,Security of tenure,Worker rights,The policy mentions protections against arbitrary dismissal or guarantees of continued employment.,4,0.38779810070991516,"This also means
+refraining from conducting projects in which the well-being of data workers cannot be ensured.",98
+Guidelines for Ethical Data Work in Research,165,3,Security of tenure,Worker rights,The policy mentions protections against arbitrary dismissal or guarantees of continued employment.,5,0.3796234726905823,"ӿ Approach decisions such as rejection or blocking carefully, as they could negatively
+affect data workers’ performance history, which could impact their future assignments
+or payments.",126
+Guidelines for Ethical Data Work in Research,165,4,"Evaluation metrics, productivity standards and quotas",Worker rights,"The policy recommends acceptable methods for measurement of worker performance, productivity benchmarks, or quotas.",1,0.4559464454650879,"ӿ Respect that data workers are experts who should be rewarded as such.#48 Ethics of Data Work \ 12
+ӿ Fairly estimate the time per task, taking into account the length of the description,
+a poor internet connection, and potential errors within the task.",121
+Guidelines for Ethical Data Work in Research,165,4,"Evaluation metrics, productivity standards and quotas",Worker rights,"The policy recommends acceptable methods for measurement of worker performance, productivity benchmarks, or quotas.",2,0.45487526059150696,"Researchers must be aware
+of the uneven power relations that shape these aspects of short-term employment with data
+workers and be accountable for any extractive practices involved in this process.",97
+Guidelines for Ethical Data Work in Research,165,4,"Evaluation metrics, productivity standards and quotas",Worker rights,"The policy recommends acceptable methods for measurement of worker performance, productivity benchmarks, or quotas.",3,0.45096707344055176,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,4,"Evaluation metrics, productivity standards and quotas",Worker rights,"The policy recommends acceptable methods for measurement of worker performance, productivity benchmarks, or quotas.",4,0.4441818594932556,"ӿ Be transparent about the purpose of the data work and how the data will be used,
+whether at the beginning or end of employment (e.g., debriefing).",146
+Guidelines for Ethical Data Work in Research,165,4,"Evaluation metrics, productivity standards and quotas",Worker rights,"The policy recommends acceptable methods for measurement of worker performance, productivity benchmarks, or quotas.",5,0.4419191777706146,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,5,Monitoring and surveillance,Worker rights,"The policy includes references to employer use of technology or systems to observe, track, or monitor workers.",1,0.47289568185806274,"ӿ Be transparent about the purpose of the data work and how the data will be used,
+whether at the beginning or end of employment (e.g., debriefing).",146
+Guidelines for Ethical Data Work in Research,165,5,Monitoring and surveillance,Worker rights,"The policy includes references to employer use of technology or systems to observe, track, or monitor workers.",2,0.4516698122024536,"This perspective is reflected in the payment, working conditions, and communica-
+tion with data workers (see below).",102
+Guidelines for Ethical Data Work in Research,165,5,Monitoring and surveillance,Worker rights,"The policy includes references to employer use of technology or systems to observe, track, or monitor workers.",3,0.44828611612319946,"Researchers must be aware
+of the uneven power relations that shape these aspects of short-term employment with data
+workers and be accountable for any extractive practices involved in this process.",97
+Guidelines for Ethical Data Work in Research,165,5,Monitoring and surveillance,Worker rights,"The policy includes references to employer use of technology or systems to observe, track, or monitor workers.",4,0.44599878787994385,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,5,Monitoring and surveillance,Worker rights,"The policy includes references to employer use of technology or systems to observe, track, or monitor workers.",5,0.4326290190219879,"Their “Data Enrichment Sourcing Guidelines”
+call for ensuring payment above the local living wage, designing and running a pilot before the
+start of projects, identifying suitable workers and workforce for projects to include diverse and
+representative perspectives, providing proper instructions and training for workers that are
+verified by workers, and setting up effective communication mechanisms between workers and
+practitioners (PAI, 2022a).",68
+Guidelines for Ethical Data Work in Research,165,6,Dismissal/deactivation/suspension,Worker rights,"The policy outlines processes, procedures, or rules for worker removal, deactivation from a platform, or suspension or termination processes.",1,0.43714702129364014,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,6,Dismissal/deactivation/suspension,Worker rights,"The policy outlines processes, procedures, or rules for worker removal, deactivation from a platform, or suspension or termination processes.",2,0.39617449045181274,"This also means
+refraining from conducting projects in which the well-being of data workers cannot be ensured.",98
+Guidelines for Ethical Data Work in Research,165,6,Dismissal/deactivation/suspension,Worker rights,"The policy outlines processes, procedures, or rules for worker removal, deactivation from a platform, or suspension or termination processes.",3,0.3879120945930481,"ӿ Approach decisions such as rejection or blocking carefully, as they could negatively
+affect data workers’ performance history, which could impact their future assignments
+or payments.",126
+Guidelines for Ethical Data Work in Research,165,6,Dismissal/deactivation/suspension,Worker rights,"The policy outlines processes, procedures, or rules for worker removal, deactivation from a platform, or suspension or termination processes.",4,0.3846214711666107,"ӿ Respect work practices and avoid micromanagement and unnecessary complications,
+such as excessive time controls.",106
+Guidelines for Ethical Data Work in Research,165,6,Dismissal/deactivation/suspension,Worker rights,"The policy outlines processes, procedures, or rules for worker removal, deactivation from a platform, or suspension or termination processes.",5,0.3682575225830078,"Underpayment can be exacerbated
+by workers’ geographical location and the terms and conditions of platforms and BPOs.",111
+Guidelines for Ethical Data Work in Research,165,7,Paths for career advancement,Worker rights,"The policy mentions opportunities for training, promotions, or upskilling.",1,0.44635307788848877,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,7,Paths for career advancement,Worker rights,"The policy mentions opportunities for training, promotions, or upskilling.",2,0.39073777198791504,"ӿ Pay for extra work, such as identifying errors or improving the task.",124
+Guidelines for Ethical Data Work in Research,165,7,Paths for career advancement,Worker rights,"The policy mentions opportunities for training, promotions, or upskilling.",3,0.36976465582847595,"They advocate
+for fair terms of employment, inclusive and supportive organizational structures, and encourage ef-
+forts to improve local and global living conditions.",53
+Guidelines for Ethical Data Work in Research,165,7,Paths for career advancement,Worker rights,"The policy mentions opportunities for training, promotions, or upskilling.",4,0.3465798497200012,"This significantly impacts their remuneration by requesters, platforms, and BPOs (see above).",114
+Guidelines for Ethical Data Work in Research,165,7,Paths for career advancement,Worker rights,"The policy mentions opportunities for training, promotions, or upskilling.",5,0.3427143394947052,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,8,"Channels for workers to appeal decisions, raise complaints, seek clarification",Worker rights,"The policy includes references to grievance procedures or mechanisms for resolving disputes, such as the ability to appeal a work decision, raise complaints or seek clarification.",1,0.4106788635253906,"ӿ Respect workers’ right to voice their feedback by providing them with contact informa-
+tion so they can seek clarification, offer suggestions, and raise disputes.",148
+Guidelines for Ethical Data Work in Research,165,8,"Channels for workers to appeal decisions, raise complaints, seek clarification",Worker rights,"The policy includes references to grievance procedures or mechanisms for resolving disputes, such as the ability to appeal a work decision, raise complaints or seek clarification.",2,0.37752169370651245,"This includes transparent and respectful communication, as well as careful consideration of workers’ diverse contexts.",96
+Guidelines for Ethical Data Work in Research,165,8,"Channels for workers to appeal decisions, raise complaints, seek clarification",Worker rights,"The policy includes references to grievance procedures or mechanisms for resolving disputes, such as the ability to appeal a work decision, raise complaints or seek clarification.",3,0.36717987060546875,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,8,"Channels for workers to appeal decisions, raise complaints, seek clarification",Worker rights,"The policy includes references to grievance procedures or mechanisms for resolving disputes, such as the ability to appeal a work decision, raise complaints or seek clarification.",4,0.35587435960769653,"The Fairwork project at the Oxford Internet Institute (OII) has published written principles
+that center fairness regarding payment, working conditions, terms of contract, organizational
+management, and workers’ access to representation and collective bargaining (Fairwork, 2025).",62
+Guidelines for Ethical Data Work in Research,165,8,"Channels for workers to appeal decisions, raise complaints, seek clarification",Worker rights,"The policy includes references to grievance procedures or mechanisms for resolving disputes, such as the ability to appeal a work decision, raise complaints or seek clarification.",5,0.3487336039543152,"For example, the “Ethical Guidelines 3.0”, issued by the Association of
+Internet Researchers (AoIR, 2019), addresses the poor, often task-based, compensation, which
+may affect the quality of the resulting data (p. 22).",43
+Guidelines for Ethical Data Work in Research,165,9,"Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)",Worker rights,"The policy mentions workers' ability to organize, join unions, or participate in collective decision-making.",1,0.5087637901306152,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,9,"Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)",Worker rights,"The policy mentions workers' ability to organize, join unions, or participate in collective decision-making.",2,0.488639771938324,"Drawing parallels to
+other forms of collective and union-inclusive governance models for highly decentralized work,
+such as in the garment industry, and to corporate social responsibility voluntary self-regula-
+tion frameworks, they identify the motivating forces behind the emergence of this labor ethics
+agreement.",79
+Guidelines for Ethical Data Work in Research,165,9,"Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)",Worker rights,"The policy mentions workers' ability to organize, join unions, or participate in collective decision-making.",3,0.48095595836639404,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,9,"Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)",Worker rights,"The policy mentions workers' ability to organize, join unions, or participate in collective decision-making.",4,0.46255743503570557,"They should
+recognize workers’ labor and contributions to knowledge production and provide appropriate
+payment according to living wages, collective agreements, expertise, and task type.",94
+Guidelines for Ethical Data Work in Research,165,9,"Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)",Worker rights,"The policy mentions workers' ability to organize, join unions, or participate in collective decision-making.",5,0.45147034525871277,"These include platforms’ motivations to avoid regulation and the union’s interest in
+creating working agreements that address new realities of digital work.",80
+Guidelines for Ethical Data Work in Research,165,10,Health and safety risks,Worker rights,"The policy includes reference to protections against health and safety risks, mental or physical",1,0.46281731128692627,"Some-
+times, they face concerns about personal safety resulting from excessive and identifiable data
+collection.",132
+Guidelines for Ethical Data Work in Research,165,10,Health and safety risks,Worker rights,"The policy includes reference to protections against health and safety risks, mental or physical",2,0.3792266547679901,"While
+the guidelines remain more general, they state that the AIS aims to improve the quality of life,
+well-being, and working conditions of individuals.",51
+Guidelines for Ethical Data Work in Research,165,10,Health and safety risks,Worker rights,"The policy includes reference to protections against health and safety risks, mental or physical",3,0.34912511706352234,"Moreover, it
+highlights the importance of improving the quality of working life, taking into consideration “the
+personal and professional development, accessibility requirements, physical safety, psychological well-being, and human dignity of all workers”.",48
+Guidelines for Ethical Data Work in Research,165,10,Health and safety risks,Worker rights,"The policy includes reference to protections against health and safety risks, mental or physical",4,0.3408782184123993,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,10,Health and safety risks,Worker rights,"The policy includes reference to protections against health and safety risks, mental or physical",5,0.32263725996017456,"For example, the “Guidelines for Safeguarding Good Research Practice”
+of the German Research Foundation (DFG, 2022) emphasize that contributions such as “gather-
+ing, collection, acquisition or provision of data, software or sources, or the analysis/evaluation
+or interpretation of data, sources and conclusions drawn” (p. 18) should be acknowledged.",57
+Guidelines for Ethical Data Work in Research,165,11,Right to refuse work,Worker rights,"The policy references workers' right to refuse unsafe, unreasonable, objectionable, or exploitative tasks.",1,0.5148062705993652,"This also means
+refraining from conducting projects in which the well-being of data workers cannot be ensured.",98
+Guidelines for Ethical Data Work in Research,165,11,Right to refuse work,Worker rights,"The policy references workers' right to refuse unsafe, unreasonable, objectionable, or exploitative tasks.",2,0.49812155961990356,"ӿ Respect the privacy of data workers and limit the collection of their data to what is
+strictly necessary.",150
+Guidelines for Ethical Data Work in Research,165,11,Right to refuse work,Worker rights,"The policy references workers' right to refuse unsafe, unreasonable, objectionable, or exploitative tasks.",3,0.49632254242897034,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,11,Right to refuse work,Worker rights,"The policy references workers' right to refuse unsafe, unreasonable, objectionable, or exploitative tasks.",4,0.47326239943504333,"ӿ Respect work practices and avoid micromanagement and unnecessary complications,
+such as excessive time controls.",106
+Guidelines for Ethical Data Work in Research,165,11,Right to refuse work,Worker rights,"The policy references workers' right to refuse unsafe, unreasonable, objectionable, or exploitative tasks.",5,0.4720991253852844,"This includes transparent and respectful communication, as well as careful consideration of workers’ diverse contexts.",96
+Guidelines for Ethical Data Work in Research,165,12,Mental and physical health insurance,Worker rights,"The policy mentions health coverage for workers, mental or physical.",1,0.38818055391311646,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,12,Mental and physical health insurance,Worker rights,"The policy mentions health coverage for workers, mental or physical.",2,0.3604118824005127,"However, the ACM Code of Ethics does not establish specific guidelines to ensure the well-being of workers, nor does it mention data workers.",49
+Guidelines for Ethical Data Work in Research,165,12,Mental and physical health insurance,Worker rights,"The policy mentions health coverage for workers, mental or physical.",3,0.3595992922782898,"5.3.3 Working Conditions
+Data workers may experience exhaustion due to an extensive workload, mental health issues
+resulting from exposure to disturbing content, unfair contracts with platforms or BPOs, instability in their work, and unpaid time spent accessing and preparing tasks, training, and waiting.",130
+Guidelines for Ethical Data Work in Research,165,12,Mental and physical health insurance,Worker rights,"The policy mentions health coverage for workers, mental or physical.",4,0.348314106464386,"While
+the guidelines remain more general, they state that the AIS aims to improve the quality of life,
+well-being, and working conditions of individuals.",51
+Guidelines for Ethical Data Work in Research,165,12,Mental and physical health insurance,Worker rights,"The policy mentions health coverage for workers, mental or physical.",5,0.34764954447746277,"Moreover, it
+highlights the importance of improving the quality of working life, taking into consideration “the
+personal and professional development, accessibility requirements, physical safety, psychological well-being, and human dignity of all workers”.",48
+Guidelines for Ethical Data Work in Research,165,13,Paid time off,Worker rights,"The policy mentions vacation, annual leave, or other forms of paid leave.",1,0.34218811988830566,"If living wages are not in place, adhere
+to the standards of the country in which the requesting institution is located.",120
+Guidelines for Ethical Data Work in Research,165,13,Paid time off,Worker rights,"The policy mentions vacation, annual leave, or other forms of paid leave.",2,0.33043548464775085,"ӿ Pay on time and do not assign further tasks or work until payment has been secured,
+even if research organizations sometimes need more time to process payments.",127
+Guidelines for Ethical Data Work in Research,165,13,Paid time off,Worker rights,"The policy mentions vacation, annual leave, or other forms of paid leave.",3,0.31587862968444824,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,13,Paid time off,Worker rights,"The policy mentions vacation, annual leave, or other forms of paid leave.",4,0.30813923478126526,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,13,Paid time off,Worker rights,"The policy mentions vacation, annual leave, or other forms of paid leave.",5,0.27885425090789795,"This perspective is reflected in the payment, working conditions, and communica-
+tion with data workers (see below).",102
+Guidelines for Ethical Data Work in Research,165,14,Sick leave,Worker rights,The policy references paid time off for illness,1,0.4103491008281708,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,14,Sick leave,Worker rights,The policy references paid time off for illness,2,0.40166032314300537,"ӿ Pay on time and do not assign further tasks or work until payment has been secured,
+even if research organizations sometimes need more time to process payments.",127
+Guidelines for Ethical Data Work in Research,165,14,Sick leave,Worker rights,The policy references paid time off for illness,3,0.38265466690063477,"ӿ Respect work practices and avoid micromanagement and unnecessary complications,
+such as excessive time controls.",106
+Guidelines for Ethical Data Work in Research,165,14,Sick leave,Worker rights,The policy references paid time off for illness,4,0.35635241866111755,"5.3.3 Working Conditions
+Data workers may experience exhaustion due to an extensive workload, mental health issues
+resulting from exposure to disturbing content, unfair contracts with platforms or BPOs, instability in their work, and unpaid time spent accessing and preparing tasks, training, and waiting.",130
+Guidelines for Ethical Data Work in Research,165,14,Sick leave,Worker rights,The policy references paid time off for illness,5,0.33286190032958984,"This significantly impacts their remuneration by requesters, platforms, and BPOs (see above).",114
+Guidelines for Ethical Data Work in Research,165,15,Pension benefits,Worker rights,The policy mentions retirement savings or pensions programs for workers,1,0.3334079086780548,"If living wages are not in place, adhere
+to the standards of the country in which the requesting institution is located.",120
+Guidelines for Ethical Data Work in Research,165,15,Pension benefits,Worker rights,The policy mentions retirement savings or pensions programs for workers,2,0.3241550326347351,"They advocate
+for fair terms of employment, inclusive and supportive organizational structures, and encourage ef-
+forts to improve local and global living conditions.",53
+Guidelines for Ethical Data Work in Research,165,15,Pension benefits,Worker rights,The policy mentions retirement savings or pensions programs for workers,3,0.31385767459869385,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,15,Pension benefits,Worker rights,The policy mentions retirement savings or pensions programs for workers,4,0.3112841248512268,"Their “Data Enrichment Sourcing Guidelines”
+call for ensuring payment above the local living wage, designing and running a pilot before the
+start of projects, identifying suitable workers and workforce for projects to include diverse and
+representative perspectives, providing proper instructions and training for workers that are
+verified by workers, and setting up effective communication mechanisms between workers and
+practitioners (PAI, 2022a).",68
+Guidelines for Ethical Data Work in Research,165,15,Pension benefits,Worker rights,The policy mentions retirement savings or pensions programs for workers,5,0.30837512016296387,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,16,Gender,Worker rights,The policy mentions protections or equity measures based on gender.,1,0.3756774067878723,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,16,Gender,Worker rights,The policy mentions protections or equity measures based on gender.,2,0.3462095260620117,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,16,Gender,Worker rights,The policy mentions protections or equity measures based on gender.,3,0.3344231843948364,"However, these guide-
+lines primarily address issues related to the deployment of AI, such as its impact on labor, data
+protection, privacy, and transparency (Jobin et al., 2019; Hagendorff, 2020).",38
+Guidelines for Ethical Data Work in Research,165,16,Gender,Worker rights,The policy mentions protections or equity measures based on gender.,4,0.3241637349128723,"This significantly impacts their remuneration by requesters, platforms, and BPOs (see above).",114
+Guidelines for Ethical Data Work in Research,165,16,Gender,Worker rights,The policy mentions protections or equity measures based on gender.,5,0.3125312328338623,"Recently, researchers have advocated for incorporating labor issues into the understanding of
+the social impacts and harms of AI-based systems (Solaiman et al., 2024) and into ethical considerations (Miceli, 2022; Casilli, 2024; Muldoon et al., 2025).",32
+Guidelines for Ethical Data Work in Research,165,17,Race and ethnicity,Worker rights,The policy mentions protections or equity measures based on race or ethnicity.,1,0.3434174656867981,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,17,Race and ethnicity,Worker rights,The policy mentions protections or equity measures based on race or ethnicity.,2,0.33162349462509155,"Convening a working group of European and North American
+unions, labor confederations, and worker organizations, IG Metall and its collaborators published the 2016 “Frankfurt Declaration on Platform-Based Work,” calling for a variety of worker
+protections.",74
+Guidelines for Ethical Data Work in Research,165,17,Race and ethnicity,Worker rights,The policy mentions protections or equity measures based on race or ethnicity.,3,0.3026242256164551,"They advocate
+for fair terms of employment, inclusive and supportive organizational structures, and encourage ef-
+forts to improve local and global living conditions.",53
+Guidelines for Ethical Data Work in Research,165,17,Race and ethnicity,Worker rights,The policy mentions protections or equity measures based on race or ethnicity.,4,0.29790568351745605,"Next, we list existing initiatives that aim to improve the ethical regulation of data work (Sec-
+tion 4).",12
+Guidelines for Ethical Data Work in Research,165,17,Race and ethnicity,Worker rights,The policy mentions protections or equity measures based on race or ethnicity.,5,0.29610946774482727,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,18,Sexual orientation,Worker rights,The policy mentions protections or equity measures based on sexual orientation.,1,0.31026017665863037,"Next, we list existing initiatives that aim to improve the ethical regulation of data work (Sec-
+tion 4).",12
+Guidelines for Ethical Data Work in Research,165,18,Sexual orientation,Worker rights,The policy mentions protections or equity measures based on sexual orientation.,2,0.29685041308403015,"Some-
+times, they face concerns about personal safety resulting from excessive and identifiable data
+collection.",132
+Guidelines for Ethical Data Work in Research,165,18,Sexual orientation,Worker rights,The policy mentions protections or equity measures based on sexual orientation.,3,0.28756266832351685,"However, these guide-
+lines primarily address issues related to the deployment of AI, such as its impact on labor, data
+protection, privacy, and transparency (Jobin et al., 2019; Hagendorff, 2020).",38
+Guidelines for Ethical Data Work in Research,165,18,Sexual orientation,Worker rights,The policy mentions protections or equity measures based on sexual orientation.,4,0.2799127399921417,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,18,Sexual orientation,Worker rights,The policy mentions protections or equity measures based on sexual orientation.,5,0.25485730171203613,"The proposals outlined above primarily address companies requesting data work and crowd-
+sourcing platforms, aiming to promote ethical and responsible sourcing in industry pipelines.",81
+Guidelines for Ethical Data Work in Research,165,19,Disability,Worker rights,The policy mentions protections or equity measures based on disability.,1,0.35379108786582947,"This significantly impacts their remuneration by requesters, platforms, and BPOs (see above).",114
+Guidelines for Ethical Data Work in Research,165,19,Disability,Worker rights,The policy mentions protections or equity measures based on disability.,2,0.34400564432144165,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,19,Disability,Worker rights,The policy mentions protections or equity measures based on disability.,3,0.3432995676994324,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,19,Disability,Worker rights,The policy mentions protections or equity measures based on disability.,4,0.3408716022968292,"ӿ When choosing a platform or BPO, consider their payment policies.",129
+Guidelines for Ethical Data Work in Research,165,19,Disability,Worker rights,The policy mentions protections or equity measures based on disability.,5,0.33859026432037354,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,20,Contracts – general,Employer and platform/contractor responsibilities,The policy outlines requirements for fair contracts and contract terms between workers and employers.,1,0.6236447095870972,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,20,Contracts – general,Employer and platform/contractor responsibilities,The policy outlines requirements for fair contracts and contract terms between workers and employers.,2,0.5730609893798828,"The Fairwork project at the Oxford Internet Institute (OII) has published written principles
+that center fairness regarding payment, working conditions, terms of contract, organizational
+management, and workers’ access to representation and collective bargaining (Fairwork, 2025).",62
+Guidelines for Ethical Data Work in Research,165,20,Contracts – general,Employer and platform/contractor responsibilities,The policy outlines requirements for fair contracts and contract terms between workers and employers.,3,0.5098132491111755,"In a report by the International Labour Organization (ILO), Berg and colleagues (2018) outlined
+18 criteria for fair data work, including but not limited to the recognition of workers’ employ-
+ment status, establishment of legal processes to communicate their needs and demands, the
+application of minimum wage to microtask workers, and transparency in payment and fees.",72
+Guidelines for Ethical Data Work in Research,165,20,Contracts – general,Employer and platform/contractor responsibilities,The policy outlines requirements for fair contracts and contract terms between workers and employers.,4,0.4953158497810364,"This includes transparent and respectful communication, as well as careful consideration of workers’ diverse contexts.",96
+Guidelines for Ethical Data Work in Research,165,20,Contracts – general,Employer and platform/contractor responsibilities,The policy outlines requirements for fair contracts and contract terms between workers and employers.,5,0.46614599227905273,"They should
+recognize workers’ labor and contributions to knowledge production and provide appropriate
+payment according to living wages, collective agreements, expertise, and task type.",94
+Guidelines for Ethical Data Work in Research,165,21,Transparent and easy to understand,Employer and platform/contractor responsibilities,The policy includes recommendations or requirements for contract clarity and readability.,1,0.36980587244033813,"ӿ When choosing a platform or BPO, consider their payment policies.",129
+Guidelines for Ethical Data Work in Research,165,21,Transparent and easy to understand,Employer and platform/contractor responsibilities,The policy includes recommendations or requirements for contract clarity and readability.,2,0.3664737939834595,"However, a review of these frameworks reveals a profound dearth of explicit standards for data work.",41
+Guidelines for Ethical Data Work in Research,165,21,Transparent and easy to understand,Employer and platform/contractor responsibilities,The policy includes recommendations or requirements for contract clarity and readability.,3,0.35487890243530273,"This includes transparent and respectful communication, as well as careful consideration of workers’ diverse contexts.",96
+Guidelines for Ethical Data Work in Research,165,21,Transparent and easy to understand,Employer and platform/contractor responsibilities,The policy includes recommendations or requirements for contract clarity and readability.,4,0.35482755303382874,"For example, the “Ethical Guidelines 3.0”, issued by the Association of
+Internet Researchers (AoIR, 2019), addresses the poor, often task-based, compensation, which
+may affect the quality of the resulting data (p. 22).",43
+Guidelines for Ethical Data Work in Research,165,21,Transparent and easy to understand,Employer and platform/contractor responsibilities,The policy includes recommendations or requirements for contract clarity and readability.,5,0.3491498827934265,"Their “Data Enrichment Sourcing Guidelines”
+call for ensuring payment above the local living wage, designing and running a pilot before the
+start of projects, identifying suitable workers and workforce for projects to include diverse and
+representative perspectives, providing proper instructions and training for workers that are
+verified by workers, and setting up effective communication mechanisms between workers and
+practitioners (PAI, 2022a).",68
+Guidelines for Ethical Data Work in Research,165,22,Non-compete clauses,Employer and platform/contractor responsibilities,The policy mentions standards regarding restricting workers from working elsewhere/for other companies.,1,0.5306774973869324,"This also means
+refraining from conducting projects in which the well-being of data workers cannot be ensured.",98
+Guidelines for Ethical Data Work in Research,165,22,Non-compete clauses,Employer and platform/contractor responsibilities,The policy mentions standards regarding restricting workers from working elsewhere/for other companies.,2,0.5114493370056152,"However, the ACM Code of Ethics does not establish specific guidelines to ensure the well-being of workers, nor does it mention data workers.",49
+Guidelines for Ethical Data Work in Research,165,22,Non-compete clauses,Employer and platform/contractor responsibilities,The policy mentions standards regarding restricting workers from working elsewhere/for other companies.,3,0.49690884351730347,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,22,Non-compete clauses,Employer and platform/contractor responsibilities,The policy mentions standards regarding restricting workers from working elsewhere/for other companies.,4,0.45402413606643677,"ӿ Respect the privacy of data workers and limit the collection of their data to what is
+strictly necessary.",150
+Guidelines for Ethical Data Work in Research,165,22,Non-compete clauses,Employer and platform/contractor responsibilities,The policy mentions standards regarding restricting workers from working elsewhere/for other companies.,5,0.44364726543426514,"Underpayment can be exacerbated
+by workers’ geographical location and the terms and conditions of platforms and BPOs.",111
+Guidelines for Ethical Data Work in Research,165,23,Non-disclosure agreements (NDAs),Employer and platform/contractor responsibilities,The policy includes recommendations related to confidentiality clauses in contracts or any repercussions for violating confidentiality.,1,0.45386645197868347,"ӿ Respect the privacy of data workers and limit the collection of their data to what is
+strictly necessary.",150
+Guidelines for Ethical Data Work in Research,165,23,Non-disclosure agreements (NDAs),Employer and platform/contractor responsibilities,The policy includes recommendations related to confidentiality clauses in contracts or any repercussions for violating confidentiality.,2,0.4257798492908478,"Some-
+times, they face concerns about personal safety resulting from excessive and identifiable data
+collection.",132
+Guidelines for Ethical Data Work in Research,165,23,Non-disclosure agreements (NDAs),Employer and platform/contractor responsibilities,The policy includes recommendations related to confidentiality clauses in contracts or any repercussions for violating confidentiality.,3,0.4106711745262146,"While contact details can sometimes be necessary, excessive collection of personal data can undermine the protection of workers’ privacy and even their
+personal safety.",151
+Guidelines for Ethical Data Work in Research,165,23,Non-disclosure agreements (NDAs),Employer and platform/contractor responsibilities,The policy includes recommendations related to confidentiality clauses in contracts or any repercussions for violating confidentiality.,4,0.4092176556587219,"For
+example, the “Code of Ethics and Professional Conduct” of the Association for Computing Ma-
+chinery (ACM, 2018) emphasizes the respect and protection of privacy regarding the collection
+and use of data involving personal information.",46
+Guidelines for Ethical Data Work in Research,165,23,Non-disclosure agreements (NDAs),Employer and platform/contractor responsibilities,The policy includes recommendations related to confidentiality clauses in contracts or any repercussions for violating confidentiality.,5,0.3942158818244934,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,24,Notice period,Employer and platform/contractor responsibilities,The policy references a recommended notice before termination or resignation.,1,0.2928889989852905,"ӿ Respect work practices and avoid micromanagement and unnecessary complications,
+such as excessive time controls.",106
+Guidelines for Ethical Data Work in Research,165,24,Notice period,Employer and platform/contractor responsibilities,The policy references a recommended notice before termination or resignation.,2,0.288536936044693,"ӿ When choosing a platform or BPO, consider their payment policies.",129
+Guidelines for Ethical Data Work in Research,165,24,Notice period,Employer and platform/contractor responsibilities,The policy references a recommended notice before termination or resignation.,3,0.28792545199394226,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,24,Notice period,Employer and platform/contractor responsibilities,The policy references a recommended notice before termination or resignation.,4,0.2738550901412964,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,24,Notice period,Employer and platform/contractor responsibilities,The policy references a recommended notice before termination or resignation.,5,0.2674176096916199,"If living wages are not in place, adhere
+to the standards of the country in which the requesting institution is located.",120
+Guidelines for Ethical Data Work in Research,165,25,Severance pay,Employer and platform/contractor responsibilities,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,1,0.48680952191352844,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,25,Severance pay,Employer and platform/contractor responsibilities,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,2,0.3861459493637085,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,25,Severance pay,Employer and platform/contractor responsibilities,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,3,0.38486918807029724,"This perspective is reflected in the payment, working conditions, and communica-
+tion with data workers (see below).",102
+Guidelines for Ethical Data Work in Research,165,25,Severance pay,Employer and platform/contractor responsibilities,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,4,0.377464234828949,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,25,Severance pay,Employer and platform/contractor responsibilities,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,5,0.3591783940792084,"This principle could be extended to data workers, supporting
+the argument that their contributions to research projects should be adequately compensated.",60
+Guidelines for Ethical Data Work in Research,165,26,Unpaid waiting periods,Employer and platform/contractor responsibilities,"This policy relates to unpaid time when workers are waiting for tasks, access to work, new projects or potentially for disciplinary or investigative processes.",1,0.5753903985023499,"ӿ Pay on time and do not assign further tasks or work until payment has been secured,
+even if research organizations sometimes need more time to process payments.",127
+Guidelines for Ethical Data Work in Research,165,26,Unpaid waiting periods,Employer and platform/contractor responsibilities,"This policy relates to unpaid time when workers are waiting for tasks, access to work, new projects or potentially for disciplinary or investigative processes.",2,0.5709385275840759,"ӿ Avoid unpaid work due to potential rejection, errors, or unclear tasks.",122
+Guidelines for Ethical Data Work in Research,165,26,Unpaid waiting periods,Employer and platform/contractor responsibilities,"This policy relates to unpaid time when workers are waiting for tasks, access to work, new projects or potentially for disciplinary or investigative processes.",3,0.46863099932670593,"ӿ Pay for extra work, such as identifying errors or improving the task.",124
+Guidelines for Ethical Data Work in Research,165,26,Unpaid waiting periods,Employer and platform/contractor responsibilities,"This policy relates to unpaid time when workers are waiting for tasks, access to work, new projects or potentially for disciplinary or investigative processes.",4,0.4654514789581299,"ӿ Respect work practices and avoid micromanagement and unnecessary complications,
+such as excessive time controls.",106
+Guidelines for Ethical Data Work in Research,165,26,Unpaid waiting periods,Employer and platform/contractor responsibilities,"This policy relates to unpaid time when workers are waiting for tasks, access to work, new projects or potentially for disciplinary or investigative processes.",5,0.46378105878829956,"This also means
+refraining from conducting projects in which the well-being of data workers cannot be ensured.",98
+Guidelines for Ethical Data Work in Research,165,27,Work related expenses,Employer and platform/contractor responsibilities,"The policy includes mention of required or acceptable compensation for work related expenses, such as internet access, computer, home office equipment, or travel allowance.",1,0.44117096066474915,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,27,Work related expenses,Employer and platform/contractor responsibilities,"The policy includes mention of required or acceptable compensation for work related expenses, such as internet access, computer, home office equipment, or travel allowance.",2,0.4293709099292755,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,27,Work related expenses,Employer and platform/contractor responsibilities,"The policy includes mention of required or acceptable compensation for work related expenses, such as internet access, computer, home office equipment, or travel allowance.",3,0.41072025895118713,"If living wages are not in place, adhere
+to the standards of the country in which the requesting institution is located.",120
+Guidelines for Ethical Data Work in Research,165,27,Work related expenses,Employer and platform/contractor responsibilities,"The policy includes mention of required or acceptable compensation for work related expenses, such as internet access, computer, home office equipment, or travel allowance.",4,0.40768754482269287,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,27,Work related expenses,Employer and platform/contractor responsibilities,"The policy includes mention of required or acceptable compensation for work related expenses, such as internet access, computer, home office equipment, or travel allowance.",5,0.4042109251022339,"This also means
+refraining from conducting projects in which the well-being of data workers cannot be ensured.",98
+Guidelines for Ethical Data Work in Research,165,28,Collective bargaining agreement,Employer and platform/contractor responsibilities,The policy mentions engaging with democratically elected worker representatives and allowing them free access to workers and workplaces.,1,0.43470650911331177,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,28,Collective bargaining agreement,Employer and platform/contractor responsibilities,The policy mentions engaging with democratically elected worker representatives and allowing them free access to workers and workplaces.,2,0.4083385169506073,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,28,Collective bargaining agreement,Employer and platform/contractor responsibilities,The policy mentions engaging with democratically elected worker representatives and allowing them free access to workers and workplaces.,3,0.38414570689201355,"This includes transparent and respectful communication, as well as careful consideration of workers’ diverse contexts.",96
+Guidelines for Ethical Data Work in Research,165,28,Collective bargaining agreement,Employer and platform/contractor responsibilities,The policy mentions engaging with democratically elected worker representatives and allowing them free access to workers and workplaces.,4,0.37946686148643494,"The Fairwork project at the Oxford Internet Institute (OII) has published written principles
+that center fairness regarding payment, working conditions, terms of contract, organizational
+management, and workers’ access to representation and collective bargaining (Fairwork, 2025).",62
+Guidelines for Ethical Data Work in Research,165,28,Collective bargaining agreement,Employer and platform/contractor responsibilities,The policy mentions engaging with democratically elected worker representatives and allowing them free access to workers and workplaces.,5,0.37445563077926636,"Taking worker-centered and community-based approaches, they call for transparency in the information about requesters to ensure
+accountability and responsibility, the provision of proper time estimates, timely approval of completed tasks, respect for worker privacy, and strict adherence to MTurk’s terms of service.",66
+Guidelines for Ethical Data Work in Research,165,29,Training and guidelines for workers and managers,Employer and platform/contractor responsibilities,The policy provisions or recommends the existence of or specific guidelines for employee training or onboarding,1,0.4728321433067322,"Their “Data Enrichment Sourcing Guidelines”
+call for ensuring payment above the local living wage, designing and running a pilot before the
+start of projects, identifying suitable workers and workforce for projects to include diverse and
+representative perspectives, providing proper instructions and training for workers that are
+verified by workers, and setting up effective communication mechanisms between workers and
+practitioners (PAI, 2022a).",68
+Guidelines for Ethical Data Work in Research,165,29,Training and guidelines for workers and managers,Employer and platform/contractor responsibilities,The policy provisions or recommends the existence of or specific guidelines for employee training or onboarding,2,0.4082266688346863,"ӿ Respect work practices and avoid micromanagement and unnecessary complications,
+such as excessive time controls.",106
+Guidelines for Ethical Data Work in Research,165,29,Training and guidelines for workers and managers,Employer and platform/contractor responsibilities,The policy provisions or recommends the existence of or specific guidelines for employee training or onboarding,3,0.40676403045654297,"However, the ACM Code of Ethics does not establish specific guidelines to ensure the well-being of workers, nor does it mention data workers.",49
+Guidelines for Ethical Data Work in Research,165,29,Training and guidelines for workers and managers,Employer and platform/contractor responsibilities,The policy provisions or recommends the existence of or specific guidelines for employee training or onboarding,4,0.39895713329315186,"However, these guide-
+lines primarily address issues related to the deployment of AI, such as its impact on labor, data
+protection, privacy, and transparency (Jobin et al., 2019; Hagendorff, 2020).",38
+Guidelines for Ethical Data Work in Research,165,29,Training and guidelines for workers and managers,Employer and platform/contractor responsibilities,The policy provisions or recommends the existence of or specific guidelines for employee training or onboarding,5,0.3683071732521057,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,30,Information on purpose of work,Employer and platform/contractor responsibilities,"The policy references the need to inform workers about what their work will be used for, contribute to, or impact.",1,0.4722491502761841,"Their “Data Enrichment Sourcing Guidelines”
+call for ensuring payment above the local living wage, designing and running a pilot before the
+start of projects, identifying suitable workers and workforce for projects to include diverse and
+representative perspectives, providing proper instructions and training for workers that are
+verified by workers, and setting up effective communication mechanisms between workers and
+practitioners (PAI, 2022a).",68
+Guidelines for Ethical Data Work in Research,165,30,Information on purpose of work,Employer and platform/contractor responsibilities,"The policy references the need to inform workers about what their work will be used for, contribute to, or impact.",2,0.4715036153793335,"This includes transparent and respectful communication, as well as careful consideration of workers’ diverse contexts.",96
+Guidelines for Ethical Data Work in Research,165,30,Information on purpose of work,Employer and platform/contractor responsibilities,"The policy references the need to inform workers about what their work will be used for, contribute to, or impact.",3,0.4632512331008911,"This principle could be extended to data workers, supporting
+the argument that their contributions to research projects should be adequately compensated.",60
+Guidelines for Ethical Data Work in Research,165,30,Information on purpose of work,Employer and platform/contractor responsibilities,"The policy references the need to inform workers about what their work will be used for, contribute to, or impact.",4,0.45963793992996216,"Researchers must be aware
+of the uneven power relations that shape these aspects of short-term employment with data
+workers and be accountable for any extractive practices involved in this process.",97
+Guidelines for Ethical Data Work in Research,165,30,Information on purpose of work,Employer and platform/contractor responsibilities,"The policy references the need to inform workers about what their work will be used for, contribute to, or impact.",5,0.4547532796859741,"ӿ Be transparent about the purpose of the data work and how the data will be used,
+whether at the beginning or end of employment (e.g., debriefing).",146
+Guidelines for Ethical Data Work in Research,165,31,Identifying risks and harms to workers,Employer and platform/contractor responsibilities,"The policy recommends that employers disclose potential or anticipated risks or harms, material or immaterial, that employees may encounter or expose themselves to on the job.",1,0.55928635597229,"While contact details can sometimes be necessary, excessive collection of personal data can undermine the protection of workers’ privacy and even their
+personal safety.",151
+Guidelines for Ethical Data Work in Research,165,31,Identifying risks and harms to workers,Employer and platform/contractor responsibilities,"The policy recommends that employers disclose potential or anticipated risks or harms, material or immaterial, that employees may encounter or expose themselves to on the job.",2,0.5496799349784851,"Some-
+times, they face concerns about personal safety resulting from excessive and identifiable data
+collection.",132
+Guidelines for Ethical Data Work in Research,165,31,Identifying risks and harms to workers,Employer and platform/contractor responsibilities,"The policy recommends that employers disclose potential or anticipated risks or harms, material or immaterial, that employees may encounter or expose themselves to on the job.",3,0.4507296681404114,"This can negatively
+affect the well-being of data workers.",140
+Guidelines for Ethical Data Work in Research,165,31,Identifying risks and harms to workers,Employer and platform/contractor responsibilities,"The policy recommends that employers disclose potential or anticipated risks or harms, material or immaterial, that employees may encounter or expose themselves to on the job.",4,0.44787925481796265,"ӿ Be transparent about the purpose of the data work and how the data will be used,
+whether at the beginning or end of employment (e.g., debriefing).",146
+Guidelines for Ethical Data Work in Research,165,31,Identifying risks and harms to workers,Employer and platform/contractor responsibilities,"The policy recommends that employers disclose potential or anticipated risks or harms, material or immaterial, that employees may encounter or expose themselves to on the job.",5,0.43984559178352356,"ӿ Provide trigger warnings for data work that includes disturbing content, or that may
+offend certain social groups.",147
+Guidelines for Ethical Data Work in Research,165,32,Human oversight in management,Employer and platform/contractor responsibilities,"The policy mentions, or defines the degree to which human involvement is to be used in decision-making about workers.",1,0.495493620634079,"They should
+recognize workers’ labor and contributions to knowledge production and provide appropriate
+payment according to living wages, collective agreements, expertise, and task type.",94
+Guidelines for Ethical Data Work in Research,165,32,Human oversight in management,Employer and platform/contractor responsibilities,"The policy mentions, or defines the degree to which human involvement is to be used in decision-making about workers.",2,0.4309457242488861,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,32,Human oversight in management,Employer and platform/contractor responsibilities,"The policy mentions, or defines the degree to which human involvement is to be used in decision-making about workers.",3,0.42601004242897034,"This includes transparent and respectful communication, as well as careful consideration of workers’ diverse contexts.",96
+Guidelines for Ethical Data Work in Research,165,32,Human oversight in management,Employer and platform/contractor responsibilities,"The policy mentions, or defines the degree to which human involvement is to be used in decision-making about workers.",4,0.42141014337539673,"Recently, researchers have advocated for incorporating labor issues into the understanding of
+the social impacts and harms of AI-based systems (Solaiman et al., 2024) and into ethical considerations (Miceli, 2022; Casilli, 2024; Muldoon et al., 2025).",32
+Guidelines for Ethical Data Work in Research,165,32,Human oversight in management,Employer and platform/contractor responsibilities,"The policy mentions, or defines the degree to which human involvement is to be used in decision-making about workers.",5,0.41289982199668884,"5.2 General Principles
+Researchers are responsible for the external data workers they engage to create, collect, or process data.",91
+Guidelines for Ethical Data Work in Research,165,33,Credentials for skills and experience,Employer and platform/contractor responsibilities,"Workers receive some form of credentials or documentation of their work, skills, expertise and/or achievements.",1,0.682121753692627,"They should
+recognize workers’ labor and contributions to knowledge production and provide appropriate
+payment according to living wages, collective agreements, expertise, and task type.",94
+Guidelines for Ethical Data Work in Research,165,33,Credentials for skills and experience,Employer and platform/contractor responsibilities,"Workers receive some form of credentials or documentation of their work, skills, expertise and/or achievements.",2,0.5314380526542664,"Based on two focus groups and two expert workshops held at the Weizen-
+baum Institute in 2024, the principles propose that academic requesters recognize data workers
+as collaborators rather than mere proxies, ensure fair compensation and working conditions,
+provide sufficient time to complete tasks, avoid harm from exposing workers to sensitive con-
+tent, and maintain transparency and openness in communication.",154
+Guidelines for Ethical Data Work in Research,165,33,Credentials for skills and experience,Employer and platform/contractor responsibilities,"Workers receive some form of credentials or documentation of their work, skills, expertise and/or achievements.",3,0.505913496017456,"Recognizing data workers as research collaborators can address this hierarchical relationship, providing opportunities to better capture their expertise and
+improve research outcomes.",103
+Guidelines for Ethical Data Work in Research,165,33,Credentials for skills and experience,Employer and platform/contractor responsibilities,"Workers receive some form of credentials or documentation of their work, skills, expertise and/or achievements.",4,0.48190343379974365,"Their “Data Enrichment Sourcing Guidelines”
+call for ensuring payment above the local living wage, designing and running a pilot before the
+start of projects, identifying suitable workers and workforce for projects to include diverse and
+representative perspectives, providing proper instructions and training for workers that are
+verified by workers, and setting up effective communication mechanisms between workers and
+practitioners (PAI, 2022a).",68
+Guidelines for Ethical Data Work in Research,165,33,Credentials for skills and experience,Employer and platform/contractor responsibilities,"Workers receive some form of credentials or documentation of their work, skills, expertise and/or achievements.",5,0.4675710201263428,"Researchers increasingly hire data workers
+from around the world to create, collect, classify, and clean data.",85
+Guidelines for Ethical Data Work in Research,165,34,Mental health support,Employer and platform/contractor responsibilities,"The policy includes mention of employer responsibilities related to counseling, mental health resources, or stress reduction for workers.",1,0.5414444208145142,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,34,Mental health support,Employer and platform/contractor responsibilities,"The policy includes mention of employer responsibilities related to counseling, mental health resources, or stress reduction for workers.",2,0.41648662090301514,"ӿ Offer workers partial compensation for completing a certain percentage of the task
+successfully (e.g., 90 % or 95 %).",128
+Guidelines for Ethical Data Work in Research,165,34,Mental health support,Employer and platform/contractor responsibilities,"The policy includes mention of employer responsibilities related to counseling, mental health resources, or stress reduction for workers.",3,0.3971809148788452,"Moreover, it
+highlights the importance of improving the quality of working life, taking into consideration “the
+personal and professional development, accessibility requirements, physical safety, psychological well-being, and human dignity of all workers”.",48
+Guidelines for Ethical Data Work in Research,165,34,Mental health support,Employer and platform/contractor responsibilities,"The policy includes mention of employer responsibilities related to counseling, mental health resources, or stress reduction for workers.",4,0.3940000832080841,"ӿ Respect work practices and avoid micromanagement and unnecessary complications,
+such as excessive time controls.",106
+Guidelines for Ethical Data Work in Research,165,34,Mental health support,Employer and platform/contractor responsibilities,"The policy includes mention of employer responsibilities related to counseling, mental health resources, or stress reduction for workers.",5,0.381114661693573,"However, the ACM Code of Ethics does not establish specific guidelines to ensure the well-being of workers, nor does it mention data workers.",49
+Guidelines for Ethical Data Work in Research,165,35,Responsibility for upholding/implementing,Employer and platform/contractor responsibilities,The policy identifies parties responsible for enforcing worker protections.,1,0.535659670829773,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,35,Responsibility for upholding/implementing,Employer and platform/contractor responsibilities,The policy identifies parties responsible for enforcing worker protections.,2,0.46076494455337524,"ӿ Respect the privacy of data workers and limit the collection of their data to what is
+strictly necessary.",150
+Guidelines for Ethical Data Work in Research,165,35,Responsibility for upholding/implementing,Employer and platform/contractor responsibilities,The policy identifies parties responsible for enforcing worker protections.,3,0.4504746198654175,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,35,Responsibility for upholding/implementing,Employer and platform/contractor responsibilities,The policy identifies parties responsible for enforcing worker protections.,4,0.44796210527420044,"This includes transparent and respectful communication, as well as careful consideration of workers’ diverse contexts.",96
+Guidelines for Ethical Data Work in Research,165,35,Responsibility for upholding/implementing,Employer and platform/contractor responsibilities,The policy identifies parties responsible for enforcing worker protections.,5,0.446895956993103,"This principle could be extended to data workers, supporting
+the argument that their contributions to research projects should be adequately compensated.",60
+Guidelines for Ethical Data Work in Research,165,36,Accountability in case of harms,Employer and platform/contractor responsibilities,The policy includes consequences or accountability measures for companies if standards are violated.,1,0.49667561054229736,"For example, the “Ethical Guidelines 3.0”, issued by the Association of
+Internet Researchers (AoIR, 2019), addresses the poor, often task-based, compensation, which
+may affect the quality of the resulting data (p. 22).",43
+Guidelines for Ethical Data Work in Research,165,36,Accountability in case of harms,Employer and platform/contractor responsibilities,The policy includes consequences or accountability measures for companies if standards are violated.,2,0.4746699333190918,"These principles respond to
+a notable gap in existing ethical frameworks: While industry best practices are increasingly dis-
+cussed, academic institutions have largely overlooked the ethical responsibilities of research-
+ers who rely on data work.",155
+Guidelines for Ethical Data Work in Research,165,36,Accountability in case of harms,Employer and platform/contractor responsibilities,The policy includes consequences or accountability measures for companies if standards are violated.,3,0.4697663187980652,"Some-
+times, they face concerns about personal safety resulting from excessive and identifiable data
+collection.",132
+Guidelines for Ethical Data Work in Research,165,36,Accountability in case of harms,Employer and platform/contractor responsibilities,The policy includes consequences or accountability measures for companies if standards are violated.,4,0.4412500858306885,"Next, we list existing initiatives that aim to improve the ethical regulation of data work (Sec-
+tion 4).",12
+Guidelines for Ethical Data Work in Research,165,36,Accountability in case of harms,Employer and platform/contractor responsibilities,The policy includes consequences or accountability measures for companies if standards are violated.,5,0.44106465578079224,"ӿ Approach decisions such as rejection or blocking carefully, as they could negatively
+affect data workers’ performance history, which could impact their future assignments
+or payments.",126
+Guidelines for Ethical Data Work in Research,165,37,Third party audits,Employer and platform/contractor responsibilities,The policy prescribes requirements for external review of companies by a third-party of their compliance against worker protections.,1,0.4375317096710205,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,37,Third party audits,Employer and platform/contractor responsibilities,The policy prescribes requirements for external review of companies by a third-party of their compliance against worker protections.,2,0.4059102535247803,"ӿ Respect the privacy of data workers and limit the collection of their data to what is
+strictly necessary.",150
+Guidelines for Ethical Data Work in Research,165,37,Third party audits,Employer and platform/contractor responsibilities,The policy prescribes requirements for external review of companies by a third-party of their compliance against worker protections.,3,0.4007991552352905,"5.2 General Principles
+Researchers are responsible for the external data workers they engage to create, collect, or process data.",91
+Guidelines for Ethical Data Work in Research,165,37,Third party audits,Employer and platform/contractor responsibilities,The policy prescribes requirements for external review of companies by a third-party of their compliance against worker protections.,4,0.39938288927078247,"ӿ Respect workers’ right to voice their feedback by providing them with contact informa-
+tion so they can seek clarification, offer suggestions, and raise disputes.",148
+Guidelines for Ethical Data Work in Research,165,37,Third party audits,Employer and platform/contractor responsibilities,The policy prescribes requirements for external review of companies by a third-party of their compliance against worker protections.,5,0.3851434290409088,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,38,Legal enforceability,Employer and platform/contractor responsibilities,"The policy outlines some measure of legal enforceability, referencing existing applicable legal frameworks.",1,0.4130334258079529,"However, a review of these frameworks reveals a profound dearth of explicit standards for data work.",41
+Guidelines for Ethical Data Work in Research,165,38,Legal enforceability,Employer and platform/contractor responsibilities,"The policy outlines some measure of legal enforceability, referencing existing applicable legal frameworks.",2,0.3900614082813263,"To ensure fair wages and prevent the exploitation of
+data workers, we recommend the following:
+ӿ Respect living wages and collective agreements.",119
+Guidelines for Ethical Data Work in Research,165,38,Legal enforceability,Employer and platform/contractor responsibilities,"The policy outlines some measure of legal enforceability, referencing existing applicable legal frameworks.",3,0.3532729148864746,"For example, the “Guidelines for Safeguarding Good Research Practice”
+of the German Research Foundation (DFG, 2022) emphasize that contributions such as “gather-
+ing, collection, acquisition or provision of data, software or sources, or the analysis/evaluation
+or interpretation of data, sources and conclusions drawn” (p. 18) should be acknowledged.",57
+Guidelines for Ethical Data Work in Research,165,38,Legal enforceability,Employer and platform/contractor responsibilities,"The policy outlines some measure of legal enforceability, referencing existing applicable legal frameworks.",4,0.3461501896381378,"In the final chapter, we suggest future steps for implementing
+corresponding regulations in ethical codes and guidelines for scientific research (Section 6).#48 Ethics of Data Work \ 6
+2 What is “Data Work”?",16
+Guidelines for Ethical Data Work in Research,165,38,Legal enforceability,Employer and platform/contractor responsibilities,"The policy outlines some measure of legal enforceability, referencing existing applicable legal frameworks.",5,0.3359401226043701,"Next, we list existing initiatives that aim to improve the ethical regulation of data work (Sec-
+tion 4).",12
+Guidelines for Ethical Data Work in Research,165,39,Enforcing authority,Employer and platform/contractor responsibilities,The policy identifies the party/institution/agency tasked with enforcement of the policy.,1,0.3006909191608429,"In this context, to pursue ethical data work, we recommend the following:
+ӿ Recognize unions and worker representatives as credible authorities, on par with BPO
+managers and platforms.",133
+Guidelines for Ethical Data Work in Research,165,39,Enforcing authority,Employer and platform/contractor responsibilities,The policy identifies the party/institution/agency tasked with enforcement of the policy.,2,0.296184778213501,"ӿ When choosing a platform or BPO, consider their payment policies.",129
+Guidelines for Ethical Data Work in Research,165,39,Enforcing authority,Employer and platform/contractor responsibilities,The policy identifies the party/institution/agency tasked with enforcement of the policy.,3,0.29405927658081055,"Next, we list existing initiatives that aim to improve the ethical regulation of data work (Sec-
+tion 4).",12
+Guidelines for Ethical Data Work in Research,165,39,Enforcing authority,Employer and platform/contractor responsibilities,The policy identifies the party/institution/agency tasked with enforcement of the policy.,4,0.2898979187011719,"Some-
+times, they face concerns about personal safety resulting from excessive and identifiable data
+collection.",132
+Guidelines for Ethical Data Work in Research,165,39,Enforcing authority,Employer and platform/contractor responsibilities,The policy identifies the party/institution/agency tasked with enforcement of the policy.,5,0.2852480411529541,"For
+example, the “Code of Ethics and Professional Conduct” of the Association for Computing Ma-
+chinery (ACM, 2018) emphasizes the respect and protection of privacy regarding the collection
+and use of data involving personal information.",46
+Guidelines for Ethical Data Work in Research,165,40,Timeline for implementation,Employer and platform/contractor responsibilities,"The policy mentions deadlines, timelines, or phased rollouts",1,0.39629092812538147,"However, these guide-
+lines primarily address issues related to the deployment of AI, such as its impact on labor, data
+protection, privacy, and transparency (Jobin et al., 2019; Hagendorff, 2020).",38
+Guidelines for Ethical Data Work in Research,165,40,Timeline for implementation,Employer and platform/contractor responsibilities,"The policy mentions deadlines, timelines, or phased rollouts",2,0.3400215208530426,"ӿ Approach decisions such as rejection or blocking carefully, as they could negatively
+affect data workers’ performance history, which could impact their future assignments
+or payments.",126
+Guidelines for Ethical Data Work in Research,165,40,Timeline for implementation,Employer and platform/contractor responsibilities,"The policy mentions deadlines, timelines, or phased rollouts",3,0.33470821380615234,"Taking worker-centered and community-based approaches, they call for transparency in the information about requesters to ensure
+accountability and responsibility, the provision of proper time estimates, timely approval of completed tasks, respect for worker privacy, and strict adherence to MTurk’s terms of service.",66
+Guidelines for Ethical Data Work in Research,165,40,Timeline for implementation,Employer and platform/contractor responsibilities,"The policy mentions deadlines, timelines, or phased rollouts",4,0.3275427222251892,"This includes providing resources for psychological support and extra payment, extend-
+ing deadlines, and allowing breaks during tasks.",136
+Guidelines for Ethical Data Work in Research,165,40,Timeline for implementation,Employer and platform/contractor responsibilities,"The policy mentions deadlines, timelines, or phased rollouts",5,0.32368534803390503,"ӿ Be transparent about the purpose of the data work and how the data will be used,
+whether at the beginning or end of employment (e.g., debriefing).",146
