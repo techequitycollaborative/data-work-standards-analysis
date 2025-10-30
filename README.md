@@ -46,7 +46,7 @@ To define our query parameters, we test two strategies:
 - 1. Each query is the paramater defintion
 - 2. Each query is the parameter defintion + a set of keywords related to the parameter
 
-We find that strategy 1, using definitions only, yields a higher average similarity score across the top 5 most relevant sentences per parameter (0.3610 versus 0.3356). 
+We find that strategy 1, using definitions only, yields a higher average similarity score across the top 5 most relevant sentences per parameter (0.3610 versus 0.3356).
 
 **Similarity Scores**
 
