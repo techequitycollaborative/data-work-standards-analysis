@@ -17,10 +17,9 @@ print(data.columns)
 # For our analysis, we want to look at:
 # 1. Frequency of parameter queries per policy document 
 # 2. Frequency of parameter queries overall
-# 3. Unique parameters queries per document
-# 4. Distribution of parameter queries across different document types
+# 3. Distribution of parameter queries across different document types
 
-# 1. Frequency of parameter queries per policy document 
+#####  1. Frequency of parameter queries per policy document ##### 
 param_columns = ['primary_paramater', 'alt_parameter_1', 'alt_parameter_2', 
                  'alt_parameter_3', 'alt_parameter_4']
 
@@ -72,3 +71,34 @@ param_frequency_by_policy = metadata.merge(
 
 # Save to CSV
 param_frequency_by_policy.to_csv('./data/param_frequency_by_policy.csv', index=False)
+
+##### 2. Frequency of parameter queries overall ##### 
+param_frequency_overall = melted.groupby('parameter_value').agg(
+    total_appearances=('parameter_value', 'size'),
+    num_docs=('policy_title', 'nunique')
+).reset_index()
+
+# Rename columns
+param_frequency_overall.columns = ['query_parameter', 'total_appearances', 'num_docs']
+
+# Reorder rows based on framework order
+param_frequency_overall = param_frequency_overall.set_index('query_parameter')
+param_frequency_overall = param_frequency_overall.reindex(desired_order)
+param_frequency_overall= param_frequency_overall.reset_index()
+
+# Fill NaN values with 0
+param_frequency_overall[['total_appearances', 'num_docs']] = param_frequency_overall[['total_appearances', 'num_docs']].fillna(0).astype(int)
+
+# Sort by total appearances
+param_frequency_overall = param_frequency_overall.sort_values(by='total_appearances', ascending=False).reset_index(drop=True)
+
+# Merge with other framework info
+framework_info = framework[['Parameter','Category', 'Subcategory', 'Definition']].rename(columns={'Definition': 'query_parameter'})
+param_frequency_overall = framework_info.merge(
+    param_frequency_overall,
+    on='query_parameter',
+    how='left'
+)
+
+# Save to CSV
+param_frequency_overall.to_csv('./data/param_frequency_overall.csv', index=False)
