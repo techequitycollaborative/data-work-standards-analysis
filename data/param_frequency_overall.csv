@@ -1,4 +1,4 @@
-Parameter,Category,Subcategory,query_parameter,total_appearances,num_docs
+parameter,category,subcategory,definition,total_appearances,num_docs
 Wages,Worker rights,Working conditions,"The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",68,10
 Hazard pay,Worker rights,Working conditions,The policy includes references to extra pay/bonus for dangerous or high-risk work.,8,4
 Right to set working hours/schedule,Worker rights,Working conditions,"The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",35,9
