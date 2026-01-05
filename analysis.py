@@ -100,8 +100,8 @@ param_frequency_overall= param_frequency_overall.reset_index()
 # Fill NaN values with 0
 param_frequency_overall[['total_appearances', 'num_docs']] = param_frequency_overall[['total_appearances', 'num_docs']].fillna(0).astype(int)
 
-# Sort by total appearances
-param_frequency_overall = param_frequency_overall.sort_values(by='total_appearances', ascending=False).reset_index(drop=True)
+# Sort by total appearances -- optional
+#param_frequency_overall = param_frequency_overall.sort_values(by='total_appearances', ascending=False).reset_index(drop=True)
 
 # Merge with other framework info
 framework_info = framework[['Parameter','Category', 'Subcategory', 'Definition']].rename(columns={'Parameter': 'parameter','Category':'category', 'Subcategory':'subcategory', 'Definition':'definition'})
@@ -113,3 +113,36 @@ param_frequency_overall = framework_info.merge(
 
 # Save to CSV
 param_frequency_overall.to_csv('./data/param_frequency_overall.csv', index=False)
+
+# Plot heatmap of parameter frequencies
+
+# By total appearances
+heatmap_data_1 = param_frequency_overall.sort_values(by='total_appearances', ascending=False)
+
+plt.figure(figsize=(12, 8))
+sns.heatmap(
+    heatmap_data_1[['total_appearances']].set_index(heatmap_data_1['parameter']),
+    annot=True,
+    fmt='d',
+    cmap='viridis',
+)
+plt.title('Parameter Frequency by Total Appearances')
+plt.tight_layout()
+plt.savefig('./plots/param_frequency_by_total_appearances.png')
+plt.show()
+
+# By number of documents
+heatmap_data_2 = param_frequency_overall.sort_values(by='num_docs', ascending=False)
+
+plt.figure(figsize=(12, 8))
+sns.heatmap(
+    heatmap_data_2[['num_docs']].set_index(heatmap_data_2['parameter']),
+    annot=True,
+    fmt='d',
+    cmap='viridis',
+)
+plt.title('Parameter Frequency by Number of Documents')
+plt.tight_layout()
+plt.savefig('./plots/param_frequency_by_num_docs.png')
+plt.show()
+
