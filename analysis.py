@@ -15,12 +15,12 @@ print(data.head())
 print(data.columns)
 
 # For our analysis, we want to look at:
-# 1. Frequency of parameter queries overall
-# 2. Frequency of parameter queries per policy document
+# 1. Frequency of parameter queries per policy document 
+# 2. Frequency of parameter queries overall
 # 3. Unique parameters queries per document
 # 4. Distribution of parameter queries across different document types
 
-# 1. Frequency of parameter queries overall
+# 1. Frequency of parameter queries per policy document 
 param_columns = ['primary_paramater', 'alt_parameter_1', 'alt_parameter_2', 
                  'alt_parameter_3', 'alt_parameter_4']
 
