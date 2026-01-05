@@ -56,7 +56,7 @@ This average similarity score becomes our threshold for measuring adherence agai
 
 **Manual Review**
 
-For any parameter with scores above the threshold, we conducted a manual review to ensure the extracted sentences were indeed relevant to the parameter. 
+For any parameter with scores above the threshold, we conducted a manual review to ensure the extracted sentences were indeed relevant to the parameter.
 
 ## Analysis
 
