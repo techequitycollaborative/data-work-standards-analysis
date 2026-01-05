@@ -14,6 +14,10 @@ data = pd.read_csv('./data/review_results.csv')
 print(data.head())
 print(data.columns)
 
+# Load standards and framework data (for merging later)
+standards = pd.read_csv('./data/standards.csv')
+framework = pd.read_csv('./data/framework.csv')
+
 # For our analysis, we want to look at:
 # 1. Frequency of parameter queries per policy document 
 # 2. Frequency of parameter queries overall
@@ -33,23 +37,30 @@ melted = data.melt(
 # Remove null values
 melted = melted[melted['parameter_value'].notna()]
 
+# Merge with shorthand framework parameters
+shorthand_params = framework[['Parameter','Definition']].copy()
+shorthand_params = shorthand_params.rename(columns={'Definition': 'parameter_value', 'Parameter': 'parameter'})
+melted = melted.merge(
+    shorthand_params,
+    on='parameter_value',
+    how='left'
+)
+
 # Count number of times each query appears per policy document
-summary = melted.groupby(['policy_title', 'parameter_value']).size().reset_index(name='count')
+summary = melted.groupby(['policy_title', 'parameter']).size().reset_index(name='count')
 
 # Pivot to get parameter values as columns
-result = summary.pivot(index='policy_title', columns='parameter_value', values='count').fillna(0).reset_index()
+result = summary.pivot(index='policy_title', columns='parameter', values='count').fillna(0).reset_index()
 
 # Put columns in same order as original framework params
-framework = pd.read_csv('./data/framework.csv')
-desired_order = framework['Definition'].tolist()
+desired_order = framework['Parameter'].tolist()
 column_order = ['policy_title'] + desired_order
 result = result.reindex(columns=column_order, fill_value=0) # Reindex to include all columns, filling missing ones with 0
 result.iloc[:, 1:] = result.iloc[:, 1:].astype(int) # Convert counts to integers (skip policy_title column)
 
 # Merge with original policy metadata + corpus size
-standards = pd.read_csv('./data/standards.csv')
 columns_to_add = ['org','doc_type','org_type', 'worker_focus', 'geography', 'date']
-standards_data = standards[['title'] + columns_to_add].copy() # Grab columns as a copy
+standards_data = standards[['title'] + columns_to_add].copy()
 
 corpus_size = data[['policy_title','corpus_size']].drop_duplicates() # Get unique corpus sizes
 
@@ -73,16 +84,16 @@ param_frequency_by_policy = metadata.merge(
 param_frequency_by_policy.to_csv('./data/param_frequency_by_policy.csv', index=False)
 
 ##### 2. Frequency of parameter queries overall ##### 
-param_frequency_overall = melted.groupby('parameter_value').agg(
-    total_appearances=('parameter_value', 'size'),
+param_frequency_overall = melted.groupby('parameter').agg(
+    total_appearances=('parameter', 'size'),
     num_docs=('policy_title', 'nunique')
 ).reset_index()
 
 # Rename columns
-param_frequency_overall.columns = ['query_parameter', 'total_appearances', 'num_docs']
+param_frequency_overall.columns = ['parameter', 'total_appearances', 'num_docs']
 
 # Reorder rows based on framework order
-param_frequency_overall = param_frequency_overall.set_index('query_parameter')
+param_frequency_overall = param_frequency_overall.set_index('parameter')
 param_frequency_overall = param_frequency_overall.reindex(desired_order)
 param_frequency_overall= param_frequency_overall.reset_index()
 
@@ -93,10 +104,10 @@ param_frequency_overall[['total_appearances', 'num_docs']] = param_frequency_ove
 param_frequency_overall = param_frequency_overall.sort_values(by='total_appearances', ascending=False).reset_index(drop=True)
 
 # Merge with other framework info
-framework_info = framework[['Parameter','Category', 'Subcategory', 'Definition']].rename(columns={'Definition': 'query_parameter'})
+framework_info = framework[['Parameter','Category', 'Subcategory', 'Definition']].rename(columns={'Parameter': 'parameter','Category':'category', 'Subcategory':'subcategory', 'Definition':'definition'})
 param_frequency_overall = framework_info.merge(
     param_frequency_overall,
-    on='query_parameter',
+    on='parameter',
     how='left'
 )
 
