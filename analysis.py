@@ -23,6 +23,7 @@ framework = pd.read_csv('./data/framework.csv')
 # 2. Frequency of parameter queries overall
 # 3. Distribution of parameter queries across different document variables
 # 4. Adherence of each document to the framework / by document variables
+# 5. Top 10 most/least frequently mentioned parameters
 
 #####  1. Frequency of parameter queries per policy document ##### 
 param_columns = ['primary_paramater', 'alt_parameter_1', 'alt_parameter_2', 
@@ -329,3 +330,59 @@ axes[1,2].set_ylabel('Proportion of Framework Covered')
 plt.tight_layout()
 plt.savefig('./plots/framework_adherence_analysis.png', dpi=300)
 plt.show()
+
+
+##### 5. Top 10 most/least frequently mentioned parameters #####
+
+# Revisit overall parameter frequency data
+# Add average mentions per document
+param_frequency_overall['avg_mentions_per_doc'] = param_frequency_overall['total_appearances'] / param_frequency_overall['num_docs']
+
+# Top 10 by document breadth (PRIMARY)
+top_10_breadth = param_frequency_overall.nlargest(10, 'num_docs')
+print("Top 10 Most Widely Adopted Parameters:")
+print(top_10_breadth)
+top_10_breadth.to_csv('./data/top_10_most_adopted_parameters.csv', index=False)
+
+# Plot top 10
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.barplot(
+    data=top_10_breadth,
+    y='parameter',
+    x='num_docs',
+    ax=ax
+)
+ax.bar_label(ax.containers[0])  # Adds labels to bars
+plt.ylabel('')
+plt.xlabel('Number of Documents with Parameter Present (Max 13)')
+plt.title('Top 10 Most Widely Adopted Parameters')
+sns.despine() # Remove plot borders
+plt.tight_layout()
+plt.savefig('./plots/top_10_most_adopted_parameters.png')
+
+# Bottom 10 by document breadth (PRIMARY)
+bottom_10_breadth = param_frequency_overall.nsmallest(10, 'num_docs')
+print("\nTop 10 Least Adopted Parameters:")
+print(bottom_10_breadth)
+bottom_10_breadth.to_csv('./data/bottom_10_least_adopted_parameters.csv', index=False)
+
+# Plot bottom 10
+plt.figure(figsize=(10, 6))
+sns.barplot(
+    data=bottom_10_breadth,
+    y='parameter',
+    x='num_docs',
+)
+plt.ylabel('')
+plt.xlabel('Number of Documents with Parameter Present (Max 13)')
+plt.title('Bottom 10 Parameters - i.e. Least Adopted Parameters')
+sns.despine() # Remove plot borders
+plt.tight_layout()
+plt.savefig('./plots/bottom_10_least_adopted_parameters.png')
+
+# Top 10 by total mentions (SECONDARY - for depth analysis, to glean emphasis (i.e. if a document mentions a parameter a lot))
+top_10_depth = param_frequency_overall.nlargest(10, 'total_appearances')
+print("\nTop 10 Most Frequently Discussed Parameters:")
+print(top_10_depth)
+top_10_depth.to_csv('./data/top_10_most_frequent_parameters.csv', index=False)
+
