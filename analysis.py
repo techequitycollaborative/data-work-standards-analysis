@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import textwrap
 
 # Load results from manual review
 data = pd.read_csv('./data/review_results.csv')
@@ -353,6 +354,8 @@ sns.barplot(
     ax=ax
 )
 ax.bar_label(ax.containers[0])  # Adds labels to bars
+labels = [textwrap.fill(label.get_text(), width=50) for label in ax.get_yticklabels()] # Wrap y-axis labels
+ax.set_yticklabels(labels)
 plt.ylabel('')
 plt.xlabel('Number of Documents with Parameter Present (Max 13)')
 plt.title('Top 10 Most Widely Adopted Parameters')
@@ -373,6 +376,8 @@ sns.barplot(
     y='parameter',
     x='num_docs',
 )
+labels = [textwrap.fill(label.get_text(), width=50) for label in ax.get_yticklabels()] # Wrap y-axis labels
+ax.set_yticklabels(labels)
 plt.ylabel('')
 plt.xlabel('Number of Documents with Parameter Present (Max 13)')
 plt.title('Bottom 10 Parameters - i.e. Least Adopted Parameters')
