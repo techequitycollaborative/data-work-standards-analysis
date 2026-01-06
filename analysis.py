@@ -323,7 +323,7 @@ axes[1,1].tick_params(axis='x', rotation=45)
 sns.scatterplot(data=param_frequency_by_policy, x='corpus_size', y='framework_coverage', 
                 s=200, ax=axes[1,2], color='steelblue')  # Single color
 axes[1,2].set_title('Framework Coverage vs Document Length')
-axes[1,2].set_xlabel('Document Length (corpus size)')
+axes[1,2].set_xlabel('Document Length (in sentences)')
 axes[1,2].set_ylabel('Proportion of Framework Covered')
 
 plt.tight_layout()

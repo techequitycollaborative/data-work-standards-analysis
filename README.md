@@ -56,7 +56,7 @@ This average similarity score becomes our threshold for measuring adherence agai
 
 **Manual Review**
 
-For any parameter with scores above the threshold, we conducted a manual review to ensure the extracted sentences were indeed relevant to the parameter.
+For any parameter with scores above the threshold, we conducted a manual validation process to ensure the extracted sentences were aligned with the framework. Two independent coders reviewed all extracted sentences using a structured coding scheme. Inter-rater disagreements were reconciled through additional discussion and review until consensus was reached. Sentences were coded as: (1) aligned with the target parameter, (2) not aligned with the target parameter, (3) aligned with an alternative framework parameter, or (4) representing an emergent theme outside the existing framework.
 
 ## Analysis
 
