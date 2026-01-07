@@ -213,7 +213,7 @@ plt.title('Parameter Distribution by Document Type (Normalized)')
 plt.xlabel('')
 plt.ylabel('')
 #plt.tight_layout()
-plt.savefig('./plots/param_by_doctype_heatmap.png')
+plt.savefig('./plots/param_by_doctype_heatmap.png', bbox_inches='tight')
 plt.show()
 
 ### Org type
@@ -233,7 +233,7 @@ plt.title('Parameter Distribution by Org Type (Normalized)')
 plt.xlabel('')
 plt.ylabel('')
 #plt.tight_layout()
-plt.savefig('./plots/param_by_orgtype_heatmap.png')
+plt.savefig('./plots/param_by_orgtype_heatmap.png', bbox_inches='tight')
 plt.show()
 
 ### Worker focus
@@ -253,7 +253,7 @@ plt.title('Parameter Distribution by Worker Focus (Normalized)')
 plt.xlabel('')
 plt.ylabel('')
 #plt.tight_layout()
-plt.savefig('./plots/param_by_workerfocus_heatmap.png')
+plt.savefig('./plots/param_by_workerfocus_heatmap.png', bbox_inches='tight')
 plt.show()
 
 
