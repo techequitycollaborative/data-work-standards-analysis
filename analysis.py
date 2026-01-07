@@ -2,6 +2,16 @@
 Title: analysis.py
 Author: @dsherbini
 Date: Jan 5, 2026
+
+For our analysis, we look at:
+1. Frequency of parameter queries per policy document 
+2. Frequency of parameter queries overall (i.e. total mentions across all documents)
+3. Distribution of parameter queries across different document variables
+4. Adherence of each document to the framework / by document variables
+5. Top 10 most/least frequently mentioned parameters
+6. Thematic analysis of top and bottom most mentioned parameters
+7. Breadth/Consensus x Depth/Emphasis 
+
 """
 
 import pandas as pd
@@ -33,13 +43,6 @@ print(data.columns)
 standards = pd.read_csv('./data/standards.csv')
 framework = pd.read_csv('./data/framework.csv')
 
-# For our analysis, we want to look at:
-# 1. Frequency of parameter queries per policy document 
-# 2. Frequency of parameter queries overall (i.e. total mentions across all documents)
-# 3. Distribution of parameter queries across different document variables
-# 4. Adherence of each document to the framework / by document variables
-# 5. Top 10 most/least frequently mentioned parameters
-# 6. Thematic analysis of top and bottom most mentioned parameters
 
 #####  1. Frequency of parameter queries per policy document ##### 
 param_columns = ['primary_paramater', 'alt_parameter_1', 'alt_parameter_2', 
@@ -547,3 +550,49 @@ print("="*60)
 
 # Look at sentences for top parameters
 freedom_sentences = params['Freedom of Association'][['policy_title', 'sentence']].drop_duplicates()
+
+##### 7. Breadth/Consensus x Depth/Emphasis #####
+
+# Calculate both metrics
+param_coverage = param_frequency_overall[['parameter', 'total_appearances', 'num_docs']].copy()
+
+# Wrap long parameter names
+param_coverage['parameter_short'] = param_coverage['parameter'].apply(
+    lambda x: '\n'.join(textwrap.wrap(x, width=25))
+)
+
+# Create scatter plot
+fig, ax = plt.subplots(figsize=(18, 14))
+
+scatter = ax.scatter(
+    param_coverage['num_docs'], 
+    param_coverage['total_appearances'],
+    s=150,
+    alpha=0.6,
+    c=param_coverage['num_docs'],
+    cmap='viridis',
+    edgecolors='black',
+    linewidth=0.5
+)
+
+# Add labels with background boxes
+for idx, row in param_coverage.iterrows():
+    ax.annotate(
+        row['parameter_short'], 
+        (row['num_docs'], row['total_appearances']),
+        fontsize=7,
+        alpha=0.9,
+        ha='center',
+        va='center',
+        bbox=dict(boxstyle='round,pad=0.4', facecolor='white', alpha=0.8, edgecolor='lightgray')
+    )
+
+ax.set_xlabel('Number of Documents Mentioning Parameter (max 13)', fontsize=13)
+ax.set_ylabel('Total Mentions Across All Documents', fontsize=13)
+ax.set_title('Parameter Coverage: Breadth vs. Depth', fontsize=16, fontweight='bold')
+ax.grid(True, alpha=0.3, linestyle='--')
+
+plt.colorbar(scatter, label='Number of Documents')
+plt.tight_layout()
+plt.savefig('./plots/parameter_coverage_scatter.png', bbox_inches='tight', dpi=300)
+plt.show()
