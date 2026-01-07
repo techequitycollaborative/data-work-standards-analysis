@@ -416,6 +416,45 @@ print("\nTop 10 Most Frequently Discussed Parameters:")
 print(top_10_depth)
 top_10_depth.to_csv('./data/top_10_most_frequent_parameters.csv', index=False)
 
+# Plot top 10 by total mentions
+plt.figure(figsize=(10, 6))
+sns.barplot(
+    data=top_10_depth,
+    y='parameter',
+    x='num_docs',
+)
+labels = [textwrap.fill(label.get_text(), width=50) for label in ax.get_yticklabels()] # Wrap y-axis labels
+ax.set_yticklabels(labels)
+plt.ylabel('')
+plt.xlabel('Total Appearances of Parameter Across Full Corpus')
+plt.title('Top 10 Parameters - Most Total Mentions')
+sns.despine() # Remove plot borders
+plt.tight_layout()
+plt.savefig('./plots/top_10_most_mentioned_parameters.png')
+
+# Get average mentions across all parameters
+average_mentions_per_doc = param_frequency_overall['avg_mentions_per_doc'].mean()
+print(average_mentions_per_doc)
+
+# Make histogram of average mentions per document
+plt.figure(figsize=(10, 6))
+sns.histplot(
+    data=param_frequency_overall,
+    x='avg_mentions_per_doc',
+    bins=15,
+    kde=True,
+    color='steelblue'
+)
+plt.axvline(average_mentions_per_doc, color='red', linestyle='--', label='Overall Average')
+plt.xlabel('Average Mentions per Document')
+plt.title('Distribution of Average Mentions per Document Across Parameters')
+plt.legend()
+plt.tight_layout()
+plt.savefig('./plots/avg_mentions_per_doc_distribution.png', dpi=300)
+plt.show()
+
+
+
 ##### Digging in to the top and bottom most mentioned parameters #####
 
 # Focus on top three parameters for word cloud/theme analysis
