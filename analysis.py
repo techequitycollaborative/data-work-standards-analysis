@@ -46,7 +46,7 @@ param_columns = ['primary_paramater', 'alt_parameter_1', 'alt_parameter_2',
 
 # Melt the dataframe to get all parameter values in one column
 melted = data.melt(
-    id_vars=['policy_title'], 
+    id_vars=['policy_title','sentence'], 
     value_vars=param_columns,
     value_name='parameter_value'
 )
@@ -291,6 +291,17 @@ param_frequency_by_policy['framework_coverage'] = param_frequency_by_policy['tot
 adherence_summary = param_frequency_by_policy[['title', 'total_params_mentioned', 'total_mentions', 'framework_coverage']]
 print(adherence_summary)
 
+# Get avg params mentioned, total mentions, framework coverage
+adherence_avg = adherence_summary.agg({
+    'total_params_mentioned': 'mean',
+    'total_mentions': 'mean',
+    'framework_coverage': 'mean'
+}).reset_index().rename(columns={0: 'average_value', 'index': 'metric'})
+
+print("\nAdherence Averages Per Document:")
+print(adherence_avg)
+
+
 # Save to CSV
 adherence_summary.to_csv('./data/adherence_summary_by_policy.csv', index=False)
 
@@ -409,9 +420,9 @@ top_10_depth.to_csv('./data/top_10_most_frequent_parameters.csv', index=False)
 
 # Focus on top three parameters for word cloud/theme analysis
 params = {
-    'Freedom of Association': data[data['parameter'] == 'Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)'],
-    'Health and Safety': data[data['parameter'] == 'Health and safety risks'],
-    'Wages': data[data['parameter'] == 'Wages']
+    'Freedom of Association': melted[melted['parameter'] == 'Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)'],
+    'Health and Safety': melted[melted['parameter'] == 'Health and safety risks'],
+    'Wages': melted[melted['parameter'] == 'Wages']
 }
 
 # Create combined stopwords set
@@ -493,3 +504,6 @@ for param_name, param_data in params.items():
 print("\n" + "="*60)
 print("All word clouds generated successfully!")
 print("="*60)
+
+# Look at sentences for top parameters
+freedom_sentences = params['Freedom of Association'][['policy_title', 'sentence']].drop_duplicates()
