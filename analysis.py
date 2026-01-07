@@ -35,10 +35,11 @@ framework = pd.read_csv('./data/framework.csv')
 
 # For our analysis, we want to look at:
 # 1. Frequency of parameter queries per policy document 
-# 2. Frequency of parameter queries overall
+# 2. Frequency of parameter queries overall (i.e. total mentions across all documents)
 # 3. Distribution of parameter queries across different document variables
 # 4. Adherence of each document to the framework / by document variables
 # 5. Top 10 most/least frequently mentioned parameters
+# 6. Thematic analysis of top and bottom most mentioned parameters
 
 #####  1. Frequency of parameter queries per policy document ##### 
 param_columns = ['primary_paramater', 'alt_parameter_1', 'alt_parameter_2', 
@@ -455,7 +456,7 @@ plt.show()
 
 
 
-##### Digging in to the top and bottom most mentioned parameters #####
+##### 6. Thematic analysis of top and bottom most mentioned parameters #####
 
 # Focus on top three parameters for word cloud/theme analysis
 params = {
@@ -477,7 +478,7 @@ for param_name, param_data in params.items():
     text = ' '.join(param_data['sentence'].astype(str))
     text_lower = text.lower()
 
-    # ===== INDIVIDUAL WORDS =====
+    # Individual words
     print(f"\n=== Top 20 Individual Words: {param_name} ===")
 
     # Filter words
@@ -508,7 +509,7 @@ for param_name, param_data in params.items():
     plt.savefig(f'./plots/{filename}_words_wordcloud.png', bbox_inches='tight', dpi=300)
     plt.show()
 
-    # ===== TWO-WORD PHRASES =====
+    # Phrases
     print(f"\n=== Top 20 Two-Word Phrases: {param_name} ===")
 
     # Tokenize and filter
