@@ -10,6 +10,20 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import textwrap
 
+# For word clouds
+from wordcloud import WordCloud, STOPWORDS
+from collections import Counter
+
+# For phrase extraction
+import nltk
+from nltk import ngrams
+from nltk.corpus import stopwords as nltk_stopwords
+
+# Download nltk data -- run only once
+#nltk.download('punkt')
+#nltk.download('stopwords')
+
+
 # Load results from manual review
 data = pd.read_csv('./data/review_results.csv')
 print(data.head())
@@ -391,3 +405,91 @@ print("\nTop 10 Most Frequently Discussed Parameters:")
 print(top_10_depth)
 top_10_depth.to_csv('./data/top_10_most_frequent_parameters.csv', index=False)
 
+##### Digging in to the top and bottom most mentioned parameters #####
+
+# Focus on top three parameters for word cloud/theme analysis
+params = {
+    'Freedom of Association': data[data['parameter'] == 'Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)'],
+    'Health and Safety': data[data['parameter'] == 'Health and safety risks'],
+    'Wages': data[data['parameter'] == 'Wages']
+}
+
+# Create combined stopwords set
+stop_words = set(STOPWORDS) | set(nltk_stopwords.words('english'))
+
+for param_name, param_data in params.items():
+    print(f"\n{'='*60}")
+    print(f"Processing: {param_name}")
+    print(f"Found {len(param_data)} sentences")
+    print(f"{'='*60}")
+    
+    # Combine all sentences into single text
+    text = ' '.join(param_data['sentence'].astype(str))
+    text_lower = text.lower()
+
+    # ===== INDIVIDUAL WORDS =====
+    print(f"\n=== Top 20 Individual Words: {param_name} ===")
+
+    # Filter words
+    filtered_words = [word for word in text_lower.split() 
+                      if word not in stop_words and len(word) > 3]
+    word_freq = Counter(filtered_words)
+
+    # Print top words
+    for word, count in word_freq.most_common(20):
+        print(f"{word}: {count}")
+
+    # Create word cloud
+    wordcloud = WordCloud(
+        width=1200, 
+        height=600,
+        background_color='white',
+        colormap='viridis'
+    ).generate_from_frequencies(word_freq)
+
+    plt.figure(figsize=(15, 8))
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis('off')
+    plt.title(f'Word Cloud: {param_name} (Individual Words)', fontsize=18)
+    plt.tight_layout()
+    
+    # Create clean filename
+    filename = param_name.lower().replace(' ', '_').replace('&', 'and')
+    plt.savefig(f'./plots/{filename}_words_wordcloud.png', bbox_inches='tight', dpi=300)
+    plt.show()
+
+    # ===== TWO-WORD PHRASES =====
+    print(f"\n=== Top 20 Two-Word Phrases: {param_name} ===")
+
+    # Tokenize and filter
+    tokens = nltk.word_tokenize(text_lower)
+    filtered_tokens = [w for w in tokens if w.isalpha() and w not in stop_words and len(w) > 2]
+
+    # Create bigrams
+    bigrams = list(ngrams(filtered_tokens, 2))
+    bigram_phrases = [' '.join(gram) for gram in bigrams]
+    bigram_freq = Counter(bigram_phrases)
+
+    # Print top phrases
+    for phrase, count in bigram_freq.most_common(20):
+        print(f"{phrase}: {count}")
+
+    # Create word cloud
+    wordcloud = WordCloud(
+        width=1200, 
+        height=600,
+        background_color='white',
+        colormap='plasma'
+    ).generate_from_frequencies(dict(bigram_freq.most_common(50)))
+
+    plt.figure(figsize=(15, 8))
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis('off')
+    plt.title(f'Key Themes: {param_name} (Two-Word Phrases)', fontsize=18)
+    plt.tight_layout()
+    plt.savefig(f'./plots/{filename}_themes_wordcloud.png', bbox_inches='tight', dpi=300)
+    plt.show()
+
+print("\n" + "="*60)
+print("All word clouds generated successfully!")
+print("="*60)
