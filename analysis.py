@@ -254,8 +254,6 @@ plt.savefig('./plots/subcategory_coverage_scatter.png', bbox_inches='tight', dpi
 plt.show()
 
 
-
-
 ##### 3. Distribution of parameter queries across different document variables #####
 
 # Select document metadata columns and parameter columns
