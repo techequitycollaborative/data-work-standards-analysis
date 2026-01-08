@@ -205,6 +205,57 @@ plt.tight_layout()
 plt.savefig('./plots/param_num_docs_barplot.png')
 plt.show()
 
+# Focus on subcategory frequencies
+subcategory_frequency = param_frequency_overall.groupby('subcategory').agg(
+    total_appearances=('total_appearances', 'sum'),
+    num_docs=('num_docs', 'mean')
+).reset_index()
+
+print(subcategory_frequency)
+subcategory_frequency.to_csv('./data/subcategory_frequency_overall.csv', index=False)
+
+# Plot subcategories by total appearances and number of docs
+fig, ax = plt.subplots(figsize=(20, 14))  # Increased from (18, 14)
+
+scatter = ax.scatter(
+    subcategory_frequency['num_docs'], 
+    subcategory_frequency['total_appearances'],
+    s=200,  # Larger points
+    alpha=0.6,
+    c=subcategory_frequency['num_docs'],
+    cmap='viridis',
+    edgecolors='black',
+    linewidth=0.8
+)
+
+# Larger fonts for readability
+for idx, row in subcategory_frequency.iterrows():
+    ax.annotate(
+        row['subcategory'],
+        (row['num_docs'], row['total_appearances']),
+        fontsize=16,  # Increased from 7
+        alpha=0.9,
+        ha='center',
+        va='center',
+        bbox=dict(boxstyle='round,pad=0.5', facecolor='white', alpha=0.8, edgecolor='lightgray', linewidth=1.5)
+    )
+
+ax.set_xlabel('Number of Documents Mentioning Parameter (max 13)', fontsize=18)  # Larger
+ax.set_ylabel('Total Mentions Across All Documents', fontsize=18)  # Larger
+ax.set_title('Subcategory Coverage: Breadth vs. Depth', fontsize=22, fontweight='bold', pad=20)  # Larger
+ax.grid(True, alpha=0.3, linestyle='--', linewidth=1.5)
+
+# Larger tick labels
+ax.tick_params(axis='both', which='major', labelsize=14)
+
+plt.colorbar(scatter, label='Number of Documents').ax.tick_params(labelsize=12)
+plt.tight_layout()
+plt.savefig('./plots/subcategory_coverage_scatter.png', bbox_inches='tight', dpi=300)  # High DPI
+plt.show()
+
+
+
+
 ##### 3. Distribution of parameter queries across different document variables #####
 
 # Select document metadata columns and parameter columns
@@ -274,6 +325,25 @@ plt.ylabel('')
 plt.savefig('./plots/param_by_workerfocus_heatmap.png', bbox_inches='tight')
 plt.show()
 
+### Geography
+param_by_geography = param_frequency_by_policy.groupby('geography')[param_cols].sum()
+param_by_geography_normalized = param_by_geography.div(param_by_geography.sum(axis=1), axis=0) * 100
+
+# Create heatmap
+plt.figure(figsize=(20, 8))
+sns.heatmap(
+    param_by_geography_normalized.T,
+    annot=True,
+    fmt='g',
+    cmap='YlOrRd',
+    cbar_kws={'label': 'Count'}
+)
+plt.title('Parameter Distribution by Geography (Normalized)')
+plt.xlabel('')
+plt.ylabel('')
+#plt.tight_layout()
+plt.savefig('./plots/param_by_geography_heatmap.png', bbox_inches='tight')
+plt.show()
 
 ##### 4. Adherence of each document to the framework / by document variables #####
 
@@ -553,46 +623,47 @@ freedom_sentences = params['Freedom of Association'][['policy_title', 'sentence'
 
 ##### 7. Breadth/Consensus x Depth/Emphasis #####
 
-# Calculate both metrics
 param_coverage = param_frequency_overall[['parameter', 'total_appearances', 'num_docs']].copy()
 
-# Wrap long parameter names
 param_coverage['parameter_short'] = param_coverage['parameter'].apply(
     lambda x: '\n'.join(textwrap.wrap(x, width=25))
 )
 
-# Create scatter plot
-fig, ax = plt.subplots(figsize=(18, 14))
+# Larger figure size for presentations
+fig, ax = plt.subplots(figsize=(20, 14))  # Increased from (18, 14)
 
 scatter = ax.scatter(
     param_coverage['num_docs'], 
     param_coverage['total_appearances'],
-    s=150,
+    s=200,  # Larger points
     alpha=0.6,
     c=param_coverage['num_docs'],
     cmap='viridis',
     edgecolors='black',
-    linewidth=0.5
+    linewidth=0.8
 )
 
-# Add labels with background boxes
+# Larger fonts for readability
 for idx, row in param_coverage.iterrows():
     ax.annotate(
         row['parameter_short'], 
         (row['num_docs'], row['total_appearances']),
-        fontsize=7,
+        fontsize=10,  # Increased from 7
         alpha=0.9,
         ha='center',
         va='center',
-        bbox=dict(boxstyle='round,pad=0.4', facecolor='white', alpha=0.8, edgecolor='lightgray')
+        bbox=dict(boxstyle='round,pad=0.5', facecolor='white', alpha=0.8, edgecolor='lightgray', linewidth=1.5)
     )
 
-ax.set_xlabel('Number of Documents Mentioning Parameter (max 13)', fontsize=13)
-ax.set_ylabel('Total Mentions Across All Documents', fontsize=13)
-ax.set_title('Parameter Coverage: Breadth vs. Depth', fontsize=16, fontweight='bold')
-ax.grid(True, alpha=0.3, linestyle='--')
+ax.set_xlabel('Number of Documents Mentioning Parameter (max 13)', fontsize=18)  # Larger
+ax.set_ylabel('Total Mentions Across All Documents', fontsize=18)  # Larger
+ax.set_title('Parameter Coverage: Breadth vs. Depth', fontsize=22, fontweight='bold', pad=20)  # Larger
+ax.grid(True, alpha=0.3, linestyle='--', linewidth=1.5)
 
-plt.colorbar(scatter, label='Number of Documents')
+# Larger tick labels
+ax.tick_params(axis='both', which='major', labelsize=14)
+
+plt.colorbar(scatter, label='Number of Documents').ax.tick_params(labelsize=12)
 plt.tight_layout()
-plt.savefig('./plots/parameter_coverage_scatter.png', bbox_inches='tight', dpi=300)
+plt.savefig('./plots/parameter_coverage_scatter.png', bbox_inches='tight', dpi=300)  # High DPI
 plt.show()
