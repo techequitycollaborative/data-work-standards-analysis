@@ -533,11 +533,18 @@ plt.show()
 params = {
     'Freedom of Association': melted[melted['parameter'] == 'Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)'],
     'Health and Safety': melted[melted['parameter'] == 'Health and safety risks'],
-    'Wages': melted[melted['parameter'] == 'Wages']
+    'Wages': melted[melted['parameter'] == 'Wages'],
+    'Flexibility': melted[melted['parameter'] == 'Right to set working hours/schedule'],
 }
 
-# Create combined stopwords set
-stop_words = set(STOPWORDS) | set(nltk_stopwords.words('english'))
+# Create combined stopwords set, plus add custom stopwords
+custom_stopwords = {
+    'worker', 'workers', "workers'",'work', 'working', 'company', 'companies', 'need',
+    'practices','regardless','except','following','ensure','prevent','recommend','recommends','ensuring',
+    'include','including','conducting','means','things'
+}
+
+stop_words = set(STOPWORDS) | set(nltk_stopwords.words('english')) | custom_stopwords
 
 for param_name, param_data in params.items():
     print(f"\n{'='*60}")
