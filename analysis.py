@@ -166,7 +166,7 @@ sns.heatmap(
     cmap='viridis',
 )
 plt.ylabel('')
-plt.xlabel('Number of Documents with Parameter Present (Max 13)')
+plt.xlabel('Number of Documents with Parameter Present (Max 14)')
 plt.title('Parameter Frequency by Number of Documents')
 plt.tight_layout()
 plt.savefig('./plots/param_frequency_by_num_docs.png')
@@ -199,7 +199,7 @@ sns.barplot(
     palette='viridis'
 )
 plt.ylabel('')
-plt.xlabel('Number of Documents with Parameter Present (Max 13)')
+plt.xlabel('Number of Documents with Parameter Present (Max 14)')
 plt.title('Parameter Frequency by Number of Documents')
 plt.tight_layout()
 plt.savefig('./plots/param_num_docs_barplot.png')
@@ -240,7 +240,7 @@ for idx, row in subcategory_frequency.iterrows():
         bbox=dict(boxstyle='round,pad=0.5', facecolor='white', alpha=0.8, edgecolor='lightgray', linewidth=1.5)
     )
 
-ax.set_xlabel('Number of Documents Mentioning Parameter (max 13)', fontsize=18)  # Larger
+ax.set_xlabel('Number of Documents Mentioning Parameter (max 14)', fontsize=18)  # Larger
 ax.set_ylabel('Total Mentions Across All Documents', fontsize=18)  # Larger
 ax.set_title('Subcategory Coverage: Breadth vs. Depth', fontsize=22, fontweight='bold', pad=20)  # Larger
 ax.grid(True, alpha=0.3, linestyle='--', linewidth=1.5)
@@ -454,7 +454,7 @@ ax.bar_label(ax.containers[0])  # Adds labels to bars
 labels = [textwrap.fill(label.get_text(), width=50) for label in ax.get_yticklabels()] # Wrap y-axis labels
 ax.set_yticklabels(labels)
 plt.ylabel('')
-plt.xlabel('Number of Documents with Parameter Present (Max 13)')
+plt.xlabel('Number of Documents with Parameter Present (Max 14)')
 plt.title('Top 10 Most Widely Adopted Parameters')
 sns.despine() # Remove plot borders
 plt.tight_layout()
@@ -476,7 +476,7 @@ sns.barplot(
 labels = [textwrap.fill(label.get_text(), width=50) for label in ax.get_yticklabels()] # Wrap y-axis labels
 ax.set_yticklabels(labels)
 plt.ylabel('')
-plt.xlabel('Number of Documents with Parameter Present (Max 13)')
+plt.xlabel('Number of Documents with Parameter Present (Max 14)')
 plt.title('Bottom 10 Parameters - i.e. Least Adopted Parameters')
 sns.despine() # Remove plot borders
 plt.tight_layout()
@@ -653,7 +653,7 @@ for idx, row in param_coverage.iterrows():
         bbox=dict(boxstyle='round,pad=0.5', facecolor='white', alpha=0.8, edgecolor='lightgray', linewidth=1.5)
     )
 
-ax.set_xlabel('Number of Documents Mentioning Parameter (max 13)', fontsize=18)  # Larger
+ax.set_xlabel('Number of Documents Mentioning Parameter (max 14)', fontsize=18)  # Larger
 ax.set_ylabel('Total Mentions Across All Documents', fontsize=18)  # Larger
 ax.set_title('Parameter Coverage: Breadth vs. Depth', fontsize=22, fontweight='bold', pad=20)  # Larger
 ax.grid(True, alpha=0.3, linestyle='--', linewidth=1.5)
