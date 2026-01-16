@@ -623,6 +623,69 @@ print("\n" + "="*60)
 print("All word clouds generated successfully!")
 print("="*60)
 
+# Creat word cloud for all parameters combined
+all_text = ' '.join(melted['sentence'].astype(str)).lower()
+filtered_words_all = [word for word in all_text.split()
+                        if word not in stop_words and len(word) > 3]
+word_freq_all = Counter(filtered_words_all)
+
+# Individual words
+print(f"\n=== Top 20 Individual Words: Full Corpus ===")
+
+# Print top words
+for word, count in word_freq_all.most_common(20):
+    print(f"{word}: {count}")
+
+# Create word cloud
+wordcloud = WordCloud(
+        width=1200, 
+        height=600,
+        background_color='white',
+        colormap='viridis'
+    ).generate_from_frequencies(word_freq_all)
+
+plt.figure(figsize=(15, 8))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.title(f'Word Cloud: Full Corpus (Individual Words)', fontsize=18)
+plt.tight_layout()
+plt.savefig(f'./plots/wordcloud_words_fullcorpus.png', bbox_inches='tight', dpi=300)
+plt.show()
+
+# Phrases
+print(f"\n=== Top 20 Two-Word Phrases: Full Corpus ===")
+
+# Tokenize and filter
+tokens_all = nltk.word_tokenize(all_text)
+filtered_tokens_all = [w for w in tokens_all if w.isalpha() and w not in stop_words and len(w) > 2]
+
+# Create bigrams
+bigrams_all = list(ngrams(filtered_tokens_all, 2))
+bigram_phrases_all = [' '.join(gram) for gram in bigrams_all]
+bigram_freq_all = Counter(bigram_phrases_all)
+
+# Print top phrases
+for phrase, count in bigram_freq_all.most_common(20):
+    print(f"{phrase}: {count}")
+
+# Create word cloud
+wordcloud = WordCloud(
+        width=1200, 
+        height=600,
+        background_color='white',
+        colormap='viridis'
+).generate_from_frequencies(dict(bigram_freq_all.most_common(50)))
+
+plt.figure(figsize=(15, 8))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.title(f'Key Themes: Full Corpus (Two-Word Phrases)', fontsize=18)
+plt.tight_layout()
+plt.savefig(f'./plots/wordcloud_phrases_fullcorpus.png', bbox_inches='tight', dpi=300)
+plt.show()
+
+
+
 # Look at sentences for top parameters
 freedom_sentences = params['Freedom of Association'][['policy_title', 'sentence']].drop_duplicates()
 
