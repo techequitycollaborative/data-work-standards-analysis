@@ -526,10 +526,86 @@ plt.savefig('./plots/avg_mentions_per_doc_distribution.png', dpi=300)
 plt.show()
 
 
+##### 6. Thematic analysis of top and bottom most mentioned parameters (and entire corpus) #####
+import spacy # Use spacy instead of nltk; tested this out and spacy results in better word clouds, especially for phrases
+nlp = spacy.load("en_core_web_sm")
 
-##### 6. Thematic analysis of top and bottom most mentioned parameters #####
+# Process text in batches for efficiency (spaCy can be slow on large texts)
+all_sentences = melted['sentence'].astype(str).tolist()
+docs = list(nlp.pipe(all_sentences, batch_size=50))
 
-# Focus on top three parameters for word cloud/theme analysis
+# Individual words
+# Use spaCy's lemmatization and POS filtering instead of raw splitting
+filtered_words_all = [
+    token.lemma_.lower() for doc in docs
+    for token in doc
+    if token.is_alpha
+    and not token.is_stop
+    and token.lemma_.lower() not in custom_stopwords
+    and len(token.text) > 3
+    and token.pos_ in {'NOUN', 'VERB', 'ADJ', 'PROPN'}
+]
+word_freq_all = Counter(filtered_words_all)
+
+print(f"\n=== Top 20 Individual Words: Full Corpus ===")
+for word, count in word_freq_all.most_common(20):
+    print(f"{word}: {count}")
+
+wordcloud = WordCloud(
+    width=1200,
+    height=600,
+    background_color='white',
+    colormap='viridis'
+).generate_from_frequencies(word_freq_all)
+
+plt.figure(figsize=(15, 8))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.title('Word Cloud: Full Corpus (Individual Words)', fontsize=18)
+plt.tight_layout()
+plt.savefig('./plots/wordcloud_words_fullcorpus.png', bbox_inches='tight', dpi=300)
+plt.show()
+
+# Two-Word Noun Chunks (Phrases)
+# Extract noun chunks of exactly 2 meaningful words
+bigram_phrases_all = []
+
+for doc in docs:
+    for chunk in doc.noun_chunks:
+        # Lemmatize and filter tokens within the chunk
+        chunk_tokens = [
+            token.lemma_.lower() for token in chunk
+            if token.is_alpha
+            and not token.is_stop
+            and token.lemma_.lower() not in custom_stopwords
+            and len(token.text) > 2
+        ]
+        # Keep only 2-word phrases
+        if len(chunk_tokens) == 2:
+            bigram_phrases_all.append(' '.join(chunk_tokens))
+
+bigram_freq_all = Counter(bigram_phrases_all)
+
+print(f"\n=== Top 20 Two-Word Phrases: Full Corpus ===")
+for phrase, count in bigram_freq_all.most_common(20):
+    print(f"{phrase}: {count}")
+
+wordcloud = WordCloud(
+    width=1200,
+    height=600,
+    background_color='white',
+    colormap='viridis'
+).generate_from_frequencies(dict(bigram_freq_all.most_common(50)))
+
+plt.figure(figsize=(15, 8))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.title('Key Themes: Full Corpus (Two-Word Phrases)', fontsize=18)
+plt.tight_layout()
+plt.savefig('./plots/wordcloud_phrases_fullcorpus.png', bbox_inches='tight', dpi=300)
+plt.show()
+
+# Make word clouds for top 4 paramaters
 params = {
     'Freedom of Association': melted[melted['parameter'] == 'Freedom of association and fair representation'],
     'Health and Safety': melted[melted['parameter'] == 'Health and safety risks'],
@@ -537,40 +613,41 @@ params = {
     'Flexibility': melted[melted['parameter'] == 'Right to set working hours/schedule'],
 }
 
-# Create combined stopwords set, plus add custom stopwords
+# Custom stopwords to remove common words that are not meaningful for our analysis (e.g. "worker", "company", "need", "practices", etc.)
 custom_stopwords = {
     'worker', 'workers', "workers'",'work', 'working', 'company', 'companies', 'need',
     'practices','regardless','except','following','ensure','prevent','recommend','recommends','ensuring',
     'include','including','conducting','means','things'
 }
 
-stop_words = set(STOPWORDS) | set(nltk_stopwords.words('english')) | custom_stopwords
-
 for param_name, param_data in params.items():
     print(f"\n{'='*60}")
     print(f"Processing: {param_name}")
     print(f"Found {len(param_data)} sentences")
     print(f"{'='*60}")
-    
-    # Combine all sentences into single text
-    text = ' '.join(param_data['sentence'].astype(str))
-    text_lower = text.lower()
 
-    # Individual words
-    print(f"\n=== Top 20 Individual Words: {param_name} ===")
+    # Process sentences through spaCy
+    sentences = param_data['sentence'].astype(str).tolist()
+    docs = list(nlp.pipe(sentences, batch_size=50))
 
-    # Filter words
-    filtered_words = [word for word in text_lower.split() 
-                      if word not in stop_words and len(word) > 3]
+    # Individual Words
+    filtered_words = [
+        token.lemma_.lower() for doc in docs
+        for token in doc
+        if token.is_alpha
+        and not token.is_stop
+        and token.lemma_.lower() not in custom_stopwords
+        and len(token.text) > 3
+        and token.pos_ in {'NOUN', 'VERB', 'ADJ', 'PROPN'}
+    ]
     word_freq = Counter(filtered_words)
 
-    # Print top words
+    print(f"\n=== Top 20 Individual Words: {param_name} ===")
     for word, count in word_freq.most_common(20):
         print(f"{word}: {count}")
 
-    # Create word cloud
     wordcloud = WordCloud(
-        width=1200, 
+        width=1200,
         height=600,
         background_color='white',
         colormap='viridis'
@@ -581,31 +658,34 @@ for param_name, param_data in params.items():
     plt.axis('off')
     plt.title(f'Word Cloud: {param_name} (Individual Words)', fontsize=18)
     plt.tight_layout()
-    
-    # Create clean filename
+
     filename = param_name.lower().replace(' ', '_').replace('&', 'and')
     plt.savefig(f'./plots/{filename}_words_wordcloud.png', bbox_inches='tight', dpi=300)
     plt.show()
 
-    # Phrases
-    print(f"\n=== Top 20 Two-Word Phrases: {param_name} ===")
+    # Two-Word Noun Chunks (Phrases)
+    bigram_phrases = []
 
-    # Tokenize and filter
-    tokens = nltk.word_tokenize(text_lower)
-    filtered_tokens = [w for w in tokens if w.isalpha() and w not in stop_words and len(w) > 2]
+    for doc in docs:
+        for chunk in doc.noun_chunks:
+            chunk_tokens = [
+                token.lemma_.lower() for token in chunk
+                if token.is_alpha
+                and not token.is_stop
+                and token.lemma_.lower() not in custom_stopwords
+                and len(token.text) > 2
+            ]
+            if len(chunk_tokens) == 2:
+                bigram_phrases.append(' '.join(chunk_tokens))
 
-    # Create bigrams
-    bigrams = list(ngrams(filtered_tokens, 2))
-    bigram_phrases = [' '.join(gram) for gram in bigrams]
     bigram_freq = Counter(bigram_phrases)
 
-    # Print top phrases
+    print(f"\n=== Top 20 Two-Word Phrases: {param_name} ===")
     for phrase, count in bigram_freq.most_common(20):
         print(f"{phrase}: {count}")
 
-    # Create word cloud
     wordcloud = WordCloud(
-        width=1200, 
+        width=1200,
         height=600,
         background_color='white',
         colormap='plasma'
@@ -622,69 +702,6 @@ for param_name, param_data in params.items():
 print("\n" + "="*60)
 print("All word clouds generated successfully!")
 print("="*60)
-
-# Creat word cloud for all parameters combined
-all_text = ' '.join(melted['sentence'].astype(str)).lower()
-filtered_words_all = [word for word in all_text.split()
-                        if word not in stop_words and len(word) > 3]
-word_freq_all = Counter(filtered_words_all)
-
-# Individual words
-print(f"\n=== Top 20 Individual Words: Full Corpus ===")
-
-# Print top words
-for word, count in word_freq_all.most_common(20):
-    print(f"{word}: {count}")
-
-# Create word cloud
-wordcloud = WordCloud(
-        width=1200, 
-        height=600,
-        background_color='white',
-        colormap='viridis'
-    ).generate_from_frequencies(word_freq_all)
-
-plt.figure(figsize=(15, 8))
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis('off')
-plt.title(f'Word Cloud: Full Corpus (Individual Words)', fontsize=18)
-plt.tight_layout()
-plt.savefig(f'./plots/wordcloud_words_fullcorpus.png', bbox_inches='tight', dpi=300)
-plt.show()
-
-# Phrases
-print(f"\n=== Top 20 Two-Word Phrases: Full Corpus ===")
-
-# Tokenize and filter
-tokens_all = nltk.word_tokenize(all_text)
-filtered_tokens_all = [w for w in tokens_all if w.isalpha() and w not in stop_words and len(w) > 2]
-
-# Create bigrams
-bigrams_all = list(ngrams(filtered_tokens_all, 2))
-bigram_phrases_all = [' '.join(gram) for gram in bigrams_all]
-bigram_freq_all = Counter(bigram_phrases_all)
-
-# Print top phrases
-for phrase, count in bigram_freq_all.most_common(20):
-    print(f"{phrase}: {count}")
-
-# Create word cloud
-wordcloud = WordCloud(
-        width=1200, 
-        height=600,
-        background_color='white',
-        colormap='viridis'
-).generate_from_frequencies(dict(bigram_freq_all.most_common(50)))
-
-plt.figure(figsize=(15, 8))
-plt.imshow(wordcloud, interpolation='bilinear')
-plt.axis('off')
-plt.title(f'Key Themes: Full Corpus (Two-Word Phrases)', fontsize=18)
-plt.tight_layout()
-plt.savefig(f'./plots/wordcloud_phrases_fullcorpus.png', bbox_inches='tight', dpi=300)
-plt.show()
-
-
 
 # Look at sentences for top parameters
 freedom_sentences = params['Freedom of Association'][['policy_title', 'sentence']].drop_duplicates()
