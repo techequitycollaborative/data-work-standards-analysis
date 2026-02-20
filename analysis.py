@@ -166,7 +166,7 @@ sns.heatmap(
     cmap='viridis',
 )
 plt.ylabel('')
-plt.xlabel('Number of Documents with Parameter Present (Max 14)')
+plt.xlabel('Number of Documents with Parameter Present')
 plt.title('Parameter Frequency by Number of Documents')
 plt.tight_layout()
 plt.savefig('./plots/param_frequency_by_num_docs.png')
@@ -199,7 +199,7 @@ sns.barplot(
     palette='viridis'
 )
 plt.ylabel('')
-plt.xlabel('Number of Documents with Parameter Present (Max 14)')
+plt.xlabel('Number of Documents with Parameter Present')
 plt.title('Parameter Frequency by Number of Documents')
 plt.tight_layout()
 plt.savefig('./plots/param_num_docs_barplot.png')
@@ -240,7 +240,7 @@ for idx, row in subcategory_frequency.iterrows():
         bbox=dict(boxstyle='round,pad=0.5', facecolor='white', alpha=0.8, edgecolor='lightgray', linewidth=1.5)
     )
 
-ax.set_xlabel('Number of Documents Mentioning Parameter (max 14)', fontsize=18)  # Larger
+ax.set_xlabel('Number of Documents Mentioning Parameter', fontsize=18)  # Larger
 ax.set_ylabel('Total Mentions Across All Documents', fontsize=18)  # Larger
 ax.set_title('Subcategory Coverage: Breadth vs. Depth', fontsize=22, fontweight='bold', pad=20)  # Larger
 ax.grid(True, alpha=0.3, linestyle='--', linewidth=1.5)
@@ -454,7 +454,7 @@ ax.bar_label(ax.containers[0])  # Adds labels to bars
 labels = [textwrap.fill(label.get_text(), width=50) for label in ax.get_yticklabels()] # Wrap y-axis labels
 ax.set_yticklabels(labels)
 plt.ylabel('')
-plt.xlabel('Number of Documents with Parameter Present (Max 14)')
+plt.xlabel('Number of Documents with Parameter Present')
 plt.title('Top 10 Most Widely Adopted Parameters')
 sns.despine() # Remove plot borders
 plt.tight_layout()
@@ -476,7 +476,7 @@ sns.barplot(
 labels = [textwrap.fill(label.get_text(), width=50) for label in ax.get_yticklabels()] # Wrap y-axis labels
 ax.set_yticklabels(labels)
 plt.ylabel('')
-plt.xlabel('Number of Documents with Parameter Present (Max 14)')
+plt.xlabel('Number of Documents with Parameter Present')
 plt.title('Bottom 10 Parameters - i.e. Least Adopted Parameters')
 sns.despine() # Remove plot borders
 plt.tight_layout()
@@ -531,7 +531,7 @@ plt.show()
 
 # Focus on top three parameters for word cloud/theme analysis
 params = {
-    'Freedom of Association': melted[melted['parameter'] == 'Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)'],
+    'Freedom of Association': melted[melted['parameter'] == 'Freedom of association and fair representation'],
     'Health and Safety': melted[melted['parameter'] == 'Health and safety risks'],
     'Wages': melted[melted['parameter'] == 'Wages'],
     'Flexibility': melted[melted['parameter'] == 'Right to set working hours/schedule'],
@@ -694,7 +694,7 @@ freedom_sentences = params['Freedom of Association'][['policy_title', 'sentence'
 param_coverage = param_frequency_overall[['parameter', 'total_appearances', 'num_docs']].copy()
 
 param_coverage['parameter_short'] = param_coverage['parameter'].apply(
-    lambda x: '\n'.join(textwrap.wrap(x, width=25))
+    lambda x: '\n'.join(textwrap.wrap(x, width=18))
 )
 
 # Larger figure size for presentations
@@ -723,7 +723,7 @@ for idx, row in param_coverage.iterrows():
         bbox=dict(boxstyle='round,pad=0.5', facecolor='white', alpha=0.8, edgecolor='lightgray', linewidth=1.5)
     )
 
-ax.set_xlabel('Number of Documents Mentioning Parameter (max 14)', fontsize=18)  # Larger
+ax.set_xlabel('Number of Documents Mentioning Parameter', fontsize=18)  # Larger
 ax.set_ylabel('Total Mentions Across All Documents', fontsize=18)  # Larger
 ax.set_title('Parameter Coverage: Breadth vs. Depth', fontsize=22, fontweight='bold', pad=20)  # Larger
 ax.grid(True, alpha=0.3, linestyle='--', linewidth=1.5)
@@ -734,4 +734,111 @@ ax.tick_params(axis='both', which='major', labelsize=14)
 plt.colorbar(scatter, label='Number of Documents').ax.tick_params(labelsize=12)
 plt.tight_layout()
 plt.savefig('./plots/parameter_coverage_scatter.png', bbox_inches='tight', dpi=300)  # High DPI
+plt.show()
+
+# Make a quadrant plot to show which parameters are high breadth/high depth, high breadth/low depth, low breadth/high depth, low breadth/low depth
+from adjustText import adjust_text
+
+# Quadrant thresholds
+x_mid = 6
+y_mid = 20
+
+x_min = param_coverage['num_docs'].min() - 0.5
+x_max = param_coverage['num_docs'].max() + 0.5
+y_min = param_coverage['total_appearances'].min() - 1
+y_max = param_coverage['total_appearances'].max() + 2
+
+# Quadrant shading
+quadrant_colors = {
+    'Q1': '#fff3cd',  # top-left    — low breadth, high depth   (amber tint)
+    'Q2': '#d4edda',  # top-right   — high breadth, high depth  (green tint)
+    'Q3': '#f8d7da',  # bottom-left — low breadth, low depth    (red tint)
+    'Q4': '#d1ecf1',  # bottom-right— high breadth, low depth   (blue tint)
+}
+
+
+fig, ax = plt.subplots(figsize=(16, 9))  # standard 16:9 slide ratio
+
+ax.add_patch(plt.Rectangle((x_min, y_mid), x_mid - x_min, y_max - y_mid,
+             color=quadrant_colors['Q1'], zorder=0))
+ax.add_patch(plt.Rectangle((x_mid, y_mid), x_max - x_mid, y_max - y_mid,
+             color=quadrant_colors['Q2'], zorder=0))
+ax.add_patch(plt.Rectangle((x_min, y_min), x_mid - x_min, y_mid - y_min,
+             color=quadrant_colors['Q3'], zorder=0))
+ax.add_patch(plt.Rectangle((x_mid, y_min), x_max - x_mid, y_mid - y_min,
+             color=quadrant_colors['Q4'], zorder=0))
+
+# Quadrant divider lines
+ax.axvline(x_mid, color='#555555', linewidth=1.8, linestyle='--', zorder=1)
+ax.axhline(y_mid, color='#555555', linewidth=1.8, linestyle='--', zorder=1)
+
+# Quadrant corner labels
+label_style = dict(fontsize=12, fontweight='bold', alpha=0.55,
+                   va='top', ha='left')
+
+ax.text(x_min + 0.2, y_max - 0.5,  "Low Breadth\nHigh Depth",  color='#856404', **label_style)
+ax.text(x_max - 1.3, y_max - 0.5,  "High Breadth\nHigh Depth", color='#155724', **label_style)
+ax.text(x_min + 0.2, y_mid - 0.5,  "Low Breadth\nLow Depth",   color='#721c24', **label_style)
+ax.text(x_max - 1.3, y_mid - 0.5,  "High Breadth\nLow Depth",  color='#0c5460', **label_style)
+
+# Scatter points
+scatter = ax.scatter(
+    param_coverage['num_docs'],
+    param_coverage['total_appearances'],
+    s=120,
+    alpha=0.85,
+    color='black',
+    edgecolors='black',
+    linewidth=0.8,
+    zorder=3,
+)
+
+# Point labels with adjustText to minimize overlap
+texts = []
+for _, row in param_coverage.iterrows():
+    t = ax.text(
+        row['num_docs'],
+        row['total_appearances'],
+        row['parameter_short'],
+        fontsize=8,
+        ha='center',
+        va='center',
+        multialignment='center',
+        zorder=4,
+    )
+    texts.append(t)
+
+adjust_text(
+    texts,
+    x=param_coverage['num_docs'].values,
+    y=param_coverage['total_appearances'].values,
+    arrowprops=dict(arrowstyle='-', color='#888888', lw=0.8),
+    expand_points=(1.6, 1.6),
+    expand_text=(1.3, 1.3),
+    force_points=(0.4, 0.4),
+    force_text=(0.6, 0.6),
+    lim=500,
+    ax=ax,
+)
+
+for t in texts:
+    t.set_bbox(dict(
+        boxstyle='round,pad=0.35',
+        facecolor='white',
+        alpha=0.85,
+        edgecolor='lightgray',
+        linewidth=1.2,
+    ))
+
+# Axis limits, labels, title
+ax.set_xlim(x_min, x_max)
+ax.set_ylim(y_min, y_max)
+ax.set_xlabel('Number of Documents Mentioning Parameter (Breadth)', fontsize=13)
+ax.set_ylabel('Total Mentions Across All Documents (Depth)', fontsize=13)
+ax.set_title('Parameter Coverage: Breadth vs. Depth', fontsize=16, fontweight='bold', pad=15)
+ax.grid(True, alpha=0.2, linestyle='--', linewidth=1.0, zorder=0)
+ax.tick_params(axis='both', which='major', labelsize=11)
+
+plt.tight_layout()
+plt.savefig('./plots/parameter_coverage_quadrant.png', bbox_inches='tight', dpi=200)
 plt.show()

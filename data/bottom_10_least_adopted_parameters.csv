@@ -1,11 +1,11 @@
 parameter,category,subcategory,definition,total_appearances,num_docs,avg_mentions_per_doc
 Pension benefits,Worker rights,Benefits,The policy mentions retirement savings or pensions programs for workers,0,0,
-Sick leave,Worker rights,Benefits,The policy references paid time off for illness,1,1,1.0
-Sexual orientation,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on sexual orientation.,2,1,2.0
+Anti-Discrimination - Sexual orientation,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on sexual orientation.,2,1,2.0
 Non-compete clauses,Employer and platform/contractor responsibilities,Contracts,The policy mentions standards regarding restricting workers from working elsewhere/for other companies.,2,1,2.0
-Severance pay,Employer and platform/contractor responsibilities,Contracts,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,1,1,1.0
 Third party audits,Employer and platform/contractor responsibilities,Enforceability mechanisms,The policy prescribes requirements for external review of companies by a third-party of their compliance against worker protections.,3,1,3.0
-Gender,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on gender.,7,2,3.5
-Race and ethnicity,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on race or ethnicity.,5,2,2.5
-Disability,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on disability.,3,2,1.5
+Sick leave,Worker rights,Benefits,The policy references paid time off for illness,3,2,1.5
+Anti-Discrimination - Gender,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on gender.,7,2,3.5
+Anti-Discrimination - Race and ethnicity,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on race or ethnicity.,5,2,2.5
+Anti-Discrimination - Disability,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on disability.,3,2,1.5
 Notice period,Employer and platform/contractor responsibilities,Contracts,The policy references a recommended notice before termination or resignation.,3,2,1.5
+Severance pay,Employer and platform/contractor responsibilities,Contracts,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,5,2,2.5

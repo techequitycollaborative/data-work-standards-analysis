@@ -1,30 +1,30 @@
 parameter,category,subcategory,definition,total_appearances,num_docs
-Wages,Worker rights,Working conditions,"The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",68,10
+Wages,Worker rights,Working conditions,"The policy mentions worker wages, discusses insufficient wages, or prescribes an acceptable wage. It may also address issues like naming tasks that must be compensated, the currency or form of payment, the frequency of payment, etc.",70,11
 Hazard pay,Worker rights,Working conditions,The policy includes references to extra pay/bonus for dangerous or high-risk work.,8,4
-Right to set working hours/schedule,Worker rights,Working conditions,"The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",35,9
-Security of tenure,Worker rights,Working conditions,The policy mentions protections against arbitrary dismissal or guarantees of continued employment.,15,7
+Right to set working hours/schedule,Worker rights,Working conditions,"The policy mentions flexibility, worker control, or restrictions on employer-set schedules.",37,10
+Security of tenure,Worker rights,Working conditions,The policy mentions protections against arbitrary dismissal or guarantees of continued employment.,20,9
 "Evaluation metrics, productivity standards and quotas",Worker rights,Working conditions,"The policy recommends acceptable methods for measurement of worker performance, productivity benchmarks, or quotas.",21,7
 Monitoring and surveillance,Worker rights,Working conditions,"The policy includes references to employer use of technology or systems to observe, track, or monitor workers.",8,5
-Dismissal/deactivation/suspension,Worker rights,Working conditions,"The policy outlines processes, procedures, or rules for worker removal, deactivation from a platform, or suspension or termination processes.",15,9
+Dismissal/deactivation/suspension,Worker rights,Working conditions,"The policy outlines processes, procedures, or rules for worker removal, deactivation from a platform, or suspension or termination processes.",16,10
 Paths for career advancement,Worker rights,Working conditions,"The policy mentions opportunities for training, promotions, or upskilling.",9,5
 "Channels for workers to appeal decisions, raise complaints, seek clarification",Worker rights,Working conditions,"The policy includes references to grievance procedures or mechanisms for resolving disputes, such as the ability to appeal a work decision, raise complaints or seek clarification.",20,9
-"Freedom of association and fair representation (democratically determined working conditions, worker voice mechanisms)",Worker rights,Working conditions,"The policy mentions workers' ability to organize, join unions, or participate in collective decision-making.",60,12
-Health and safety risks,Worker rights,Working conditions,"The policy includes reference to protections against health and safety risks, mental or physical",35,11
+Freedom of association and fair representation,Worker rights,Working conditions,"The policy mentions workers' ability to organize, join unions, or participate in collective decision-making.",68,14
+Health and safety risks,Worker rights,Working conditions,"The policy includes reference to protections against health and safety risks, mental or physical",38,13
 Right to refuse work,Worker rights,Working conditions,"The policy references workers' right to refuse unsafe, unreasonable, objectionable, or exploitative tasks.",7,5
 Mental and physical health insurance,Worker rights,Benefits,"The policy mentions health coverage for workers, mental or physical.",18,7
-Paid time off,Worker rights,Benefits,"The policy mentions vacation, annual leave, or other forms of paid leave.",6,3
-Sick leave,Worker rights,Benefits,The policy references paid time off for illness,1,1
+Paid time off,Worker rights,Benefits,"The policy mentions vacation, annual leave, or other forms of paid leave.",7,4
+Sick leave,Worker rights,Benefits,The policy references paid time off for illness,3,2
 Pension benefits,Worker rights,Benefits,The policy mentions retirement savings or pensions programs for workers,0,0
-Gender,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on gender.,7,2
-Race and ethnicity,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on race or ethnicity.,5,2
-Sexual orientation,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on sexual orientation.,2,1
-Disability,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on disability.,3,2
-Contracts – general,Employer and platform/contractor responsibilities,Contracts,The policy outlines requirements for fair contracts and contract terms between workers and employers.,21,7
-Transparent and easy to understand,Employer and platform/contractor responsibilities,Contracts,The policy includes recommendations or requirements for contract clarity and readability.,10,4
+Anti-Discrimination - Gender,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on gender.,7,2
+Anti-Discrimination - Race and ethnicity,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on race or ethnicity.,5,2
+Anti-Discrimination - Sexual orientation,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on sexual orientation.,2,1
+Anti-Discrimination - Disability,Worker rights,Anti-discrimination policies,The policy mentions protections or equity measures based on disability.,3,2
+Fair contracts,Employer and platform/contractor responsibilities,Contracts,The policy outlines requirements for fair contracts and contract terms between workers and employers.,21,7
+Contract clarity and readability,Employer and platform/contractor responsibilities,Contracts,The policy includes recommendations or requirements for contract clarity and readability.,10,4
 Non-compete clauses,Employer and platform/contractor responsibilities,Contracts,The policy mentions standards regarding restricting workers from working elsewhere/for other companies.,2,1
 Non-disclosure agreements (NDAs),Employer and platform/contractor responsibilities,Contracts,The policy includes recommendations related to confidentiality clauses in contracts or any repercussions for violating confidentiality.,10,6
 Notice period,Employer and platform/contractor responsibilities,Contracts,The policy references a recommended notice before termination or resignation.,3,2
-Severance pay,Employer and platform/contractor responsibilities,Contracts,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,1,1
+Severance pay,Employer and platform/contractor responsibilities,Contracts,The policy includes definitions and recommendations for worker compensation in the case of a lay off.,5,2
 Unpaid waiting periods,Employer and platform/contractor responsibilities,Contracts,"This policy relates to unpaid time when workers are waiting for tasks, access to work, new projects or potentially for disciplinary or investigative processes.",14,6
 Work related expenses,Employer and platform/contractor responsibilities,Contracts,"The policy includes mention of required or acceptable compensation for work related expenses, such as internet access, computer, home office equipment, or travel allowance.",3,3
 Collective bargaining agreement,Employer and platform/contractor responsibilities,Contracts,The policy mentions engaging with democratically elected worker representatives and allowing them free access to workers and workplaces.,11,6
@@ -37,6 +37,6 @@ Mental health support,Employer and platform/contractor responsibilities,Contract
 Responsibility for upholding/implementing,Employer and platform/contractor responsibilities,Enforceability mechanisms,The policy identifies parties responsible for enforcing worker protections.,12,7
 Accountability in case of harms,Employer and platform/contractor responsibilities,Enforceability mechanisms,The policy includes consequences or accountability measures for companies if standards are violated.,4,3
 Third party audits,Employer and platform/contractor responsibilities,Enforceability mechanisms,The policy prescribes requirements for external review of companies by a third-party of their compliance against worker protections.,3,1
-Legal enforceability,Employer and platform/contractor responsibilities,Enforceability mechanisms,"The policy outlines some measure of legal enforceability, referencing existing applicable legal frameworks.",14,5
+Legal enforceability,Employer and platform/contractor responsibilities,Enforceability mechanisms,"The policy outlines some measure of legal enforceability, referencing existing applicable legal frameworks.",15,6
 Enforcing authority,Employer and platform/contractor responsibilities,Enforceability mechanisms,The policy identifies the party/institution/agency tasked with enforcement of the policy.,6,5
 Timeline for implementation,Employer and platform/contractor responsibilities,Enforceability mechanisms,"The policy mentions deadlines, timelines, or phased rollouts",2,2
